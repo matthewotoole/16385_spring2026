@@ -13,7 +13,7 @@ body {
   color: #505050;
   
   font-size: 11pt;  
-  font-family: "Open Sans", sans-serif;
+  font-family: open-sans, sans-serif;
   font-style: normal;
   font-weight: 400;
 }
@@ -23,13 +23,13 @@ td
     /* NOTE(kayvonf): keep this consistent with the body element above.
        It's very annoying how <td> doesn't inherent from it's container */
     font-size: 11pt;
-    font-family: "Open Sans", sans-serif;
+    font-family: open-sans, sans-serif;
     font-style: normal;
     font-weight: 400;
 }
 
 body A {
-    color: #c00000;
+    color: #c000c0;
     font-weight: 700;
     text-decoration: none;
 }
@@ -42,8 +42,8 @@ body A:hover
 .topbar {
    height: 22px;
    color: #ffffff;
-   background: #c02020;
-   border-bottom: #f44000 4px solid;
+   background: #902090;
+   border-bottom: #c440c4 4px solid;
    padding-top: 2px;
    padding-right: 12px;
    padding-left: 12px;
@@ -76,7 +76,7 @@ body A:hover
 {
     width: 18px;
     height: 18px;
-    border: #800000 1px solid;
+    border: #600060 1px solid;
     margin-right: 2px;
 }
 
@@ -104,24 +104,22 @@ body A:hover
 .common_title
 {
     color: #000000;
-    font-family: "Open Sans", sans-serif;
+    font-family: open-sans-condensed, sans-serif;
     font-size: 28pt;
     font-weight: 700;
-	font-variation-settings: "wdth" 75;
 }
 
 .common_title_small
 {
     color: #000000;
-    font-family: "Open Sans", sans-serif;
+    font-family: open-sans-condensed, sans-serif;
     font-size: 16pt;
     font-weight: 700;
-	font-variation-settings: "wdth" 75;
 }
 
 .colored_text
 {
-    color: #c00000;
+    color: #600060;
 }
 
 .bold_text
@@ -204,10 +202,9 @@ label textarea
 .main_title, .home_title, .feed_title, .playlist_title
 {
     color: #000000;
-    font-family: "Open Sans", sans-serif;
+    font-family: open-sans-condensed, sans-serif;
     font-size: 30pt;
     font-weight: 700;
-	font-variation-settings: "wdth" 75;
 }
 
 .home_title, .feed_title
@@ -232,10 +229,9 @@ label textarea
 .book_lecture_title,
 .overview_main_item {
     color: #000000;
-    font-family: "Open Sans", sans-serif;
+    font-family: open-sans-condensed, sans-serif;
     font-size: 18pt;
     font-weight: 700;
-	font-variation-settings: "wdth" 75;
     padding-top: .5em;
     padding-bottom: .5em;
 }
@@ -263,7 +259,7 @@ label textarea
 td.schedule_date
 {
     vertical-align: top;
-    width: 80px;
+    width: 160px;
     text-align: right;
     padding-right: 30px;
 }
@@ -283,7 +279,7 @@ td.schedule_lecture
 .form_errors
 {
    background-color: #fff0f0;
-   border: #c00000 2px dashed;
+   border: #900090 2px dashed;
    padding: 1em;
    margin: 1em 1em 1em 0em;
 }
@@ -312,7 +308,7 @@ td.schedule_lecture
 {
     margin-top: 25px;
     padding-top: 20px;
-    border-top: #c00000 2px dashed;
+    border-top: #900090 2px dashed;
 }
 
 .form_submit_button
@@ -325,12 +321,11 @@ td.schedule_lecture
     display: block;
     color: #ffffff;
     background-image: none;
-    background-color: #c00000;
-    font-family: "Open Sans", sans-serif;
+    background-color: #900090;
+    font-family: open-sans-condensed, sans-serif;
     font-size: 18pt;
     font-weight: 700;
-    font-variation-settings: "wdth" 75;
-    border: #a00000 1px solid;
+    border: #600060 1px solid;
     /* -moz-box-shadow: 2px 2px 3px #c0c0c0;
     -webkit-box-shadow: 2px 2px 3px #c0c0c0;
     box-shadow: 2px 2px 3px #c0c0c0; */   
@@ -338,9 +333,9 @@ td.schedule_lecture
 
 .basic_button
 {
-    color: #c00000;
+    color: #900090;
     background-image: none;
-    border: #a00000 0px solid;
+    border: #600060 0px solid;
     background-color: #ffffff;
     font-size: 11pt;
     font-weight: 700;
@@ -369,10 +364,9 @@ td.schedule_lecture
 .lecture_title
 {
     color: #000000;
-    font-family: "Open Sans", sans-serif;
+    font-family: open-sans-condensed, sans-serif;
     font-size: 28pt;
     font-weight: 700;
-	font-variation-settings: "wdth" 75;
     padding-bottom: .25em;
 }
 
@@ -527,7 +521,7 @@ td.schedule_lecture
 .article_preview_pane
 {
     width: 800px;
-    border: #c00000 dashed 1px;
+    border: #900090 dashed 1px;
     padding: 10px;
 }
 
@@ -549,9 +543,9 @@ td.schedule_lecture
 
 .warning_message
 {
-    color: #c00000;
+    color: #900090;
     font-weight: bold;
-    border: #c00000 1px dashed;
+    border: #900090 1px dashed;
 }
 
 /* article edit */
@@ -825,7 +819,7 @@ input[type="input"]:focus {
 .slide-prompt-button:active
 {
     padding: 0;
-    color: #c00000;
+    color: #900090;
     border-radius: 0;
     border-color: transparent;
     background-color: transparent;
@@ -971,7 +965,7 @@ button
     -moz-border-radius: 4px;
     border-radius: 4px;
 
-    border: #c00000 1px dashed;
+    border: #900090 1px dashed;
     background-color: #eeeeee;
 }
 
@@ -1037,7 +1031,7 @@ button
 {
     background: transparent;
     border: none;
-    color: #c00000;
+    color: #900090;
     font-weight: bold;
 }
 
