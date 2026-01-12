@@ -4,7 +4,7 @@
 <div class="home_title">Computer Vision <span style="font-size: 12pt;">(CMU 16-385)</span> </div>
 
 <div>
-<img style="padding-bottom: 5px;" src="http://16385.courses.cs.cmu.edu/spring2026/assets/images/banner.png" width="800"></a>
+<img style="padding-bottom: 5px;" src="https://16385.courses.cs.cmu.edu/spring2026/assets/images/banner.png" width="800"></a>
 </div>
 
 <p style="padding-bottom: .15em"> This course provides a comprehensive
@@ -27,7 +27,7 @@ as well as hands on experience to solve real-life vision problems.  </p>
 To get started with the class you need to do just three things:
 <ol>
 <li><a href="https://piazza.com/cmu/spring2026/16385">Sign up</a> for the course Piazza.</li>
-<li><a href="http://16385.courses.cs.cmu.edu/spring2026/users/create">Sign up</a> for an account on this webpage.  (The signup code is on Canvas.)</li>
+<li><a href="https://16385.courses.cs.cmu.edu/spring2026/users/create">Sign up</a> for an account on this webpage.  (The signup code is on Canvas.)</li>
                                                                                                                   <li>Carefully read through the <a href="<?php echo site_url('courseinfo'); ?>">Course Info</a>.</li>
                                                                                                                 </ol>
 
