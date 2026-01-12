@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-<link rel="icon" href="http://16385.courses.cs.cmu.edu/spring2026/assets/images/favicon/dragon.png" type="image/png">
+<link rel="icon" href="https://16385.courses.cs.cmu.edu/spring2026/assets/images/favicon/dragon.png" type="image/png">
 <?php
    $page_title = $page_name;
    if (strlen($page_name) == 0)
@@ -15,15 +15,15 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap" rel="stylesheet">
 
-<script src="http://16385.courses.cs.cmu.edu/spring2026/assets/third_party/jquery/1.8.3/jquery.min.js"></script>
-<script src="http://16385.courses.cs.cmu.edu/spring2026/assets/third_party/jquery/timeago/jquery.timeago.js"></script>
-<script src="http://16385.courses.cs.cmu.edu/spring2026/assets/third_party/jquery/cookie/jquery.cookie.js"></script>
+<script src="https://16385.courses.cs.cmu.edu/spring2026/assets/third_party/jquery/1.8.3/jquery.min.js"></script>
+<script src="https://16385.courses.cs.cmu.edu/spring2026/assets/third_party/jquery/timeago/jquery.timeago.js"></script>
+<script src="https://16385.courses.cs.cmu.edu/spring2026/assets/third_party/jquery/cookie/jquery.cookie.js"></script>
 
-<script src="http://16385.courses.cs.cmu.edu/spring2026/assets/third_party/codemirror-3.0/lib/codemirror.js"></script>
-<script src="http://16385.courses.cs.cmu.edu/spring2026/assets/third_party/codemirror-3.0/mode/markdown/markdown.js"></script>
+<script src="https://16385.courses.cs.cmu.edu/spring2026/assets/third_party/codemirror-3.0/lib/codemirror.js"></script>
+<script src="https://16385.courses.cs.cmu.edu/spring2026/assets/third_party/codemirror-3.0/mode/markdown/markdown.js"></script>
 
 <script type="text/javascript"
-  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
 <script type="text/x-mathjax-config">
@@ -38,13 +38,13 @@ MathJax.Hub.Config({
 </script>
 
 
-<link rel="stylesheet" type="text/css" href="http://16385.courses.cs.cmu.edu/spring2026/assets/third_party/codemirror-3.0/lib/codemirror.css">
+<link rel="stylesheet" type="text/css" href="https://16385.courses.cs.cmu.edu/spring2026/assets/third_party/codemirror-3.0/lib/codemirror.css">
 
-<script src="http://16385.courses.cs.cmu.edu/spring2026/assets/third_party/google-code-prettify/prettify.js"></script>
-<link rel="stylesheet" type="text/css" href="http://16385.courses.cs.cmu.edu/spring2026/assets/third_party/google-code-prettify/prettify.css">
+<script src="https://16385.courses.cs.cmu.edu/spring2026/assets/third_party/google-code-prettify/prettify.js"></script>
+<link rel="stylesheet" type="text/css" href="https://16385.courses.cs.cmu.edu/spring2026/assets/third_party/google-code-prettify/prettify.css">
 
 <!-- NOTE(kayvonf): place at end to override 3rd party tools -->
-<link rel="stylesheet" type="text/css" href="http://16385.courses.cs.cmu.edu/spring2026/assets/css/main.css">
+<link rel="stylesheet" type="text/css" href="https://16385.courses.cs.cmu.edu/spring2026/assets/css/main.css">
 
 <script type="text/javascript">
 var edit_comment_url = "<?php echo site_url("comments/ajax_edit_comment")?>";
