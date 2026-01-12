@@ -14,7 +14,7 @@
 # latest copy of your source tree and copies it into your web tree. If
 # you use this script, it will pull from this branch of the repo
 
-repo_url = "https://github.com/matthewotoole/16385_spring2024.git";
+repo_url = "https://github.com/matthewotoole/16385_spring2026.git";
 
 repo_branch = "master";
 
@@ -24,7 +24,7 @@ repo_branch = "master";
 
 # Database authentication
 
-database_name = '16385_spring2024';
+database_name = '16385_spring2026';
 
 database_user = 'debian-sys-maint';
 
@@ -43,7 +43,7 @@ webserver_group = 'webadmin';
 # if your site is to be located at http://www.foo.com/mysite, then set
 # site_base_dir to '/mysite'
 
-site_code_base_url = '/spring2024';
+site_code_base_url = '/spring2026';
 
 # base directory for storing uploaded content.  It is recommended you
 # make this different from the base directory of the code itself to
@@ -61,7 +61,7 @@ site_code_base_url = '/spring2024';
 # http://www.foo.com/mysite/, then I place the uploaded content in
 # http://www.foo.com/mysitecontent/
 
-site_content_base_url = '/spring2024content';
+site_content_base_url = '/spring2026content';
 
 ##################################################
 # Local File System Paths
@@ -86,18 +86,18 @@ site_backup_dir = '';
 
 # Course web site name: string used in the title of generated pages
 
-site_name = 'Computer Vision : Spring 2024';
+site_name = 'Computer Vision : Spring 2026';
 
 # This is a 'secret code' required to create an account.  It's a small
 # amount of security to prevent anyone on the web from signing up.  I
 # typically tell my students the code on the first day of class.  If
 # the value is the empty string, then no code is required.
 
-site_signup_code = '!CompVisionS2024';
+site_signup_code = '!CV2026!';
 
 # Course system email: used in anytime an email is sent by the site
 
-course_email = 'mpotoole@cmu.edu';
+course_email = 'motoole2@andrew.cmu.edu';
 
 # Name that displays in the from field of emails
 
