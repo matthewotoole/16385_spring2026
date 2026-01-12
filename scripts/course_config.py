@@ -42,7 +42,7 @@ database_passwd = 'ph0t0Rea1ism';
 
 # Group that will own all code/content directories.
 
-webserver_group = 'webadmin';
+webserver_group = 'www';
 
 # base directory of the site relative to the web host's root.  e.g.,
 # if your site is to be located at http://www.foo.com/mysite, then set
