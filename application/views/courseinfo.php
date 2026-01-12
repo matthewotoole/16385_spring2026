@@ -176,14 +176,14 @@ following courses serve as prerequisite:</p>
 </ul>
 If you have a medical situation, please make a private post on Piazza to ask for an extension. Please tell us that you have a medical situation and need an extension, but you do not need to explain the details of your medical situation.</p>
 
-<p><strong>Submitting homework:</strong> We use the Gradescope menu link in <a href="https://canvas.cmu.edu/courses/40004/">Canvas</a> for submitting and grading homeworks.</p>
+<p><strong>Submitting homework:</strong> We use the Gradescope menu link in <a href="https://canvas.cmu.edu/courses/52718/">Canvas</a> for submitting and grading homeworks.</p>
 <p><strong>Accommodations for Students with Disabilities:</strong> If you have a disability and have an accommodations letter from the Disability Resources office, I encourage you to discuss your accommodations and needs with me as early in the semester as possible. I will work with you to ensure that accommodations are provided as appropriate. If you suspect that you may have a disability and would benefit from accommodations but are not yet registered with the Office of Disability Resources, I encourage you to contact them at <a href=mailto:access@andrew.cmu.edu>access@andrew.cmu.edu</a>.
 
 
 
 <div class="overview_main_item overview_ruled_element">Discussion</div>
 
-<p> We use <a href="https://piazza.com/cmu/fall2024/16385/home">Piazza</a> for class discussion and announcements.</p>
+<p> We use <a href="https://piazza.com/cmu/fall2026/16385/home">Piazza</a> for class discussion and announcements.</p>
 
 <div class="overview_main_item overview_ruled_element">Collaboration Policy</div>
 
