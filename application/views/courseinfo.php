@@ -158,11 +158,11 @@ following courses serve as prerequisite:</p>
 
 <p>Your final grade will be made up from:</p>
 <ul>
-<li>Six programming assignments (98%).</li>
-<li>Participation (2%) - includes class or Piazza participation.</li>
+<li>Six programming assignments (95%).</li>
+<li>Participation (5%) - includes class or Piazza participation.</li>
 </ul>
 <p><strong>Programming assignments:</strong> Programming assignments (PAs) will require implementing a significant computer vision algorithm. Some of them will also have a small theory component relevant to the implementation. Programming will be done in Python.</p>
-<p><strong>Participation:</strong> The 2% class participation grade can be achieved by asking questions in class, or by asking/answering questions on Piazza.</p>
+<p><strong>Participation:</strong> The 5% class participation grade can be achieved by answering in-class polls, or by asking/answering questions on Piazza.</p>
 
 <p><strong>Late days:</strong>
 <ul>
