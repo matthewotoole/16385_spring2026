@@ -11,10 +11,10 @@ function make_url($first, $second) {
 
 <div class="home_title">Computer Vision <span style="font-size: 12pt;">(CMU 16-385)</span> </div>
 
-<div>CMU 16-385, Fall 2024</div>
-<div>Mon/Wed 11am-12:20pm</div>
+<div>CMU 16-385, Spring 2026</div>
+<div>Mon/Wed 12:30pm-1:50pm</div>
 <div>Tepper 1430</div>
-     <div style="padding-bottom: 20px;">Instructor: <a href="https://davheld.github.io/">David Held</a></div>
+     <div style="padding-bottom: 20px;">Instructor: <a href="https://www.cs.cmu.edu/~motoole2/">Matthew O'Toole</a></div>
 
 
 <div class="overview_main_item overview_ruled_element">Course Description</div>
@@ -44,6 +44,7 @@ as well as hands on experience to solve real-life vision problems.
 <div style="clear: both;">&nbsp;</div>
 
 
+<!--
 <div class="overview_minor_item" style="clear: both; padding-top: 2em; padding-bottom: 2em;">Your fun and helpful TAs are shown below.  Office hours for all TAs can be found here:<br>
 <a href="https://docs.google.com/spreadsheets/d/1jnKmKbQ0AB5--pCLV5fUt9aQwDiEQoBNmFYaydTJw3s/edit?gid=0#gid=0">OFFICE HOURS SPREADSHEET</a></div>
 
@@ -118,6 +119,7 @@ as well as hands on experience to solve real-life vision problems.
 <div>[hfreeman at andrew]</div>
 <div style="clear: both;">&nbsp;</div>
 </div>
+-->
 
 <div style="clear: both;">&nbsp;</div>
 
@@ -241,5 +243,13 @@ can share these experiences using the following resources:</p>
 <p>All reports will be documented and deliberated to determine if there should be any following actions. Regardless of incident type, the university will use all shared experiences to transform our campus climate to be more equitable and just.</p>
                                     
 <p>&nbsp;</p>
+
+<li><b>Food Insecurity</b> <a 
+
+<p>If you are worried about affording food or feeling insecure about food, there are resources on campus who can help. Email the CMU Food Pantry Coordinator to schedule an appointment:</p>
+
+<p>Pantry Coordinator: <i>cmu-pantry@andrew.cmu.edu</i></p>
+
+<p>412-268-8704 (SLICE office)</p>
 
 </div>

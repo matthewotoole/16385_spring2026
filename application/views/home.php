@@ -214,9 +214,9 @@ foreach ($lectures as $lecture)
 
 <div class="overview_main_item overview_ruled_element">Assignments</div>
 
-<p><b>Assignments will be released via Piazza.</b> A list of assignments is available below. Reference material is available on the <a href="<?php echo site_url('lectures'); ?>">Lectures</a> page.</p>
+Check here for assignments.
 
-
+<!--
 <table>
 <tr>
 <td class="schedule_date">(Due Sep 18)</td><td class="schedule_lecture">Programming Assignment 1: Image Filtering and Hough Transform</td>
@@ -254,6 +254,7 @@ foreach ($lectures as $lecture)
 <td class="schedule_date">(Due Dec 6)</td><td class="schedule_lecture">Programming Assignment 6: Video Tracking</td>
 </tr>
 </table>
+-->
 
 <!--
 
