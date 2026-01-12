@@ -18,9 +18,9 @@ def mkdirDashP(dir):
         os.mkdir(dir);
 
 def execute(cmd):
-    print "Executing: %s" % cmd;
+    print("Executing: %s" % cmd);
     if os.system(cmd) != 0:
-        print "ERROR EXECUTING %s: ABORTING" % cmd;
+        print("ERROR EXECUTING %s: ABORTING" % cmd);
         sys.exit(-1);
         
 class CopyAction:
@@ -73,7 +73,8 @@ if __name__ == "__main__":
     else:
         checkout_dir = args.checkoutdir;
 
-    deploy_dir = course_config.site_local_code_base_dir;
+    #not using os.path.join since site_local_code_base_dir "looks like" an absolute path:
+    deploy_dir = course_config.site_jail_prefix + course_config.site_local_code_base_dir
 
     # remove any old checkout and staging directories within tmp_dir,
     # if they exist
@@ -105,28 +106,28 @@ if __name__ == "__main__":
 
     # allow multiple sites from same host
     base_config_file = os.path.join(staging_dir, "application/config/config.php");
-    execute("sed -i 's/MY_SITE_CODE_BASE_URL/%s/' %s" % (course_config.site_code_base_url.replace("/", "\\/"), base_config_file))
+    execute("sed -i='' 's/MY_SITE_CODE_BASE_URL/%s/' %s" % (course_config.site_code_base_url.replace("/", "\\/"), base_config_file))
 
     # point deployed site at the production database
     db_config_file = os.path.join(staging_dir, "application/config/database.php");
-    execute("sed -i 's/MY_DATABASE_USERNAME/%s/' %s" % (course_config.database_user.replace("/", "\\/"), db_config_file))
-    execute("sed -i 's/MY_DATABASE_PASSWORD/%s/' %s" % (course_config.database_passwd.replace("/", "\\/"), db_config_file))
-    execute("sed -i 's/MY_DATABASE_NAME/%s/' %s" % (course_config.database_name.replace("/", "\\/"), db_config_file))
+    execute("sed -i='' 's/MY_DATABASE_USERNAME/%s/' %s" % (course_config.database_user.replace("/", "\\/"), db_config_file))
+    execute("sed -i='' 's/MY_DATABASE_PASSWORD/%s/' %s" % (course_config.database_passwd.replace("/", "\\/"), db_config_file))
+    execute("sed -i='' 's/MY_DATABASE_NAME/%s/' %s" % (course_config.database_name.replace("/", "\\/"), db_config_file))
 
     course_config_file = os.path.join(staging_dir, "application/config/mycourse.php");
-    execute("sed -i 's/MY_WEBSITE_NAME/%s/' %s" % (course_config.site_name.replace("/", "\\/"), course_config_file))
-    execute("sed -i 's/MY_WEBSITE_SIGNUP_CODE/%s/' %s" % (course_config.site_signup_code.replace("/", "\\/"), course_config_file))
-    execute("sed -i 's/MY_CONTENT_PATH/%s/' %s" % (course_config.site_local_content_base_dir.replace("/", "\\/"), course_config_file))
-    execute("sed -i 's/MY_CONTENT_BASE_URL/%s/' %s" % (course_config.site_content_base_url.replace("/", "\\/"), course_config_file))
-    execute("sed -i 's/MY_COURSE_EMAIL/%s/' %s" % (course_config.course_email.replace("/", "\\/"), course_config_file))
-    execute("sed -i 's/MY_EMAIL_DISPLAY_NAME/%s/' %s" % (course_config.email_display_name.replace("/", "\\/"), course_config_file))
-    execute("sed -i 's/MY_GOOGLE_ANALYTICS_ID/%s/' %s" % (course_config.google_analytics_id.replace("/", "\\/"), course_config_file))
+    execute("sed -i='' 's/MY_WEBSITE_NAME/%s/' %s" % (course_config.site_name.replace("/", "\\/"), course_config_file))
+    execute("sed -i='' 's/MY_WEBSITE_SIGNUP_CODE/%s/' %s" % (course_config.site_signup_code.replace("/", "\\/"), course_config_file))
+    execute("sed -i='' 's/MY_CONTENT_PATH/%s/' %s" % (course_config.site_local_content_base_dir.replace("/", "\\/"), course_config_file))
+    execute("sed -i='' 's/MY_CONTENT_BASE_URL/%s/' %s" % (course_config.site_content_base_url.replace("/", "\\/"), course_config_file))
+    execute("sed -i='' 's/MY_COURSE_EMAIL/%s/' %s" % (course_config.course_email.replace("/", "\\/"), course_config_file))
+    execute("sed -i='' 's/MY_EMAIL_DISPLAY_NAME/%s/' %s" % (course_config.email_display_name.replace("/", "\\/"), course_config_file))
+    execute("sed -i='' 's/MY_GOOGLE_ANALYTICS_ID/%s/' %s" % (course_config.google_analytics_id.replace("/", "\\/"), course_config_file))
 
     # get the url rewriting correct in the .htaccess file.  These
     # rewrite rules are necessary to remove the ugly index.php part of
     # the codeignighter urls
     htaccess_file = os.path.join(staging_dir, ".htaccess");
-    execute("sed -i 's/MY_WEBSITE_BASE_DIRECTORY/%s/' %s" % (course_config.site_code_base_url.replace("/", "\\/"), htaccess_file))
+    execute("sed -i='' 's/MY_WEBSITE_BASE_DIRECTORY/%s/' %s" % (course_config.site_code_base_url.replace("/", "\\/"), htaccess_file))
 
     ##############################################################
     ## Okay, here we go. Now deploy the site.
@@ -143,17 +144,17 @@ if __name__ == "__main__":
         backup_target_dir = backup_target_dir.replace(" ", "___");
         backup_target_dir = backup_target_dir.replace(":", "-");
 
-    print "";
-    print "******************************************************";
-    print "";
+    print("");
+    print("******************************************************");
+    print("");
     if do_backup:
-        print "Backing up current site to:";
-        print "   %s" % backup_target_dir;
-        print "";
-    print "Deploying site live to:";
-    print "   %s" % deploy_dir;
-    print "";
-    print "******************************************************";
+        print("Backing up current site to:");
+        print("   %s" % backup_target_dir);
+        print("");
+    print("Deploying site live to:");
+    print("   %s" % deploy_dir);
+    print("");
+    print("******************************************************");
 
     # move current deployment to backup
     if do_backup and os.path.exists(deploy_dir):

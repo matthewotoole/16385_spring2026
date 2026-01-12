@@ -33,6 +33,7 @@ class CopyAction:
 ##########################################################################
 ##########################################################################
 
+MYSQLDUMP_COMMAND    = "mysqldump";
 SQL_DUMP_FILENAME    = "db_dump.sql";
 DB_PASSWORD          = "";
 
@@ -95,7 +96,7 @@ if __name__ == "__main__":
     print "******************************************************";
 
     # create the DB dump
-    execute("mysqldump -u root --password=\"%s\" %s > %s" % (DB_PASSWORD, db_name, SQL_DUMP_FILENAME));
+    execute("%s -u root --password=\"%s\" %s > %s" % (MYSQLDUMP_COMMAND, DB_PASSWORD, db_name, SQL_DUMP_FILENAME));
     
     # create the full archive
     execute("tar -czf %s %s %s" % (archive_filename, content_dir, SQL_DUMP_FILENAME));

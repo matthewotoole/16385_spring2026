@@ -5,9 +5,9 @@ import argparse
 import course_config
 
 def execute(cmd):
-    print "Executing: %s" % cmd;
+    print("Executing: %s" % cmd);
     if os.system(cmd) != 0:
-        print "ERROR EXECUTING %s: ABORTING" % cmd;
+        print("ERROR EXECUTING %s: ABORTING" % cmd);
         sys.exit(-1);
         
            
@@ -24,5 +24,5 @@ if __name__ == "__main__":
 
     mysql_commands =  "update users set type='%s' where username='%s';" % (args.usertype, args.username);
 
-    execute("mysql --user %s -p %s -e \"%s\"" % (course_config.database_user, course_config.database_name, mysql_commands));
+    execute("%s --user %s --password=%s %s -e \"%s\"" % (course_config.mysql_command, course_config.database_user, course_config.database_passwd, course_config.database_name, mysql_commands));
 

@@ -50,4 +50,4 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     mysql_commands = QUERY.format(args)
-    execute("mysql --user %s -p %s -e \"%s\"" % (course_config.database_user, course_config.database_name, mysql_commands));
+    execute("%s --user %s -p %s -e \"%s\"" % (course_config.mysql_command, course_config.database_user, course_config.database_name, mysql_commands));
