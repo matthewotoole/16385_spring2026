@@ -32,11 +32,11 @@ as well as hands on experience to solve real-life vision problems.
 <div class="indented_block">
 
 <div style="width: 360px; float: left;">
-<img src="<?php echo base_url('assets/images/staff/DavidHeld.jpg'); ?>" width="100" style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div><a href="https://davheld.github.io/">David Held</a>
+<img src="<?php echo base_url('assets/images/staff/motoole.jpg'); ?>" width="100" style="float: left; margin-right: 20px; border: #808080 1px solid;" />
+<div><a href="https://www.cs.cmu.edu/~motoole2/">Matthew O'Toole</a>
 </div>
-<div>[dheld at andrew] </div>
-<div><b>Office:</b> Smith Hall 213</div>
+<div>[motoole2 at andrew] </div>
+<div><b>Office:</b> Smith Hall 215</div>
 <div><b>Office hours:</b> Upon request</div>
 <div style="clear: both;">&nbsp;</div>
 </div>
