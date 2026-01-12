@@ -254,17 +254,7 @@ if ( ! function_exists('get_config'))
 			}
 		}
 
-		// NOTE(kayvonf): Fixed as given in:
-		// https://stackoverflow.com/questions/28348879/only-variable-references-should-be-returned-by-reference-codeigniter
-		// We should really rebase this site off a modern version of Codeignighter, things are getting really creaky.
-		//
-		// old code:
-		//return $_config[0] =& $config;
-                // new code:
-		
-                $_config[0] =& $config;
-		$retVal = $_config[0];
-		return $retVal; 
+		return $_config[0] =& $config;
 	}
 }
 
@@ -356,7 +346,7 @@ if ( ! function_exists('show_404'))
 */
 if ( ! function_exists('log_message'))
 {
-	function log_message($level = 'error', $message = '', $php_error = FALSE)
+	function log_message($level = 'error', $message, $php_error = FALSE)
 	{
 		static $_log;
 

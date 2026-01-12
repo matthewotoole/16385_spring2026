@@ -26,7 +26,6 @@
  * @author		ExpressionEngine Dev Team
  * @link		http://codeigniter.com/user_guide/libraries/input.html
  */
-#[\AllowDynamicProperties]
 class CI_Input {
 
 	/**
@@ -634,7 +633,6 @@ class CI_Input {
 
 			foreach ($_COOKIE as $key => $val)
 			{
-			        // log_message('error', 'Cookie: ' . $key);
 				$_COOKIE[$this->_clean_input_keys($key)] = $this->_clean_input_data($val);
 			}
 		}
@@ -728,9 +726,9 @@ class CI_Input {
 	*/
 	function _clean_input_keys($str)
 	{
-		if ( ! preg_match("/^[a-z0-9:_\/\-=\@\~]+$/i", $str))
+		if ( ! preg_match("/^[a-z0-9:_\/@-]+$/i", $str))
 		{
-			exit('Disallowed Key Characters. You have an offending browser cookie: ' . ' [[' . $str . ']]');
+            exit('Disallowed Key Characters:' . $str);
 		}
 
 		// Clean UTF-8 if supported

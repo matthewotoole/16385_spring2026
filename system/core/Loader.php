@@ -26,7 +26,6 @@
  * @category	Loader
  * @link		http://codeigniter.com/user_guide/libraries/loader.html
  */
-#[\AllowDynamicProperties]
 class CI_Loader {
 
 	// All these are set automatically. Don't mess with them.

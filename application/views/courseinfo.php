@@ -11,11 +11,10 @@ function make_url($first, $second) {
 
 <div class="home_title">Computer Vision <span style="font-size: 12pt;">(CMU 16-385)</span> </div>
 
-<div>CMU 16-385, Spring 2026</div>
+<div>CMU 16-385, Spring 2024</div>
 <div>Mon/Wed 12:30pm-1:50pm</div>
-<div>Tepper 1430</div>
-     <div style="padding-bottom: 20px;">Instructor: <a href="https://www.cs.cmu.edu/~motoole2/">Matthew O'Toole</a></div>
-
+<div>WEH 7500</div>
+     <div style="padding-bottom: 20px;">Instructor: <a href="http://www.cs.cmu.edu/~motoole2">Matthew O'Toole</a></div>
 
 <div class="overview_main_item overview_ruled_element">Course Description</div>
 
@@ -32,96 +31,69 @@ as well as hands on experience to solve real-life vision problems.
 <div class="indented_block">
 
 <div style="width: 360px; float: left;">
-<img src="<?php echo base_url('assets/images/staff/motoole.jpg'); ?>" width="100" style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div><a href="https://www.cs.cmu.edu/~motoole2/">Matthew O'Toole</a>
-</div>
+<img src="<?php echo base_url('assets/images/staff/motoole.png'); ?>" width="100" height="100" style="float: left; margin-right: 20px; border: #808080 1px solid;" />
+<div><a href="http://www.cs.cmu.edu/~motoole2">Matthew O'Toole</a></div>
 <div>[motoole2 at andrew] </div>
 <div><b>Office:</b> Smith Hall 215</div>
-<div><b>Office hours:</b> Upon request</div>
+<div><b>Office hours:</b> Friday, 2-4pm</div>
 <div style="clear: both;">&nbsp;</div>
 </div>
 
 <div style="clear: both;">&nbsp;</div>
 
 
-<!--
-<div class="overview_minor_item" style="clear: both; padding-top: 2em; padding-bottom: 2em;">Your fun and helpful TAs are shown below.  Office hours for all TAs can be found here:<br>
-<a href="https://docs.google.com/spreadsheets/d/1jnKmKbQ0AB5--pCLV5fUt9aQwDiEQoBNmFYaydTJw3s/edit?gid=0#gid=0">OFFICE HOURS SPREADSHEET</a></div>
-
+<div class="overview_minor_item" style="clear: both; padding-top: 2em; padding-bottom: 2em;">Your fun and helpful TAs:</div>
 
 <div style="width: 360px; float: left;">
-<img src="<?php echo base_url('assets/images/staff/felipe.jpg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div class="ta-name"><a href="">Felipe Zanforlin Mautner</a></div>
-<div>[fmautner at andrew]</div>
+<img src="<?php echo base_url('assets/images/staff/shubhika.jpg'); ?>" width="100" height="100" style="float: left; margin-right: 20px; border: #808080 1px solid;" />
+<div class="ta-name"><a href="">Shubhika Garg</a></div>
+<div>[shubhikg at andrew]</div>
+<div><b>Office hours:</b> Monday 3:30-5:30pm (NSH 1109)</div>
 <div style="clear: both;">&nbsp;</div>
 </div>
 
 <div style="clear: both;">&nbsp;</div>
 
 <div style="width: 360px; float: left;">
-<img src="<?php echo base_url('assets/images/staff/zhinan.jpg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
+<img src="<?php echo base_url('assets/images/staff/tahaseen.jpg'); ?>" width="100" height="100" style="float: left; margin-right: 20px; border: #808080 1px solid;" />
+<div class="ta-name"><a href="">Tahaseen Shaik</a></div>
+<div>[tshaik at andrew]</div>
+<div><b>Office hours:</b> Monday 5:30-7:30pm (NSH 1109)</div>
+<div style="clear: both;">&nbsp;</div>
+</div>
+
+<div style="clear: both;">&nbsp;</div>
+
+<div style="width: 360px; float: left;">
+<img src="<?php echo base_url('assets/images/staff/zhinan.jpg'); ?>" width="100" height="100" style="float: left; margin-right: 20px; border: #808080 1px solid;" />
 <div class="ta-name"><a href="">Zhinan (Sam) Wang</a></div>
 <div>[zhinanw at andrew]</div>
+<div><b>Office hours:</b> Tuesday 10-noon (NSH 1109)</div>
+<div style="clear: both;">&nbsp;</div>
+</div>
+
+
+<div style="clear: both;">&nbsp;</div>
+
+<div style="width: 360px; float: left;">
+<img src="<?php echo base_url('assets/images/staff/jinhyung_park.png'); ?>" width="100" height="100" style="float: left; margin-right: 20px; border: #808080 1px solid;" />
+<div class="ta-name"><a href="">Jinhyung (David) Park</a></div>
+<div>[jinhyun1 at andrew]</div>
+<div><b>Office hours:</b> Tuesday 1-3pm (NSH 1109)</div>
 <div style="clear: both;">&nbsp;</div>
 </div>
 
 <div style="clear: both;">&nbsp;</div>
 
 <div style="width: 360px; float: left;">
-<img src="<?php echo base_url('assets/images/staff/timwang.jpeg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div class="ta-name"><a href="">Tim Wang</a></div>
-<div>[twang3 at andrew]</div>
+<img src="<?php echo base_url('assets/images/staff/felipe.jpg'); ?>" width="100" height="100" style="float: left; margin-right: 20px; border: #808080 1px solid;" />
+<div class="ta-name"><a href="">Felipe Zanforlin Mautner</a></div>
+<div>[fmautner at andrew]</div>
+<div><b>Office hours:</b> Thursday 3:30-5:30pm (NSH 4513)</div>
 <div style="clear: both;">&nbsp;</div>
 </div>
 
-<div style="clear: both;">&nbsp;</div>
-
-
-<div style="width: 360px; float: left;">
-<img src="<?php echo base_url('assets/images/staff/danielbrown.jpeg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div class="ta-name"><a href="">Daniel Brown</a></div>
-<div>[dibrown at andrew]</div>
-<div style="clear: both;">&nbsp;</div>
-</div>
-
-<div style="clear: both;">&nbsp;</div>
-
-<div style="width: 360px; float: left;">
-<img src="<?php echo base_url('assets/images/staff/jackson.jpg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div class="ta-name"><a href="">Jackson Daggett</a></div>
-<div>[jdaggett at andrew]</div>
-<div style="clear: both;">&nbsp;</div>
-</div>
-
-<div style="clear: both;">&nbsp;</div>
-
-<div style="width: 360px; float: left;">
-<img src="<?php echo base_url('assets/images/staff/maxim.jpeg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div class="ta-name"><a href="">Maxim Gluhovskoi</a></div>
-<div>[mgluhovs at andrew]</div>
-<div style="clear: both;">&nbsp;</div>
-</div>
-
-<div style="clear: both;">&nbsp;</div>
-
-<div style="width: 360px; float: left;">
-<img src="<?php echo base_url('assets/images/staff/iqui.jpg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div class="ta-name"><a href="">Iqui Balam Heredia Marin</a></div>
-<div>[iquibalh at andrew]</div>
-<div style="clear: both;">&nbsp;</div>
-</div>
-
-<div style="clear: both;">&nbsp;</div>
-
-<div style="width: 360px; float: left;">
-<img src="<?php echo base_url('assets/images/staff/harry.jpg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div class="ta-name"><a href="">Harry Freeman</a></div>
-<div>[hfreeman at andrew]</div>
-<div style="clear: both;">&nbsp;</div>
-</div>
--->
-
-<div style="clear: both;">&nbsp;</div>
+<div style="clear: both;">&nbsp;</div>k
 
 </div> <!-- indented -->
 
@@ -159,31 +131,18 @@ following courses serve as prerequisite:</p>
 <p>Your final grade will be made up from:</p>
 <ul>
 <li>Six programming assignments (98%).</li>
-<li>Participation (2%) - includes class or Piazza participation.</li>
+<li>Class participation (2%).</li>
 </ul>
 <p><strong>Programming assignments:</strong> Programming assignments (PAs) will require implementing a significant computer vision algorithm. Some of them will also have a small theory component relevant to the implementation. Programming will be done in Python.</p>
-<p><strong>Participation:</strong> The 2% class participation grade can be achieved by asking questions in class, or by asking/answering questions on Piazza.</p>
-
-<p><strong>Late days:</strong>
-<ul>
-<li>For the homework assignments, students will be allowed a total of <strong>six</strong> free late days to use throughout the semester.</li>
-<li>You can submit any assignment up to 4 days late.  You can do this either by:</li>
-<ul>
-   <li>Using up to 4 late days (you can use up to 4 free late on any assignment)</li>
-   <li>If your late days are used up, you can submit it late (up to 4 days) for a 10% penalty per day.</li>
-</ul>
-    <li>Only 4 late days can be used for each assignment; if you submit the assignment 5 days late then you will get a 0.</li>
-</ul>
-If you have a medical situation, please make a private post on Piazza to ask for an extension. Please tell us that you have a medical situation and need an extension, but you do not need to explain the details of your medical situation.</p>
-
-<p><strong>Submitting homework:</strong> We use the Gradescope menu link in <a href="https://canvas.cmu.edu/courses/52718/">Canvas</a> for submitting and grading homeworks.</p>
+<p><strong>Late days:</strong> For the programming assignments, students will be allowed a total of <strong>six</strong> free late days. Any additional late days will each incur a 10% penalty.  Assignments submitted four days after the initial due date will receive a grade of zero.</p>
+<p><strong>Submitting homework:</strong> We use the Gradescope menu link in <a href="https://canvas.cmu.edu/courses/40004/">Canvas</a> for submitting and grading homeworks.</p>
 <p><strong>Accommodations for Students with Disabilities:</strong> If you have a disability and have an accommodations letter from the Disability Resources office, I encourage you to discuss your accommodations and needs with me as early in the semester as possible. I will work with you to ensure that accommodations are provided as appropriate. If you suspect that you may have a disability and would benefit from accommodations but are not yet registered with the Office of Disability Resources, I encourage you to contact them at <a href=mailto:access@andrew.cmu.edu>access@andrew.cmu.edu</a>.
 
 
 
 <div class="overview_main_item overview_ruled_element">Discussion</div>
 
-<p> We use <a href="https://piazza.com/cmu/fall2026/16385/home">Piazza</a> for class discussion and announcements.</p>
+<p> We use <a href="https://piazza.com/cmu/spring2024/16385a/home">Piazza</a> for class discussion and announcements.</p>
 
 <div class="overview_main_item overview_ruled_element">Collaboration Policy</div>
 
@@ -243,13 +202,5 @@ can share these experiences using the following resources:</p>
 <p>All reports will be documented and deliberated to determine if there should be any following actions. Regardless of incident type, the university will use all shared experiences to transform our campus climate to be more equitable and just.</p>
                                     
 <p>&nbsp;</p>
-
-<div class="overview_main_item overview_ruled_element">Food Insecurity</div>
-
-<p>If you are worried about affording food or feeling insecure about food, there are resources on campus who can help. Email the CMU Food Pantry Coordinator to schedule an appointment:</p>
-
-<p>Pantry Coordinator: <i>cmu-pantry@andrew.cmu.edu</i></p>
-
-<p>412-268-8704 (SLICE office)</p>
 
 </div>
