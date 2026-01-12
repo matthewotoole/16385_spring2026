@@ -16,11 +16,17 @@
 
 repo_url = "https://github.com/matthewotoole/16385_spring2026.git";
 
-repo_branch = "master";
+repo_branch = "release";
 
 ##################################################
 # Database parameters
 ##################################################
+
+# Database commands
+
+# NOTE: runs mysql in a the container http-15NNN.
+#  you'll want, e.g., http-15462 for computer graphics.
+mysql_command = "jexec http-15NNN mysql";
 
 # Database authentication
 
@@ -34,8 +40,7 @@ database_passwd = 'WvEqoclImX1fE2qG';
 # Apache configuration
 ##################################################
 
-# Local Linux group that will own all code/content directories. By
-# default www-data
+# Group that will own all code/content directories.
 
 webserver_group = 'webadmin';
 
@@ -67,12 +72,17 @@ site_content_base_url = '/spring2026content';
 # Local File System Paths
 ##################################################
 
-# The next two variables are local file system paths for the base
+# The next three variables are local file system paths for the base
 # directories of deployed code and uploaded site content.
 
-site_local_code_base_dir = '/usr0/www-16385' + site_code_base_url;
+#these are the paths to use from "inside" the site, as it runs:
+# (these paths are relative to the jail's chroot)
+site_local_code_base_dir = '/www' + site_code_base_url;
+site_local_content_base_dir = '/www' + site_content_base_url;
 
-site_local_content_base_dir = '/usr0/www-16385' + site_content_base_url;
+#this is prefixed to the local paths to get paths for use outside
+# the jail, i.e., by the deploy and create scripts:
+site_jail_prefix = '/usr0/http-16385'
 
 # If a site_backup_dir is specified, then the deploy script backs up
 # the current site to this location prior to updating the live site
