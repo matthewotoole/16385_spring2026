@@ -26,7 +26,7 @@ repo_branch = "release";
 
 # NOTE: runs mysql in a the container http-15NNN.
 #  you'll want, e.g., http-15462 for computer graphics.
-mysql_command = "jexec http-15NNN mysql";
+mysql_command = "jexec http-16385 mysql";
 
 # Database authentication
 
