@@ -13,7 +13,7 @@ body {
   color: #505050;
   
   font-size: 11pt;  
-  font-family: open-sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
 }
@@ -23,7 +23,7 @@ td
     /* NOTE(kayvonf): keep this consistent with the body element above.
        It's very annoying how <td> doesn't inherent from it's container */
     font-size: 11pt;
-    font-family: open-sans, sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 400;
 }
@@ -104,17 +104,19 @@ body A:hover
 .common_title
 {
     color: #000000;
-    font-family: open-sans-condensed, sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 28pt;
     font-weight: 700;
+	font-variation-settings: "wdth" 75;
 }
 
 .common_title_small
 {
     color: #000000;
-    font-family: open-sans-condensed, sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 16pt;
     font-weight: 700;
+	font-variation-settings: "wdth" 75;
 }
 
 .colored_text
@@ -202,9 +204,10 @@ label textarea
 .main_title, .home_title, .feed_title, .playlist_title
 {
     color: #000000;
-    font-family: open-sans-condensed, sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 30pt;
     font-weight: 700;
+	font-variation-settings: "wdth" 75;
 }
 
 .home_title, .feed_title
@@ -229,9 +232,10 @@ label textarea
 .book_lecture_title,
 .overview_main_item {
     color: #000000;
-    font-family: open-sans-condensed, sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 18pt;
     font-weight: 700;
+	font-variation-settings: "wdth" 75;
     padding-top: .5em;
     padding-bottom: .5em;
 }
@@ -364,9 +368,10 @@ td.schedule_lecture
 .lecture_title
 {
     color: #000000;
-    font-family: open-sans-condensed, sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 28pt;
     font-weight: 700;
+	font-variation-settings: "wdth" 75;
     padding-bottom: .25em;
 }
 
