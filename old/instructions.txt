@@ -1,4 +1,0 @@
-ssh motoole2@graphics.cs.cmu.edu
-
-
-Course will be in /afs/cs.cmu.edu/academic/class

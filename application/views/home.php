@@ -4,7 +4,7 @@
 <div class="home_title">Computer Vision <span style="font-size: 12pt;">(CMU 16-385)</span> </div>
 
 <div>
-<img style="padding-bottom: 5px;" src="http://16385.courses.cs.cmu.edu/spring2024/assets/images/banner.png" width="800"></a>
+<img style="padding-bottom: 5px;" src="https://16385.courses.cs.cmu.edu/spring2026/assets/images/banner.png" width="800"></a>
 </div>
 
 <p style="padding-bottom: .15em"> This course provides a comprehensive
@@ -17,8 +17,8 @@ as well as hands on experience to solve real-life vision problems.  </p>
 
 <div style="padding-bottom: 15px;">
 <div>Mon/Wed 12:30pm-1:50pm</div>
-<div>WEH 7500</div>
-<div>Instructor: <a href="http://www.cs.cmu.edu/~motoole2">Matthew O'Toole</a></div>
+<div>Tepper 1403</div>
+<div>Instructor: <a href="https://www.cs.cmu.edu/~motoole2/">Matthew O'Toole</a></div>
 <div style="padding-top:1em;">See the <a href="<?php echo site_url('courseinfo'); ?>">Course Info</a> page for more info on policies and logistics.</div>
 </div>
 
@@ -26,12 +26,12 @@ as well as hands on experience to solve real-life vision problems.  </p>
 
 To get started with the class you need to do just three things:
 <ol>
-<li><a href="https://piazza.com/cmu/spring2024/16385a/home">Sign up</a> for the course Piazza.</li>
-<li><a href="http://16385.courses.cs.cmu.edu/spring2024/users/create">Sign up</a> for an account on this webpage.  (The signup code is on Canvas.)</li>
+<li><a href="https://piazza.com/cmu/spring2026/16385">Sign up</a> for the course Piazza.</li>
+<li><a href="https://16385.courses.cs.cmu.edu/spring2026/users/create">Sign up</a> for an account on this webpage.  (The signup code is on Canvas.)</li>
                                                                                                                   <li>Carefully read through the <a href="<?php echo site_url('courseinfo'); ?>">Course Info</a>.</li>
                                                                                                                 </ol>
 
-<div class="overview_main_item overview_ruled_element">Spring 2024 Schedule</div>
+<div class="overview_main_item overview_ruled_element">Spring 2026 Schedule</div>
 
 <table>
 
@@ -78,82 +78,85 @@ function lecture_def($date, $title, $link, $fmt='', $extras=array()) {
 
 $lectures = array(
 
-     lecture_def('Jan 17 (Wed)', 'Course Introduction', lecture_url('intro'), 'bold'),
+     lecture_def('Jan 12 (Wed)', 'Course Introduction', lecture_url('intro'), 'bold'),
                   
-     lecture_def('Jan 22 (Mon)', 'Image Filtering', lecture_url('filtering'), 'bold'),
+     lecture_def('Jan 14 (Mon)', 'Image Filtering', lecture_url('filtering'), 'bold'),
+
+     lecture_def('Jan 19 (Mon)', 'NO CLASS (MLK Jr Day)', '',
+                 'bold'),
                      
-     lecture_def('Jan 24 (Wed)', 'Image Pyramids and Frequency Domain', lecture_url('pyramids'), 'bold', array('Assignment 1 out')),
+     lecture_def('Jan 21 (Wed)', 'Image Pyramids and Frequency Domain', lecture_url('pyramids'), 'bold', array('Assignment 1 out')),
      
-     lecture_def('Jan 29 (Mon)', 'Hough Transform', lecture_url('hough'), 'bold'),
+     lecture_def('Jan 26 (Mon)', 'Hough Transform', lecture_url('hough'), 'bold'),
      
-     lecture_def('Jan 31 (Wed)', 'Detecting Corners', lecture_url('corners'), 'bold'),
+     lecture_def('Jan 28 (Wed)', 'Detecting Corners', lecture_url('corners'), 'bold'),
                      
-     lecture_def('Feb 5 (Mon)', 'Feature Detectors and Descriptors', lecture_url('features'), 'bold'),
+     lecture_def('Feb 2 (Mon)', 'Feature Detectors and Descriptors', lecture_url('features'), 'bold'),
    
-     lecture_def('Feb 7 (Wed)', '2D Transformations', lecture_url('transformations'), 'bold', array('Assignment 1 DUE', 'Assignment 2 out')),
+     lecture_def('Feb 4 (Wed)', '2D Transformations', lecture_url('transformations'), 'bold', array('Assignment 1 DUE', 'Assignment 2 out')),
                      
-     lecture_def('Feb 12 (Mon)', 'Image Homographies', lecture_url('homographies'), 'bold'),
+     lecture_def('Feb 9 (Mon)', 'Image Homographies', lecture_url('homographies'), 'bold'),
                      
-     lecture_def('Feb 14 (Wed)', 'Geometric Camera Models', lecture_url('cameras'), 'bold'),
+     lecture_def('Feb 11 (Wed)', 'Geometric Camera Models', lecture_url('cameras'), 'bold'),
                      
-     lecture_def('Feb 19 (Mon)', 'Geometric Camera Models (cont.)', lecture_url('cameras2'), 'bold'),
+     lecture_def('Feb 16 (Mon)', 'Geometric Camera Models (cont.)', lecture_url('cameras2'), 'bold'),
                      
-     lecture_def('Feb 21 (Wed)', 'Two-View Geometry', lecture_url('stereogeometry'), 'bold', array('Assignment 2 DUE', 'Assignment 3 out')),
+     lecture_def('Feb 18 (Wed)', 'Two-View Geometry', lecture_url('stereogeometry'), 'bold', array('Assignment 2 DUE', 'Assignment 3 out')),
                      
-     lecture_def('Feb 26 (Mon)', 'Stereo', lecture_url('stereo'), 'bold'),
+     lecture_def('Feb 23 (Mon)', 'Stereo', lecture_url('stereo'), 'bold'),
                      
-     lecture_def('Feb 28 (Wed)', 'Image Classification', lecture_url('bow'),
+     lecture_def('Feb 25 (Wed)', 'Image Classification', lecture_url('bow'),
                  'bold'),
                      
-     lecture_def('Mar 4 (Mon)', 'NO CLASS (Spring Break)', '',
-                 'bold'),
-   
-     lecture_def('Mar 6 (Wed)', 'NO CLASS (Spring Break)', '',
+     lecture_def('Mar 2 (Mon)', 'NO CLASS (Spring Break)', '',
                  'bold'),
    
-     lecture_def('Mar 11 (Mon)', 'Image Classification (cont.)', lecture_url('bow'),
+     lecture_def('Mar 4 (Wed)', 'NO CLASS (Spring Break)', '',
+                 'bold'),
+   
+     lecture_def('Mar 9 (Mon)', 'Image Classification (cont.)', lecture_url('bow'),
                  'bold'),
                      
-     lecture_def('Mar 13 (Wed)', 'Neural Networks', lecture_url('nn'),
+     lecture_def('Mar 11 (Wed)', 'Neural Networks', lecture_url('nn'),
                  'bold', array('Assignment 3 DUE', 'Assignment 4 out')),
                      
-     lecture_def('Mar 18 (Mon)', 'Neural Networks (cont.)', lecture_url('nn'),
+     lecture_def('Mar 16 (Mon)', 'Neural Networks (cont.)', lecture_url('nn'),
                  'bold'),
                      
-     lecture_def('Mar 20 (Wed)', 'Convolutional Neural Networks', lecture_url('cnn'),
+     lecture_def('Mar 18 (Wed)', 'Convolutional Neural Networks', lecture_url('cnn'),
                  'bold'),
                      
-     lecture_def('Mar 25 (Mon)', 'Optical Flow', lecture_url('flow'),
+     lecture_def('Mar 23 (Mon)', 'Optical Flow', lecture_url('flow'),
                  'bold'),
                      
-     lecture_def('Mar 27 (Wed)', 'Alignment and Tracking', lecture_url('track'),
+     lecture_def('Mar 25 (Wed)', 'Alignment and Tracking', lecture_url('track'),
                  'bold', array('Assignment 4 DUE', 'Assignment 5 out')),
                      
-     lecture_def('Apr 1 (Mon)', 'Alignment and Tracking (cont.)', lecture_url('track'),
+     lecture_def('Mar 30 (Mon)', 'Alignment and Tracking (cont.)', lecture_url('track'),
                  'bold'),
                      
-     lecture_def('Apr 3 (Wed)', 'Radiometry and Reflectance', lecture_url('radiometry'),
+     lecture_def('Apr 1 (Wed)', 'Radiometry and Reflectance', lecture_url('radiometry'),
                  'bold'),
                      
-     lecture_def('Apr 8 (Mon)', 'Radiometry and Reflectance (cont.)', lecture_url('radiometry'),
+     lecture_def('Apr 6 (Mon)', 'Radiometry and Reflectance (cont.)', lecture_url('radiometry'),
                  'bold'),
                      
-     lecture_def('Apr 10 (Wed)', 'Photometric Stereo', lecture_url('photometricstereo'),
+     lecture_def('Apr 8 (Wed)', 'Photometric Stereo', lecture_url('photometricstereo'),
                  'bold', array('Assignment 5 DUE', 'Assignment 6 out')),
                      
-     lecture_def('Apr 15 (Mon)', 'Digital Photography', lecture_url('photography'),
+     lecture_def('Apr 13 (Mon)', 'Digital Photography', lecture_url('photography'),
                  'bold'),
                      
-     lecture_def('Apr 17 (Wed)', 'Digital Photography (cont.)', lecture_url('photography'),
+     lecture_def('Apr 15 (Wed)', 'Digital Photography (cont.)', lecture_url('photography'),
                  'bold'),
    
-     lecture_def('Apr 22 (Mon)', 'Special Topics', '',
+     lecture_def('Apr 20 (Mon)', 'Special Topics', '',
                  'bold'),
    
-     lecture_def('Apr 24 (Wed)', 'Wrap-up', lecture_url('wrapup'),
+     lecture_def('Apr 22 (Wed)', 'Wrap-up', lecture_url('wrapup'),
                  'bold'),
 
-     lecture_def('Apr 26 (Fri)', '', '',
+     lecture_def('Apr 24 (Fri)', '', '',
                  'bold', array('Assignment 6 DUE')),
   );
 
@@ -211,44 +214,47 @@ foreach ($lectures as $lecture)
 
 <div class="overview_main_item overview_ruled_element">Assignments</div>
 
+Check here for assignments.
 
+<!--
 <table>
 <tr>
-<td class="schedule_date">(Due Feb 7th)</td><td class="schedule_lecture"><a href="<?php echo base_url('assets/assignments/assgn1.zip'); ?>">Programming Assignment 1: Image Filtering and Hough Transform</a></td>
+<td class="schedule_date">(Due Sep 18)</td><td class="schedule_lecture">Programming Assignment 1: Image Filtering and Hough Transform</td>
 </tr>
 </table>
 
 
 <table>
 <tr>
-<td class="schedule_date">(Due Feb 21st)</td><td class="schedule_lecture"><a href="<?php echo base_url('assets/assignments/assgn2.zip'); ?>">Programming Assignment 2: Augmented Reality with Planar Homographies</a></td>
+<td class="schedule_date">(Due Oct 2)</td><td class="schedule_lecture">Programming Assignment 2: Augmented Reality with Planar Homographies</td>
 </tr>
 </table>
 
 <table>
 <tr>
-<td class="schedule_date">(Due Mar 13th)</td><td class="schedule_lecture"><a href="<?php echo base_url('assets/assignments/assgn3.zip'); ?>">Programming Assignment 3: 3D Reconstruction</a></td>
+<td class="schedule_date">(Due Oct 23)</td><td class="schedule_lecture">Programming Assignment 3: 3D Reconstruction</td>
 </tr>
 </table>
 
 <table>
 <tr>
-<td class="schedule_date">(Due Mar 27th)</td><td class="schedule_lecture"><a href="<?php echo base_url('assets/assignments/assgn4.zip'); ?>">Programming Assignment 4: Scene Recognition with Bag of Words</a></td>
+<td class="schedule_date">(Due Nov 6)</td><td class="schedule_lecture">Programming Assignment 4: Scene Recognition with Bag of Words</td>
 </tr>
 </table>
 
 <table>
 <tr>
-<td class="schedule_date">(Due Apr 10th)</td><td class="schedule_lecture"><a href="<?php echo base_url('assets/assignments/assgn5.zip'); ?>">Programming Assignment 5: Neural Networks for Recognition</a></td>
+<td class="schedule_date">(Due Nov 20)</td><td class="schedule_lecture">Programming Assignment 5: Neural Networks for Recognition</td>
 </tr>
 </table>
 
 
 <table>
 <tr>
-<td class="schedule_date">(Due Apr 26th)</td><td class="schedule_lecture"><a href="<?php echo base_url('assets/assignments/assgn6.zip'); ?>">Programming Assignment 6: Video Tracking</a></td>
+<td class="schedule_date">(Due Dec 6)</td><td class="schedule_lecture">Programming Assignment 6: Video Tracking</td>
 </tr>
 </table>
+-->
 
 <!--
 
@@ -343,7 +349,7 @@ foreach ($lectures as $lecture)
 
 <p> The lecture notes have been pieced together from many different
 people and places. Special thanks to colleagues for sharing their
-slides: Kris Kitani, Bob Collins, Srinivasa Narashiman, Martial Hebert,
+slides: David Held, Kris Kitani, Bob Collins, Srinivasa Narashiman, Martial Hebert,
 Alyosha Efros, Ali Faharadi, Deva Ramanan, Yaser Sheikh, and Todd Zickler.
 Many thanks also to the following people for making their lecture notes and
 materials available online: Steve Seitz, Richard Selinsky, Larry Zitnick,

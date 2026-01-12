@@ -11,8 +11,9 @@
 ?>
 <title><?php echo $page_title; ?></title>
 
-<script src="http://use.edgefonts.net/open-sans:n3,i3,n4,i4,n6,i6,n7,i7,n8,i8.js"></script>
-<script src="http://use.edgefonts.net/open-sans-condensed:n3,i3,n7.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap" rel="stylesheet">
 
 <script src="<?php echo base_url(); ?>assets/third_party/jquery/1.8.3/jquery.min.js"></script>
 <script src="<?php echo base_url(); ?>assets/third_party/jquery/timeago/jquery.timeago.js"></script>

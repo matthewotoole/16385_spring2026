@@ -2,8 +2,9 @@
 
 include_once 'application/controllers/markdown/kf_markdown.php';
 
+#[\AllowDynamicProperties]
 class AreeceParser extends MarkdownExtra_Parser {
-    function AreeceParser($CI, $article) {
+    function __construct($CI, $article) {
         // TODO(awreece) Don't parse stuff in mathjax.
         $this->span_gamut += array(
             # This has to be less than 10, because that's when images get parsed.
@@ -11,8 +12,7 @@ class AreeceParser extends MarkdownExtra_Parser {
         );
         $this->article = $article;
         $this->CI = $CI;
-
-        parent::MarkdownExtra_Parser();
+        parent::__construct();
     }
 
     function doCourseLinks($text) {
