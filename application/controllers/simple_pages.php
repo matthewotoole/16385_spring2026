@@ -32,10 +32,22 @@ class Simple_pages extends MY_Controller {
         $this->load_view("Lectures and Readings", 'reading', $data);
     }
 
-    function exercises() {
-    	$exercises_base_url = $this->config->item('content_base_url') . '/exercises';
-        $data = array('exercises_base_url' => $exercises_base_url);
-        $this->load_view("Exercises and Practice Problems", 'exercises', $data);
+    function assignments() {
+    	$assignments_base_url = $this->config->item('content_base_url') . '/assignments';
+        $data = array('assignemnts_base_url' => $assignments_base_url);
+        $this->load_view("Programming Assignments", 'assignments', $data);
+    }
+    
+    function quizzes() {
+        $quizzes_base_url = $this->config->item('content_base_url') . '/quizzes';
+        $data = array('quizzes_base_url' => $quizzes_base_url);
+        $this->load_view("Quizzes", 'quizzes', $data);
+    }
+    
+    function notebooks() {
+        $notebooks_base_url = $this->config->item('content_base_url') . '/notebooks';
+        $data = array('notebooks_base_url' => $notebooks_base_url);
+        $this->load_view("Notebooks", 'notebooks', $data);
     }
 
     function welcome() {
