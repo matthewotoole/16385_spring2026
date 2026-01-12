@@ -244,7 +244,7 @@ can share these experiences using the following resources:</p>
                                     
 <p>&nbsp;</p>
 
-<li><b>Food Insecurity</b> <a 
+<div class="overview_main_item overview_ruled_element">Food Insecurity</div>
 
 <p>If you are worried about affording food or feeling insecure about food, there are resources on campus who can help. Email the CMU Food Pantry Coordinator to schedule an appointment:</p>
 
