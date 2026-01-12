@@ -4,7 +4,10 @@
 <div class="home_title">Computer Vision <span style="font-size: 12pt;">(CMU 16-385)</span> </div>
 
 
-<p>This page contains lecture slides and recommended readings for 16-385.</p>
+The lecture slides for this course can be found here: <a href="https://drive.google.com/drive/folders/1wYtED2t1mZDsjpOa0QnfnavFOAYDXfJo?usp=sharing">Lecture Slides Folder</a>
+<br><br>
+
+<!--p>This page contains lecture slides and recommended readings for 16-385.</p-->
 
 
 <div class="book_lecture">
@@ -209,8 +212,37 @@ Chapter 6 of this book has a very thorough treatment of camera models.
 </ul>
 </div>
 
+<div class="book_lecture">
+<div class="book_lecture_title">
+<a href="<?php echo lecture_url('deeptrack'); ?>">Lecture 21: Deep Tracking</a></div>
+</div>
 
 <div class="book_lecture">
+<div class="book_lecture_title">
+<a href="<?php echo lecture_url('deepflow'); ?>">Lecture 22: Deep Optical Flow / Deep Stereo; Generative Adversarial Networks (GANs)</a></div>
+</div>
+
+<div class="book_lecture">
+<div class="book_lecture_title">
+<a href="<?php echo lecture_url('gan'); ?>">Lecture 23: Generative Adversarial Networks (GANs) - Part 2</a></div>
+</div>
+
+<div class="book_lecture">
+<div class="book_lecture_title">
+<a href="<?php echo lecture_url('vae'); ?>">Lecture 24: Variational AutoEncoders (VAEs) / Diffusion / Societal Impacts</a></div>
+</div>
+
+<div class="book_lecture">
+<div class="book_lecture_title">
+<a href="<?php echo lecture_url('pointcloud'); ?>">Lecture 25: Advanced architectures: Batch Norm, ResNet, RNN, Transformer</a></div>
+</div>
+
+<div class="book_lecture">
+<div class="book_lecture_title">
+<a href="<?php echo lecture_url('society'); ?>">Lecture 26: Deep 3D Point Cloud Processing</a></div>
+</div>
+
+<!--div class="book_lecture">
 <div class="book_lecture_title">
 <a href="<?php echo lecture_url('radiometry'); ?>">Lecture 21 &amp; 22: Radiometry and Reflectance</a></div>
 <div class="colored_text book_lecture_subtitle">(Appearance phenomena, measuring light and radiometry, reflectance and BRDF)</div>
@@ -245,7 +277,6 @@ very detailed discussion of issues relating to color photography and management,
 </ul>
 </div>
 
-<!--
 
 <div class="book_lecture">
 <div class="book_lecture_title">
@@ -263,13 +294,13 @@ very detailed discussion of issues relating to color photography and management,
 <div class="colored_text book_lecture_subtitle">(Computational cameras, computational displays, light transport matrices)</div>
 </div>
 
--->
+
 
 <div class="book_lecture">
 <div class="book_lecture_title">
 <a href="<?php echo lecture_url('wrapup'); ?>">Lecture 26: Wrap-up</a></div>
 </div>
-
+-->
 
 <p>&nbsp;</p>
 
