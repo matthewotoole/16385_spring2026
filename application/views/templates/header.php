@@ -11,9 +11,8 @@
 ?>
 <title><?php echo $page_title; ?></title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap" rel="stylesheet">
+<script src="http://use.edgefonts.net/open-sans:n3,i3,n4,i4,n6,i6,n7,i7,n8,i8.js"></script>
+<script src="http://use.edgefonts.net/open-sans-condensed:n3,i3,n7.js"></script>
 
 <script src="<?php echo base_url(); ?>assets/third_party/jquery/1.8.3/jquery.min.js"></script>
 <script src="<?php echo base_url(); ?>assets/third_party/jquery/timeago/jquery.timeago.js"></script>
@@ -22,7 +21,9 @@
 <script src="<?php echo base_url(); ?>assets/third_party/codemirror-3.0/lib/codemirror.js"></script>
 <script src="<?php echo base_url(); ?>assets/third_party/codemirror-3.0/mode/markdown/markdown.js"></script>
 
-<script type="text/javascript" id="MathJax-script" defer src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
@@ -70,10 +71,11 @@ var keep_alive_url = "<?php echo site_url("keep_alive"); ?>";
 
 <div class="topbar">
 <div class="topbar_left"><a href="<?php echo site_url('home'); ?>">[Home]</a></div>
+<div class="topbar_left"><a href="<?php echo site_url('courseinfo'); ?>">[Course Info]</a></div>
 <div class="topbar_left"><a href="<?php echo site_url('newsfeed'); ?>">[Feed]</a></div>
 <div class="topbar_left"><a href="<?php echo site_url('lectures'); ?>">[Lectures]</a></div>
-<div class="topbar_left"><a href="<?php echo site_url('exercises'); ?>">[Exercises]</a></div>
-<div class="topbar_left"><a href="<?php echo site_url('projects'); ?>">[Projects]</a></div>
+<div class="topbar_left"><a href="<?php echo site_url('assignments'); ?>">[Assignments]</a></div>
+<div class="topbar_left"><a href="<?php echo site_url('notebooks'); ?>">[Notebooks]</a></div>
 
 <?php // TODO(mburman) use check_privileged
     if (isset($logged_in_user) &&

@@ -1,455 +1,273 @@
 
 <div class="home_container">
 
-<div class="home_title">Parallel Computer Architecture and Programming <span style="font-size: 12pt;">(CMU 15-418/618)</span> </div>
+<div class="home_title">Computer Vision <span style="font-size: 12pt;">(CMU 16-385)</span> </div>
 
 
-<p>This page contains lecture slides, videos, and recommended readings for the Spring 2017 offering of 15-418/618.
+<p>This page contains lecture slides and recommended readings for 16-385.</p>
 
-
-The full listing of lecture videos is available
-<a href="https://mediatech-stream.andrew.cmu.edu/Mediasite/Catalog/Full/d9502528c9724ad8b726f27a3a10c3a921" target="_blank">here</a>.
-
-</p>
 
 <div class="book_lecture">
      <div class="book_lecture_title">
-     <a href="<?php echo lecture_url('whyparallelism'); ?>">Lecture 1:
-     Why Parallelism? Why Efficiency?</a></div>
-     <div class="colored_text book_lecture_subtitle">(motivations for parallel chip decisions, challenges of parallelizing code)</div>
-     
-     <div class="book_lecture_indent">
-
-     <div>Further Reading:</div>
-     <ul>
-     <li><a href="http://queue.acm.org/detail.cfm?id=1095418" target="_blank">The Future of Microprocessors</a>. by K. Olukotun and L. Hammond, ACM Queue 2005</li>
-          <li><a href="http://dl.acm.org/citation.cfm?id=621693" target="_blank">Power: A First-Class Architectural Design Constraint</a>. by Trevor Mudge IEEE Computer 2001</li>
-     </ul>
-     </div>
-</div>
-
-
-
-<div class="book_lecture">
-     <div class="book_lecture_title" style="padding-bottom: 0px">
-     <a href="<?php echo lecture_url('basicarch'); ?>">Lecture 2: A Modern Multi-Core Processor</a></div>
-     <div class="colored_text book_lecture_subtitle">(forms of parallelism + understanding Latency and BW)</div>
-
-     <div class="book_lecture_indent">
-
-     <div class="resources>"
-     
-     <div>Further Reading:</div>
-     <ul>
-     <li><a href="https://queue.acm.org/detail.cfm?id=2181798" target="_blank">CPU DB: Recording Microprocessor History</a>. A. Danowitz, K. Kelley, J. Mao, J.P. Stevenson, M. Horowitz, ACM Queue 2005.
-     (You can also take a peak at the <a href="http://cpudb.stanford.edu/">CPU DB</a> website)</li>
-     <li><a href="https://software.intel.com/sites/default/files/managed/c5/9a/The-Compute-Architecture-of-Intel-Processor-Graphics-Gen9-v1d0.pdf" target="_blank">The Compute Architecture of Intel Processor Graphics</a>.
-     Intel Technical Report, 2015  (a very nice description of a modern throughput processor)</li>
-     <li><a href="http://www.realworldtech.com/haswell-cpu/" target="_blank">Intel's Haswell CPU Microarchitecture</a>. D. Kanter, 2013 (realworldtech.com article)</li>
-     <li><a href="https://images.nvidia.com/content/pdf/tesla/whitepaper/pascal-architecture-whitepaper.pdf" target="_blank">NVIDIA GP100 Pascal Whitepaper</a>. NVIDIA Technical Report 2016</li>
-     </ul>
-     </div>
-</div>
-
-
-
-<div class="book_lecture">
-     <div class="book_lecture_title" style="padding-bottom: 0px">
-     <a href="<?php echo lecture_url('progmodels'); ?>">Lecture 3: Parallel Programming Models</a></div>
-     <div class="colored_text book_lecture_subtitle">(ways of thinking about parallel programs, and their corresponding hardware implementations)</div>
-
-     <div class="book_lecture_indent">
-
-     <div class="resources">
-     
-     <div>Further Reading: (some fun systems)</div>
-     <ul>
-     <li><a href="https://ispc.github.io/index.html" target="_blank">ISPC Programmer's Manual</a></li>
-     <li><a href="https://www.threadingbuildingblocks.org/" target="_blank">Thread Building Blocks</a></li>
-     <li><a href="https://graphics.stanford.edu/papers/brookgpu/">Brook for GPUs: Stream Computing on Graphics Hardware</a>
-     <li><a href="http://groups.csail.mit.edu/cag/streamit/" target="_blank">MIT's StreaMIT Project</li>
-     </ul>     
-     </div>
-</div>
-
-
-<div class="book_lecture">
-     <div class="book_lecture_title" style="padding-bottom: 0px">
-     <a href="<?php echo lecture_url('progbasics'); ?>">Lecture 4: Parallel Programming Basics</a></div>
-     <div class="colored_text book_lecture_subtitle">(the thought process of parallelizing a program)</div>
-
-     <div class="book_lecture_indent">
-
-     <div class="resources">&nbsp;     
-     </div>
-</div>
-
-
-<div class="book_lecture">
-     <div class="book_lecture_title" style="padding-bottom: 0px">
-     <a href="<?php echo lecture_url('gpuarch'); ?>">Lecture 5: GPU Architecture and CUDA Programming</a></div>
-     <div class="colored_text book_lecture_subtitle">(CUDA programming abstractions, and how they are implemented on modern GPUs)</div>
-
-     <div class="book_lecture_indent">
-
-     <div>Further Reading:</div>
-     <ul>
-     <li>You may enjoy the free Udacity Course: <a href="https://www.udacity.com/course/cs344">Intro to Parallel Programming Using CUDA</a>, by Luebke and Owens</li>
-     <li>The <a href="http://thrust.github.io/" target="_blank">Thrust Library</a> is a useful collection library for CUDA.</li>
-     <li><a href="http://www.cs.cmu.edu/afs/cs.cmu.edu/academic/class/15869-f11/www/readings/blythe08_riseofgpu.pdf">Rise of the Graphics Processor</a>. D. Blythe (Proceedings of IEEE 2008)
-     a nice overview of GPU history.</li>
-     <li><a href="http://international.download.nvidia.com/geforce-com/international/pdfs/GeForce_GTX_1080_Whitepaper_FINAL.pdf" target="_blank">NVIDIA GeForce GTX 1080 Whitepaper</a>. NVIDIA Technical Report 2016</li>
-     <li><a href="https://images.nvidia.com/content/pdf/tesla/whitepaper/pascal-architecture-whitepaper.pdf" target="_blank">NVIDIA Tesla P100 Whitepaper</a>. NVIDIA Technical Report 2016</li>
-     <li><a href="https://software.intel.com/sites/default/files/managed/c5/9a/The-Compute-Architecture-of-Intel-Processor-Graphics-Gen9-v1d0.pdf" target="_blank">The Compute Architecture of Intel Processor Graphics</a>. Intel Technical Report, 2015  (a very nice description of a modern Intel integrated GPU)</li>
-     <li><a href="http://docs.nvidia.com/cuda/pascal-tuning-guide/index.html#axzz4XGAVWs4m" target="_blank">Pascal Tuning Guide</a>. NVIDIA CUDA Documentation</li>
-     </ul>
-     </div>
+     <a href="<?php echo lecture_url('intro'); ?>">Lecture 1:
+     Course Introduction</a></div>
+     <div class="colored_text book_lecture_subtitle">(Overview of computer vision)</div>
 </div>
 
 <div class="book_lecture">
-     <div class="book_lecture_title" style="padding-bottom: 0px">
-     <a href="<?php echo lecture_url('progperf1'); ?>">Lecture 6: Performance Optimization I: Work Distribution and Scheduling</a></div>
-     <div class="colored_text book_lecture_subtitle">(achieving good work distribution while minimizing overhead, scheduling Cilk programs with work stealing)</div>
-
-     <div class="book_lecture_indent">
-
-     <div>Further Reading:</div>
-     <ul>
-     <li><a href="https://www.cilkplus.org/">CilkPlus documentation</a></li>
-     <li><a href="http://supertech.csail.mit.edu/papers/steal.pdf" target="_blank">Scheduling Multithreaded Computations by Work Stealing</a>. by Blumofe and Leiserson, JACM 1999</li>
-     <li><a href="http://supertech.csail.mit.edu/papers/cilk5.pdf" target="_blank">Implementation of the Cilk 5 Multi-Threaded Language</a>. by Frigo et al. PLDI 1998</li>
-     <li><a href="https://www.threadingbuildingblocks.org/" target="_blank">Intel Thread Building Blocks</a></li>
-     </ul>
-     </div>
+<div class="book_lecture_title">
+<a href="<?php echo lecture_url('filtering'); ?>">Lecture 2:
+Image Filtering</a></div>
+<div class="colored_text book_lecture_subtitle">(Image transformations, point image processing, linear shift-invariant image filtering, convolution, image gradients)</div>
+<div>Basic reading:</div>
+<ul>
+<li><a href="http://szeliski.org/Book/">Szeliski textbook</a>, Section 3.2</li>
+</ul>
 </div>
 
 <div class="book_lecture">
-     <div class="book_lecture_title" style="padding-bottom: 0px">
-     <a href="<?php echo lecture_url('progperf2'); ?>">Lecture 7: Performance Optimization II: Locality, Communication, and Contention</a></div>
-     <div class="colored_text book_lecture_subtitle">(message passing, async vs. blocking sends/receives, pipelining, increasing arithmetic intensity, avoiding contention)</div>
-
+<div class="book_lecture_title">
+<a href="<?php echo lecture_url('pyramids'); ?>">Lecture 3:
+Image Pyramids and Frequency Domain</a></div>
+<div class="colored_text book_lecture_subtitle">(Image downsampling, aliasing, Gaussian image pyramid, Laplacian image pyramid, Fourier series, frequency domain, Fourier transform, frequency-domain filtering, sampling)</div>
+<div>Basic reading:</div>
+<ul>
+<li><a href="http://szeliski.org/Book/">Szeliski textbook</a>, Section 3.4, 3.5</li>
+</ul>
+<div>Additional reading:</div>
+<ul>
+<li> Burt and Adelson, <a href="http://persci.mit.edu/pub_pdfs/pyramid83.pdf">"The Laplacian Pyramid as a Compact Image Code"</a>, IEEE ToC 1983.  (The original Laplacian pyramid paper.)
+<li> Hubel and Wiesel, <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1359523/">"Receptive fields, binocular interaction and functional architecture in the cat's visual cortex"</a>, The Journal of Physiology 1962.  A foundational paper describing information processing in the visual system, including the different     types of filtering it performs; Hubel and Wiesel won the Nobel Prize in Medicine in 1981 for the discoveries described in this paper.
+</ul>
 </div>
 
 <div class="book_lecture">
-     <div class="book_lecture_title" style="padding-bottom: 0px">
-     <a href="<?php echo lecture_url('casestudies'); ?>">Lecture 8: Parallel Programming Case Studies</a></div>
-     <div class="colored_text book_lecture_subtitle">(examples of optimizing parallel programs)</div>
-</div>
-
-
-<div class="book_lecture">
-     <div class="book_lecture_title" style="padding-bottom: 0px">
-     <a href="<?php echo lecture_url('perfeval'); ?>">Lecture 9: Workload-Driven Performance Evaluation</a></div>
-     <div class="colored_text book_lecture_subtitle">(hard vs. soft scaling, memory-constrained scaling, scaling problem size, tips for analyzing code performance)</div>
-
-     <div class="book_lecture_indent">
-
-     <div>Further Reading:</div>
-     <ul>
-     <li><a href="https://people.eecs.berkeley.edu/~waterman/papers/roofline.pdf" target="_blank">Roofline: An Insightful Visual Performance Model for Multicore Architectures</a>. by S. Williams, A. Waterman, D. Patternson. CACM 2009</li>
-     <li><a href="http://docs.nvidia.com/cuda/profiler-users-guide/#axzz4YXNizAoc" target="_blank">NVProf Documentation</a></li>
-     <li><a href="https://software.intel.com/en-us/intel-vtune-amplifier-xe" target="_blank">Intel vTune</a></li>
-     </ul>
-     </div>
+<div class="book_lecture_title">
+<a href="<?php echo lecture_url('hough'); ?>">Lecture 4:
+Hough Transform</a></div>
+<div class="colored_text book_lecture_subtitle">(Finding boundaries, line fitting, line parameterization, Hough transform, Hough circles)</div>
+<div>Basic reading:</div>
+<ul>
+<li><a href="http://szeliski.org/Book/">Szeliski textbook</a>, Section 7.4, A.2</li>
+</ul>
 </div>
 
 <div class="book_lecture">
-     <div class="book_lecture_title" style="padding-bottom: 0px">
-     <a href="<?php echo lecture_url('cachecoherence1'); ?>">Lecture 10: Snooping-Based Cache Coherence</a></div>
-     <div class="colored_text book_lecture_subtitle">(definition of memory coherence, invalidation-based coherence using MSI and MESI, maintaining coherence with multi-level caches, false sharing)</div>
+<div class="book_lecture_title">
+<a href="<?php echo lecture_url('corners'); ?>">Lecture 5:
+Detecting Corners</a></div>
+<div class="colored_text book_lecture_subtitle">(Visualizing quadratics, Harris corner detector, multi-scale detection)</div>
+<div>Basic reading:</div>
+<ul>
+<li><a href="http://szeliski.org/Book/">Szeliski textbook</a>, Section 7.1</li>
+<li><a href="https://people.maths.ox.ac.uk/trefethen/lec4.ps">The Singular Value Decomposition</a> (from Numerical Linear Algebra by Trefethen and Bau).  <i>Note: The eigenvalues and eigenvectors of the covariance matrix (or any positive semidefinite matrix for that matter) are equivalent to its singular values and singular vectors.</i></li>
+</ul>
 </div>
 
 <div class="book_lecture">
-     <div class="book_lecture_title" style="padding-bottom: 0px">
-     <a href="<?php echo lecture_url('directorycoherence'); ?>">Lecture 11: Directory-Based Cache Coherence</a></div>
-     <div class="colored_text book_lecture_subtitle">(scaling problem of snooping, implementation of directories, directory storage optimization)</div>
-
-     <div class="book_lecture_indent">
-
-     <div>Further Reading:</div>
-     <ul>
-     <li><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.88.6826&rep=rep1&type=pdf" target="_blank">Reducing Memory and Traffic Requirements for Scalable Directory-Based Cache Coherence Schemes</a>. A Gupta et al. International Conference on Parallel Processing, 1990</li>
-     <li><a href="http://www.hotchips.org/wp-content/uploads/hc_archives/hc27/HC27.25-Tuesday-Epub/HC27.25.70-Processors-Epub/HC27.25.710-Knights-Landing-Sodani-Intel.pdf" target="_blank">Knights Landing: 2nd Generation Intel Xeon Phi Processor</a>. A Sodani, Hot Chips 25, 2015</li>
-     </ul>
-     </div>
-
+<div class="book_lecture_title">
+<a href="<?php echo lecture_url('features'); ?>">Lecture 6: Feature Detectors and Descriptors</a></div>
+<div class="colored_text book_lecture_subtitle">(Designing feature descriptors, MOPS descriptor, GIST descriptor, Histogram of Textons descriptor, HOG descriptor, SIFT)</div>
+<div>Basic reading:</div>
+<ul>
+<li><a href="http://szeliski.org/Book/">Szeliski textbook</a>, Section 7.1</li>
+</ul>
 </div>
 
 <div class="book_lecture">
-     <div class="book_lecture_title" style="padding-bottom: 0px">
-     <a href="<?php echo lecture_url('snoopimpl'); ?>">Lecture 12: A Basic Snooping-Based Multi-Processor Implementation</a></div>
-     <div class="colored_text book_lecture_subtitle">(deadlock, livelock, starvation, implementation of coherence on an atomic and split-transaction bus)</div>
-</div>
-
-
-<div class="book_lecture">
-     <div class="book_lecture_title" style="padding-bottom: 0px">
-     <a href="<?php echo lecture_url('consistency'); ?>">Lecture 13: Memory Consistency</a></div>
-     <div class="colored_text book_lecture_subtitle">(consistency vs. coherence, relaxed consistency models and their motivation, acquire/release semantics)</div>
-
-     <div class="book_lecture_indent">
-
-     <div>Further Reading:</div>
-     <ul>
-     <li><a href="https://lagunita.stanford.edu/c4x/Engineering/CS316/asset/A_Primer_on_Memory_Consistency_and_Coherence.pdf" target="_blank">A Primer on Memory Consistency and Coherence</a>. by Sorin, Hill, and Wood.</li>
-     <li><a href="http://www.cl.cam.ac.uk/~pes20/weakmemory" target="_blank">A Useful Page with Links to a Bunch of Resources on Relaxed Memory Models</a></li>
-     </ul>
-     </div>
+<div class="book_lecture_title">
+<a href="<?php echo lecture_url('transformations'); ?>">Lecture 7: 2D Transformations</a></div>
+<div class="colored_text book_lecture_subtitle">(2D transformations, projective geometry, classification of 2D transformations, determining unknown 2D transformations)</div>
+<div>Basic reading:</div>
+<ul>
+<li><a href="http://szeliski.org/Book/">Szeliski textbook</a>, Section 2.1</li>
+</ul>
+<div>Additional reading:</div>
+<ul>
+<li> Hartley and Zisserman, <a href="https://www.robots.ox.ac.uk/~vgg/hzbook/">"Multiple View Geometry in Computer Vision"</a>, Cambridge University Press 2004.
+A comprehensive treatment of all aspects of projective geometry relating to computer vision, and also a very useful reference for the second part of the class.</li>
+<li> Richter-Gebert, <i>"Perspectives on projective geometry"</i>, Springer 2011.  A beautiful, thorough, and very accessible mathematics textbook on projective geometry (available     online for free from CMU&apos;s library).</li>
+</ul>
 </div>
 
 <div class="book_lecture">
-     <div class="book_lecture_title" style="padding-bottom: 0px">
-     <a href="<?php echo lecture_url('webscaling'); ?>">Lecture 14: Scaling a Web Site</a></div>
-     <div class="colored_text book_lecture_subtitle">(scale out, load balancing, elasticity, caching)</div>
-
-     <div class="book_lecture_indent">
-
-     <div>Further Reading:</div>
-     <ul>
-     <li><a href="http://www.highscalability.com" target="_blank">www.highscalability.com</a>. A cool site with many case studies (see "All Time Favorites" section)</li>
-     <li><a href="http://perspectives.mvdirona.com" target="_blank">James Hamilton's Blog</li></ul>
-     </div>
+<div class="book_lecture_title">
+<a href="<?php echo lecture_url('homographies'); ?>">Lecture 8: Image Homographies</a></div>
+<div class="colored_text book_lecture_subtitle">(Panoramas, Image homographies, Computing with homographies, direct linear transform (DLT), random sample consensus (RANSAC))</div>
+<div>Basic reading:</div>
+<ul>
+<li><a href="http://szeliski.org/Book/">Szeliski textbook</a>, Section 2.1</li>
+</ul>
+<div>Additional reading:</div>
+<ul>
+<li> Hartley and Zisserman, <a href="https://www.robots.ox.ac.uk/~vgg/hzbook/">"Multiple View Geometry in Computer Vision"</a>, Cambridge University Press 2004.
+Sections 2 and 4 in particular discuss everything about homography estimation.
+</ul>
 </div>
-
-
+                                                                                                                                                                           
 <div class="book_lecture">
-     <div class="book_lecture_title" style="padding-bottom: 0px">
-     <a href="<?php echo lecture_url('interconnects'); ?>">Lecture 15: Interconnection Networks</a></div>
-     <div class="colored_text book_lecture_subtitle">(network properties, topology, basics of flow control)</div>
-
-     <div class="book_lecture_indent">
-
-     <!--
-     <div>Further Reading:</div>
-     <ul>
-     <li><a href="" target="_blank"></a>. by XXXX</li>
-     </ul>
-     -->
-     </div>
+<div class="book_lecture_title">
+<a href="<?php echo lecture_url('cameras'); ?>">Lecture 9: Geometric Camera Models</a></div>
+<div class="colored_text book_lecture_subtitle">(Pinhole camera, accidental pinholes, camera matrix)</div>
+<div>Basic reading:</div>
+<ul>
+<li><a href="http://szeliski.org/Book/">Szeliski textbook</a>, Section 2.1</li>
+</ul>
+<div>Additional reading:</div>
+<ul>
+<li> Hartley and Zisserman, <a href="https://www.robots.ox.ac.uk/~vgg/hzbook/">"Multiple View Geometry in Computer Vision"</a>, Cambridge University Press 2004.
+Chapter 6 of this book has a very thorough treatment of camera models.
+<li> Torralba and Freeman, <a href="http://people.csail.mit.edu/torralba/publications/shadows.pdf">"Accidental Pinhole and Pinspeck Cameras"</a>, CVPR 2012.
+</ul>
 </div>
-
+                                                                                                                                                                           
 <div class="book_lecture">
-     <div class="book_lecture_title" style="padding-bottom: 0px">
-     <a href="<?php echo lecture_url('synchronization'); ?>">Lecture 16: Implementing Synchronization</a></div>
-     <div class="colored_text book_lecture_subtitle">(machine-level atomic operations, implementing locks, implementing barriers)</div>
-
-     <div class="book_lecture_indent">
-
-     <!--
-     <div>Further Reading:</div>
-     <ul>
-     <li><a href="" target="_blank"></a>. by XXXX</li>
-     </ul>
-     -->
-     </div>
-
+<div class="book_lecture_title">
+<a href="<?php echo lecture_url('cameras2'); ?>">Lecture 10: Geometric Camera Models (cont.)</a></div>
+<div class="colored_text book_lecture_subtitle">(Review of camera matrix, perspective, other camera models, pose estimation)</div>
+<div>Basic reading:</div>
+<ul>
+<li><a href="http://szeliski.org/Book/">Szeliski textbook</a>, Section 2.1</li>
+<li><a href="https://www.robots.ox.ac.uk/~vgg/hzbook/">Hartley and Zisserman textbook</a>, Chapter 6.</li>
+</ul>
 </div>
 
 <div class="book_lecture">
-     <div class="book_lecture_title" style="padding-bottom: 0px">
-     <a href="<?php echo lecture_url('lockfree'); ?>">Lecture 17: Fine-Grained Synchronization and Lock-Free Programming</a></div>
-     <div class="colored_text book_lecture_subtitle">(fine-grained snychronization via locks, basics of lock-free programming: single-reader/writer queues, lock-free stacks, the ABA problem, hazard pointers)</div>
+<div class="book_lecture_title">
+<a href="<?php echo lecture_url('stereogeometry'); ?>">Lecture 11: Two-View Geometry</a></div>
+<div class="colored_text book_lecture_subtitle">(Triangulation, epipolar geometry, essential matrix, fundamental matrix, 8-point algorithm)</div>
+<div>Basic reading:</div>
+<ul>
+<li><a href="http://szeliski.org/Book/">Szeliski textbook</a>, Section 11.2.4, 11.3.1, 11.3.2, 11.3.3</li>
+<li><a href="https://www.robots.ox.ac.uk/~vgg/hzbook/">Hartley and Zisserman textbook</a>, Section 11.12.</li>
+</ul>
+</div>
 
-     <div class="book_lecture_indent">
+                                                                                                                                                                           
+<div class="book_lecture">
+<div class="book_lecture_title">
+<a href="<?php echo lecture_url('stereo'); ?>">Lecture 12: Stereo</a></div>
+<div class="colored_text book_lecture_subtitle">(Revisiting triangulation, disparity, stereo rectification, stereo matching, improved stereo matching)</div>
+<div>Basic reading:</div>
+<ul>
+<li><a href="http://szeliski.org/Book/">Szeliski textbook</a>, Section 12.1, 12.5</li>
+<li><a href="https://www.robots.ox.ac.uk/~vgg/hzbook/">Hartley and Zisserman textbook</a>, Section 11.12.</li>
+</ul>
+</div>
 
-     <div>Further Reading:</div>
-     <ul>
-       <li><a href="https://www.cl.cam.ac.uk/research/srg/netos/papers/2001-caslists.pdf" target="_blank">A Pragmatic Implementation of
-          Non-Blocking Linked-Lists</a>. by T. Harris, 2001</li>
-       <li><a href="http://www.cse.yorku.ca/~ruppert/papers/lfll.pdf" target="_blank">Lock-Free Linked Lists and Skip Lists</a>. by M. Fomitchev and E. Ruppert, 2004</li>
-       <li><a href="https://www.research.ibm.com/people/m/michael/ieeetpds-2004.pdf" target="_blank">Hazard Pointers: Safe Memory Reclamation for
-     Lock-Free Objects</a>. by M. Michael, IEEE Trans on Parallel and Distributed Systems, 2004</li>
-       <li><a href="http://www.drdobbs.com/lock-free-data-structures-with-hazard-po/184401890" target="_blank">Lock-Free Data Structures with Hazard pointers</a>. by A. Alexandrescu and M. Michael, Dr. Dobbs, 2004</li>
-     </ul>
-     
-     </div>
+<div class="book_lecture">
+<div class="book_lecture_title">
+<a href="<?php echo lecture_url('bow'); ?>">Lecture 13 &amp; 14: Image Classification</a></div>
+<div class="colored_text book_lecture_subtitle">(Introduction to learning-based vision, image classification, bag-of-words, K-means clustering, classification, K-nearest neighbors, naive Bayes, support vector machines)</div>
+<div>Basic reading:</div>
+<ul>
+<li><a href="http://szeliski.org/Book/">Szeliski textbook</a>, Chapter 6.2</li>
+</ul>
+</div>
+
+<div class="book_lecture">
+<div class="book_lecture_title">
+<a href="<?php echo lecture_url('nn'); ?>">Lecture 15 &amp; 16: Neural Networks</a></div>
+<div class="colored_text book_lecture_subtitle">(Perceptron, neural networks, training perceptrons, gradient descent, backpropagation, stochastic gradient descent)</div>
+<div>Basic reading (No standard textbooks yet!):</div>
+<ul>
+<li><a href="https://sites.google.com/site/deeplearningsummerschool/">Lectures: Deep Learning Summer School</a></li>
+<li><a href="http://www.deeplearningbook.org/">Book: Deep Learning, by Goodfellow, Bengio, and Courville</a></li>
+<li><a href="http://www.cs.toronto.edu/~hinton/absps/NatureDeepReview.pdf">Article: Deep Learning, by LeCun, Bengio, and Hinton</a></li>
+</ul>
+</div>
+
+<div class="book_lecture">
+<div class="book_lecture_title">
+<a href="<?php echo lecture_url('cnn'); ?>">Lecture 17: Convolutional Neural Networks</a></div>
+<div class="colored_text book_lecture_subtitle">(Some notes on optimization, convolutional neural networks, training ConvNets)</div>
+<div>Basic reading (No standard textbooks yet!):</div>
+<ul>
+<li><a href="https://sites.google.com/site/deeplearningsummerschool/">Lectures: Deep Learning Summer School</a></li>
+<li><a href="http://www.deeplearningbook.org/">Book: Deep Learning, by Goodfellow, Bengio, and Courville</a></li>
+<li><a href="http://www.cs.toronto.edu/~hinton/absps/NatureDeepReview.pdf">Article: Deep Learning, by LeCun, Bengio, and Hinton</a></li>
+</ul>
+</div>
+
+<div class="book_lecture">
+<div class="book_lecture_title">
+<a href="<?php echo lecture_url('flow'); ?>">Lecture 18: Optical Flow</a></div>
+<div class="colored_text book_lecture_subtitle">(Intro to vision for video, optical flow, constant flow, Horn-Schunck flow)</div>
+<div>Basic reading:</div>
+<ul>
+<li><a href="http://szeliski.org/Book/">Szeliski textbook</a>, Section 8.4</li>
+</ul>
+</div>
+
+<div class="book_lecture">
+<div class="book_lecture_title">
+<a href="<?php echo lecture_url('track'); ?>">Lecture 19 &amp; 20: Alignment and Tracking</a></div>
+<div class="colored_text book_lecture_subtitle">(Motion magnification using optical flow, image alignment, Lucas-Kanade alignment, Baker-Matthews alignment, inverse alignment, KLT tracking, mean-shift tracking, modern trackers)</div>
+<div>Basic reading:</div>
+<ul>
+<li><a href="http://szeliski.org/Book/">Szeliski textbook</a>, Section 4.1.1, 5.3, 8.1</li>
+</ul>
 </div>
 
 
 <div class="book_lecture">
-     <div class="book_lecture_title" style="padding-bottom: 0px">
-     <a href="<?php echo lecture_url('transactionalmem'); ?>">Lecture 18: Transactional Memory</a></div>
-     <div class="colored_text book_lecture_subtitle">(motivation for transactions, design space of transactional memory implementations, lazy-optimistic HTM)</div>
-
-     <div class="book_lecture_indent">
-
-     <div>Further Reading:</div>
-     <ul>
-     <li><a href="http://www.intel.com/content/www/us/en/architecture-and-technology/64-ia-32-architectures-optimization-manual.html" target="_blank">Intel Optimization Manual, Chapter 12</a></li>
-     <li><a href="https://software.intel.com/en-us/node/524025" target="_blank">Intel Restricted Transactional Memory Overview</a></li>
-     <li>Students may find it helpful to read the background chapters of <a href="http://csl.stanford.edu/~christos/publications/2009.austen_mcdonald.phd_thesis.pdf" target="_blank">Austen McDonald's Thesis</a></li>
-     </ul>
-
-     </div>
+<div class="book_lecture_title">
+<a href="<?php echo lecture_url('radiometry'); ?>">Lecture 21 &amp; 22: Radiometry and Reflectance</a></div>
+<div class="colored_text book_lecture_subtitle">(Appearance phenomena, measuring light and radiometry, reflectance and BRDF)</div>
+<div>Basic reading:</div>
+<ul>
+<li><a href="http://szeliski.org/Book/">Szeliski textbook</a>, Section 2.2</li>
+<li>Steven Gortler, <i>Foundations of Computer Graphics</i>, Chapter 21.  This book has a great introduction to radiometry, reflectance, and their use for image formation.</li>
+</ul>
 </div>
 
 <div class="book_lecture">
-     <div class="book_lecture_title" style="padding-bottom: 0px">
-     <a href="<?php echo lecture_url('heterogeneity'); ?>">Lecture 19: Heterogeneous Parallelism and Hardware Specialization</a></div>
-     <div class="colored_text book_lecture_subtitle">(energy-efficient computing, motivation for heterogeneous processing, fixed-function processing, FPGAs, what's in a modern SoC)</div>
-
-     <div class="book_lecture_indent">
-
-     <div>Further Reading:</div>
-     <ul>
-     <li><a href="http://international.download.nvidia.com/pdf/tegra/Tegra-X1-whitepaper-v1.0.pdf" target="_blank">NVIDIA Tegra X1 Whitepaper</a></li>
-     <li><a href="http://research.cs.wisc.edu/multifacet/papers/ieeecomputer08_amdahl_multicore.pdf" target="_blank">Amdahl's Law in the Multicore Era</a>. by M. Hill and M. Marty. IEEE Computer 2008</li>
-     <li><a href="http://csl.stanford.edu/~christos/publications/2010.efficiency.isca.pdf" target="_blank">Understanding Sources of Inefficiency in General-Purpose Chips</a>. by Hameed et al. ISCA 2010</li>
-     <li><a href="https://arxiv.org/abs/1602.01528" target="_blank">EIE: Efficient Inference Engine on Compressed Deep Neural Network</a>. by Han et al. ISCA 2016</li>
-     <li><a href="https://www.hotchips.org/wp-content/uploads/hc_archives/hc25/HC25.70-Mobility-epub/HC25.27.712-Hot%20Chips%202013%20Final%20Presentation%20--%20Qualcomm_Lucian_Codrescu%20v2.pdf" target="_blank">Qualcomm Hexagon DSP: An architecture optimized for mobile multimedia and communications</a>. (HotChips 25, 2013)</li>
-     </ul>
- 
-     </div>
+<div class="book_lecture_title">
+<a href="<?php echo lecture_url('photometricstereo'); ?>">Lecture 23: Photometric Stereo</a></div>
+<div class="colored_text book_lecture_subtitle">(Notes about radiometry, the n-dot-l model, photometric stereo, uncalibrated photometric stereo, generalized bas-relief ambiguity, shape from shading)</div>
+<div>Basic reading:</div>
+<ul>
+<li><a href="http://szeliski.org/Book/">Szeliski textbook</a>, Section 2.2</li>
+<li>Steven Gortler, <i>Foundations of Computer Graphics</i>, Chapter 21.  This book has a great introduction to radiometry, reflectance, and their use for image formation.</li>
+</ul>
 </div>
 
 <div class="book_lecture">
-     <div class="book_lecture_title" style="padding-bottom: 0px">
-     <a href="<?php echo lecture_url('dsl'); ?>">Lecture 20: Domain-Specific Programming Systems</a></div>
-     <div class="colored_text book_lecture_subtitle">(motivation for DSLs, case studies on Lizst and Halide)</div>
+<div class="book_lecture_title">
+<a href="<?php echo lecture_url('photography'); ?>">Lecture 24 &amp; 25: Digital Photography</a></div>
+<div class="colored_text book_lecture_subtitle">(Imaging sensor primer, color sensing in cameras, in-camera image processing pipeline, radiometric calibration)</div>
+<div>Basic reading:</div>
+<ul>
+<li><a href="http://szeliski.org/Book/">Szeliski textbook</a>, Section 2.3</li>
+<li>Michael Brown, "Understanding the In-Camera Image Processing Pipeline for Computer Vision," CVPR 2016,
+very detailed discussion of issues relating to color photography and management, slides available <a href="https://www.eecs.yorku.ca/~mbrown/CVPR2016_Brown.html">here</a>.</li>
+<li><a href="https://ninedegreesbelow.com/">Nine Degrees Below</a>: amazing resource for color photography, reproduction, and management.</li>
+</ul>
+</div>
 
-     <div class="book_lecture_indent">
+<!--
 
-     <div>Further Reading:</div>
-     <ul>
-     <li><a href="http://graphics.stanford.edu/hackliszt/" target="_blank">Lizst: A DSL for solving mesh-based PDEs</a></li>
-     <li><a href="http://halide-lang.org/" target="_blank">Halide: a language for image processing and computational photography</a>. J. Ragan-Kelley et al. [2012, 2014]</li>
-     <li><a href="http://graphics.cs.cmu.edu/projects/halidesched/" target="_blank">Automatically Scheduling Halide Image Processing Pipelines</a>. Mullapudi et al. 2016</li>
-     <li><a href="http://graphics.stanford.edu/papers/rigel/" target="_blank">Rigel: Flexible Multi-Rate Image Processing Hardware</a>. Hegarty et al. SIGGRAPH 2016 (<a href="https://github.com/jameshegarty/rigel" target="_blank">code</a>)</li>
-     <li><a href="http://optlang.org/" target="_blank">Opt: A Domain Specific Language for Non-linear Least Squares Optimization in Graphics and Imaging</a>. Z. DeVito et al. 2016</li>
-     <li><a href="http://ebblang.org/" target="_blank">Ebb: A DSL for Physical Simulation on CPUs and GPUs</a>. G. Bernstein et al. 2016</li>
-     <li><a href="http://people.csail.mit.edu/jrk/simit.pdf" target="_blank">Simit:  A Language for Physical Simulation</a>. Kjolstad et al. 2015</li>
-     <li><a href="http://groups.csail.mit.edu/commit/papers/2016/why.pdf" target="_blank">Why New Programming Languages for Simulation?</a>. G. Bernstein and F. Kjolstad, TOG 2016</li>
-     </ul>
-     </div>
+<div class="book_lecture">
+<div class="book_lecture_title">
+<a href="<?php echo lecture_url('segmentation'); ?>">Lecture 27: Segmentation and Graph-based Techniques</a></div>
+<div class="colored_text book_lecture_subtitle">(Segmentation, image as a graph, shortest graph paths and intelligent scissors, GrabCut)</div>
+<div>Basic reading:</div>
+<ul>
+<li><a href="http://szeliski.org/Book/">Szeliski textbook</a>, Section 5.1.3, 5.3.1, 9.3.2, 9.3.3, 10.4.3</li>
+</ul>
 </div>
 
 <div class="book_lecture">
-     <div class="book_lecture_title" style="padding-bottom: 0px">
-     <a href="<?php echo lecture_url('graphdsl'); ?>">Lecture 21: Domain-Specific Programming on Graphs</a></div>
-     <div class="colored_text book_lecture_subtitle">(GraphLab, Ligra, and GraphChi, streaming graph processing, graph compression)</div>
-
-     <div class="book_lecture_indent">
-
-     <div>Further Reading:</div>
-     <ul>
-     <li><a href="http://jshun.github.io/ligra/" target="_blank">Ligra Web Site</a> (see bottom of <a href="http://jshun.github.io/ligra/docs/introduction.html" target="_blank">this page</a> for Ligra papers)</li>
-     <li><a href="http://www.cs.cmu.edu/~pavlo/courses/fall2013/static/papers/osdi2012-graphchi.pdf" target="_blank">GraphChi: Large-Scale Graph Computation on Just a PC</a>. by Kyrola et al. OSDI 12
-     <li><a href="http://select.cs.cmu.edu/code/graphlab/" target="_blank">GraphLab Documentation</a> (now see <a href="https://turi.com/" target="_blank">Turi's site</a>)</li>
-     <li><a href="http://spark.apache.org/graphx/" target="_blank">Apache Spark's GraphX Framework</a></li>
-     </ul>
-     </div>
+<div class="book_lecture_title">
+<a href="<?php echo lecture_url('compimaging'); ?>">Lecture 26: Special Topics: Computational Imaging</a></div>
+<div class="colored_text book_lecture_subtitle">(Computational cameras, computational displays, light transport matrices)</div>
 </div>
 
-<div class="book_lecture">
-     <div class="book_lecture_title" style="padding-bottom: 0px">
-     <a href="<?php echo lecture_url('spark'); ?>">Lecture 22: In-Memory Distributed Computing using Spark</a></div>
-     <div class="colored_text book_lecture_subtitle">(producer-consumer locality, RDD abstraction, Spark implementation and scheduling)</div>
-
-     <div class="book_lecture_indent">
-
-     <div>Further Reading:</div>
-     <ul>
-     <li><a href="http://spark.apache.org" target="_blank">Apache Spark Web Site</a></li>
-     <li><a href="https://www.usenix.org/system/files/conference/nsdi12/nsdi12-final138.pdf" target="_blank">Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing</a>. by Zaharia et al. NSDI 2012</li>
-     <li><a href="https://www.usenix.org/system/files/conference/hotos15/hotos15-paper-mcsherry.pdf" target="_blank">Scalability! But at What COST?</a>. F. McSherry et al. HotOS 2015</li>
-     <li><a href="https://www.oreilly.com/learning/accelerating-spark-workloads-using-gpus" target="_blank">Accelerating Spark Workloads Using GPUs</a>. by R. Bordawekar, 2016</li>
-     <li><a href="https://cs.stanford.edu/~matei/papers/2017/cidr_weld.pdf" target="_blank">Weld: A Common Runtime for High Performance Data Analytics</a>, by S. Palkar, CIDR 2017</li>
-     <li><a href="https://sparkhub.databricks.com/video/deep-dive-into-project-tungsten-bringing-spark-closer-to-bare-metal/" target="_blank">Deep Dive into Project Tungsten: Bringing Apache Spark Closer to Bare Metal</a>. J. Rosen 2015</li>
-     </ul>
-     </div>
-</div>
+-->
 
 <div class="book_lecture">
-     <div class="book_lecture_title" style="padding-bottom: 0px">
-     <a href="<?php echo lecture_url('dnn'); ?>">Lecture 23: Efficiently Evaluating Deep Networks</a></div>
-     <div class="colored_text book_lecture_subtitle">(intro to deep networks, what a convolution does, mapping convolution to matrix multiplication, deep network compression)</div>
-
-     <div class="book_lecture_indent">
-
-     <div>Further Reading:</div>
-     <ul>
-     <li><a href="http://cs231n.stanford.edu" target="_blank">Stanford cs231: Convolutional Neural Networks for Visual Recognition</a>. I recommend that you read through the lecture notes for modules 1 and 2 for a very nice explanation of key topics.</li>     
-     <li><a href="http://neuralnetworksanddeeplearning.com" target="_blank">Neural Networks and Deep Learning</a>, Nielson, 2016 (a free online book)</li> 
-     <li>Check out the <a href="https://www.tensorflow.org/" target="_blank">TensorFlow</a> tutorials and play around in the <a href="http://playground.tensorflow.org" target="_blank">TensorFlow Playground</a></li>
-     <li><a href="https://arxiv.org/pdf/1311.2901v1.pdf" target="_blank">Visualizing and Understanding Convolutional Neural Networks</a>, Zeiler and Fergus, ECCV14</li>
-     <li><a href="https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf" target="_blank">ImageNet Classification with Deep Convolutional Neural Networks</a>. Krizhevsky et al. NIPS 2012 (this is the original "AlexNet" paper)</li>
-     <li><a href="https://arxiv.org/abs/1409.4842" target="_blank">Going Deeper with Convolutions</a>, Szegedy et al. CVPR 2015 (this is the original Google Inception paper)</li>
-     <li><a href="https://arxiv.org/abs/1602.07360" target="_blank">SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and &lt;0.5MB model size</a>, Iandola et al. 2016</li>
-     <li><a href="https://arxiv.org/pdf/1510.00149.pdf" target="_blank">Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding</a>, Han et al. ICLR 2016</li>
-     <li><a href="https://arxiv.org/abs/1602.01528" target="_blank">EIE: Efficient Inference Engine on Compressed Deep Neural Network</a>, Han et al. ISCA 2016</li>
-     <li><a href="https://drive.google.com/file/d/0Bx4hafXDDq2EMzRNcy1vSUxtcEk/view" target="_blank">In-Datacenter Performance Analysis of a Tensor Processing Unit</a>. Jouppi et al. ISCA 2017</li>     
-     </ul>
-     </div>
-</div>
-
-<div class="book_lecture">
-     <div class="book_lecture_title" style="padding-bottom: 0px">
-     <a href="<?php echo lecture_url('dnntraining'); ?>">Lecture 24: Parallel Deep Network Training</a></div>
-     <div class="colored_text book_lecture_subtitle">(basics of gradient descent and backpropagation, memory footpring issues, asynchronous parallel implementations of gradient descent)</div>
-
-     <div class="book_lecture_indent">
-
-     <div>Further Reading:</div>
-     <ul>
-     <li><a href="https://www.cs.cmu.edu/~muli/file/parameter_server_osdi14.pdf" target="_blank">Scaling Distributed Machine Learning with the Parameter Server</a>, Li et al. OSDI 2014</li>
-     <li><a href="https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-chilimbi.pdf" target="_blank">Project Adam: Building an Efficient and Scalable Deep Learning Training System</a>, Chilimbi et al. OSDI 2014</li>
-     <li><a href="https://arxiv.org/abs/1511.00175" target="_blank">FireCaffe: Near-linear Acceleration of Deep Neural Network Training on Compute Clusters</a>, Iandola et al. CVPR 2016</li>
-     </ul>
-
-     </div>
-</div>
-
-<div class="book_lecture">
-     <div class="book_lecture_title" style="padding-bottom: 0px">
-     <a href="<?php echo lecture_url('memory'); ?>">Lecture 25: Addressing the Memory Wall</a></div>
-     <div class="colored_text book_lecture_subtitle">(how DRAM works, cache compression, DRAM compression, upcoming memory technologies like 3D stacking)</div>
-
-     <div class="book_lecture_indent">
-
-     <div>Further Reading:</div>
-     <ul>
-     <li><a href="https://users.ece.cmu.edu/~omutlu/pub/bdi-compression_pact12.pdf" target="_blank">Base-Delta-Immediate Compression: Practical Data Compression for On-Chip Caches</a>. by Pekhimenko et al. PACT 2012</li>
-     <li><a href="http://www.anandtech.com/show/11002/the-amd-vega-gpu-architecture-teaser/3" target="_blank">AnandTech Article on HBM2</a></li>
-     </ul>
-     </div>
-</div>
-
-<div class="book_lecture">
-     <div class="book_lecture_title" style="padding-bottom: 0px">
-     <a href="<?php echo lecture_url('hpcfuture'); ?>">Lecture 26: The Future of High-Performance Computing</a></div>
-     <div class="colored_text book_lecture_subtitle">(supercomputing vs. distributed computing/analytics, design philosophy of both systems)</div>
-</div>
-
-<div class="book_lecture">
-     <div class="book_lecture_title" style="padding-bottom: 0px">
-     <a href="<?php echo lecture_url('dbscaling'); ?>">Lecture 27: Database Systems Do Not Scale to 1000 CPU Cores</a></div>
-     <div class="bold_text">(Guest lecture by <a href="http://www.cs.cmu.edu/~pavlo/">Andy Pavlo</a>)</div>
-     <div class="colored_text book_lecture_subtitle">(concurrency control in databases, transactions, two-phase locking, timestamp ordering)</div>
-
-     <div class="book_lecture_indent">
-     <div>Further Reading:</div>
-     <ul>
-     <li><a href="http://www.vldb.org/pvldb/vol8/p209-yu.pdf" target="_blank">Staring into the Abyss: An Evaluation of
-     Concurrency Control with One Thousand Cores</a>. Yu et al. VLDB Endowment 2014</li>
-     </ul>
-     </div>
-</div>
-
-
-<div class="book_lecture">
-     <div class="book_lecture_title" style="padding-bottom: 0px">
-     <a href="<?php echo lecture_url('finaltips'); ?>">Lecture 28: Course Wrap Up + How to Give a Talk</a></div>
-     <div class="colored_text book_lecture_subtitle">(tips for giving a clear talk, a bit of philosophy)</div>
-
-     <div class="book_lecture_indent">
-
-     <div>Further Reading:</div>
-     <ul>
-     <li><a href="http://www.cs.cmu.edu/~kayvonf/misc/cleartalktips.pdf" target="_blank">Kayvon's Clear Talk Tips</a> (expanded version)</li>
-     <li><a href="http://www.cs.cmu.edu/~kayvonf/misc/do_grades_matter.pdf" target="_blank">Do Grades Matter</a> (a discussion about thinking beyond classes at CMU)</li>
-     </ul>
-
-     </div>
+<div class="book_lecture_title">
+<a href="<?php echo lecture_url('wrapup'); ?>">Lecture 26: Wrap-up</a></div>
 </div>
 
 
