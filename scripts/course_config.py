@@ -32,9 +32,9 @@ mysql_command = "jexec http-16385 mysql";
 
 database_name = '16385_spring2026';
 
-database_user = 'debian-sys-maint';
+database_user = 'root';
 
-database_passwd = 'WvEqoclImX1fE2qG';
+database_passwd = 'ph0t0Rea1ism';
 
 ##################################################
 # Apache configuration
