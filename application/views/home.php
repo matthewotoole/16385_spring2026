@@ -1,37 +1,52 @@
 
 <div class="home_container">
 
-<div class="home_title">Computer Vision <span style="font-size: 12pt;">(CMU 16-385)</span> </div>
+<div class="home_title">Parallel Computer Architecture and Programming <span style="font-size: 12pt;">(CMU 15-418/618)</span> </div>
 
-<div>
-<img style="padding-bottom: 5px;" src="http://16385.courses.cs.cmu.edu/spring2024/assets/images/banner.png" width="800"></a>
-</div>
+<!--
 
-<p style="padding-bottom: .15em"> This course provides a comprehensive
-introduction to computer vision. Major topics include image processing,
-detection and recognition, geometry-based and physics-based vision and
-video analysis. Students will learn basic concepts of computer vision
-as well as hands on experience to solve real-life vision problems.  </p>
+<div class="bold_text colored_text">
+
+<p style="font-size: 14pt;">NOTE TO STUDENTS ON THE SPRING 2017 WAITLIST:</p>
+
+<p>We are excited that so many students are interested in 418/618.
+This year, we expect to be able to accommodate approximately 200
+students in 15-418/618.</p>
+
+<p style="font-size: 14pt;">YOUR ORDER ON THE WAITLIST IN S3 DOES NOT MATTER.</p>
+
+<p>After handling special requests and students with a particular need
+to take 418/618 to graduate (please come talk to us if you're one of
+those folks), it is Prof. Kayvon and Prof. Bryant's policy to clear
+the waitlist in the order that interested students hand in "A-quality"
+implementations of assignment 1 prior to the course add deadline (the
+end of the second week of class).  Assignment 1 is out and available
+below.  Lecture 2 material is necessary to complete the assignment.
+</p> </div>
+
+-->
+
+<p style="padding-bottom: .15em"> From smart phones, to multi-core
+CPUs and GPUs, to the world's largest supercomputers and web sites,
+parallel processing is ubiquitous in modern computing. The goal of
+this course is to provide a deep understanding of the fundamental
+principles and engineering trade-offs involved in designing modern
+parallel computing systems as well as to teach parallel programming
+techniques necessary to effectively utilize these machines.  Because
+writing good parallel programs requires an understanding of key
+machine performance characteristics, this course will cover both
+parallel hardware and software design.  </p>
 
 <div class="overview_main_item overview_ruled_element">Basic Info</div>
 
 <div style="padding-bottom: 15px;">
-<div>Mon/Wed 12:30pm-1:50pm</div>
-<div>WEH 7500</div>
-<div>Instructor: <a href="http://www.cs.cmu.edu/~motoole2">Matthew O'Toole</a></div>
-<div style="padding-top:1em;">See the <a href="<?php echo site_url('courseinfo'); ?>">Course Info</a> page for more info on policies and logistics.</div>
+<div>Mon/Wed 1:30-2:50pm (recitation on Fri 1:30-2:50pm)</div>
+<div>GHC 4401 (Rashid Auditorium)</div>
+<div>Instructors: <a href="http://www.cs.cmu.edu/~kayvonf">Kayvon Fatahalian</a> and <a href="http://www.cs.cmu.edu/~bryant">Randy Bryant</a></div>
+<div style="padding-top:1em;">See the <a href="<?php echo site_url('courseinfo'); ?>">course info</a> page for more info on policies and logistics.</div>
 </div>
 
-<div class="overview_main_item overview_ruled_element">Getting Started</div>
-
-To get started with the class you need to do just three things:
-<ol>
-<li><a href="https://piazza.com/cmu/spring2024/16385a/home">Sign up</a> for the course Piazza.</li>
-<li><a href="http://16385.courses.cs.cmu.edu/spring2024/users/create">Sign up</a> for an account on this webpage.  (The signup code is on Canvas.)</li>
-                                                                                                                  <li>Carefully read through the <a href="<?php echo site_url('courseinfo'); ?>">Course Info</a>.</li>
-                                                                                                                </ol>
-
-<div class="overview_main_item overview_ruled_element">Spring 2024 Schedule</div>
+<div class="overview_main_item overview_ruled_element">Spring 2017 Schedule</div>
 
 <table>
 
@@ -78,83 +93,85 @@ function lecture_def($date, $title, $link, $fmt='', $extras=array()) {
 
 $lectures = array(
 
-     lecture_def('Jan 17 (Wed)', 'Course Introduction', lecture_url('intro'), 'bold'),
-                  
-     lecture_def('Jan 22 (Mon)', 'Image Filtering', lecture_url('filtering'), 'bold'),
-                     
-     lecture_def('Jan 24 (Wed)', 'Image Pyramids and Frequency Domain', lecture_url('pyramids'), 'bold', array('Assignment 1 out')),
-     
-     lecture_def('Jan 29 (Mon)', 'Hough Transform', lecture_url('hough'), 'bold'),
-     
-     lecture_def('Jan 31 (Wed)', 'Detecting Corners', lecture_url('corners'), 'bold'),
-                     
-     lecture_def('Feb 5 (Mon)', 'Feature Detectors and Descriptors', lecture_url('features'), 'bold'),
-   
-     lecture_def('Feb 7 (Wed)', '2D Transformations', lecture_url('transformations'), 'bold', array('Assignment 1 DUE', 'Assignment 2 out')),
-                     
-     lecture_def('Feb 12 (Mon)', 'Image Homographies', lecture_url('homographies'), 'bold'),
-                     
-     lecture_def('Feb 14 (Wed)', 'Geometric Camera Models', lecture_url('cameras'), 'bold'),
-                     
-     lecture_def('Feb 19 (Mon)', 'Geometric Camera Models (cont.)', lecture_url('cameras2'), 'bold'),
-                     
-     lecture_def('Feb 21 (Wed)', 'Two-View Geometry', lecture_url('stereogeometry'), 'bold', array('Assignment 2 DUE', 'Assignment 3 out')),
-                     
-     lecture_def('Feb 26 (Mon)', 'Stereo', lecture_url('stereo'), 'bold'),
-                     
-     lecture_def('Feb 28 (Wed)', 'Image Classification', lecture_url('bow'),
-                 'bold'),
-                     
-     lecture_def('Mar 4 (Mon)', 'NO CLASS (Spring Break)', '',
-                 'bold'),
-   
-     lecture_def('Mar 6 (Wed)', 'NO CLASS (Spring Break)', '',
-                 'bold'),
-   
-     lecture_def('Mar 11 (Mon)', 'Image Classification (cont.)', lecture_url('bow'),
-                 'bold'),
-                     
-     lecture_def('Mar 13 (Wed)', 'Neural Networks', lecture_url('nn'),
-                 'bold', array('Assignment 3 DUE', 'Assignment 4 out')),
-                     
-     lecture_def('Mar 18 (Mon)', 'Neural Networks (cont.)', lecture_url('nn'),
-                 'bold'),
-                     
-     lecture_def('Mar 20 (Wed)', 'Convolutional Neural Networks', lecture_url('cnn'),
-                 'bold'),
-                     
-     lecture_def('Mar 25 (Mon)', 'Optical Flow', lecture_url('flow'),
-                 'bold'),
-                     
-     lecture_def('Mar 27 (Wed)', 'Alignment and Tracking', lecture_url('track'),
-                 'bold', array('Assignment 4 DUE', 'Assignment 5 out')),
-                     
-     lecture_def('Apr 1 (Mon)', 'Alignment and Tracking (cont.)', lecture_url('track'),
-                 'bold'),
-                     
-     lecture_def('Apr 3 (Wed)', 'Radiometry and Reflectance', lecture_url('radiometry'),
-                 'bold'),
-                     
-     lecture_def('Apr 8 (Mon)', 'Radiometry and Reflectance (cont.)', lecture_url('radiometry'),
-                 'bold'),
-                     
-     lecture_def('Apr 10 (Wed)', 'Photometric Stereo', lecture_url('photometricstereo'),
-                 'bold', array('Assignment 5 DUE', 'Assignment 6 out')),
-                     
-     lecture_def('Apr 15 (Mon)', 'Digital Photography', lecture_url('photography'),
-                 'bold'),
-                     
-     lecture_def('Apr 17 (Wed)', 'Digital Photography (cont.)', lecture_url('photography'),
-                 'bold'),
-   
-     lecture_def('Apr 22 (Mon)', 'Special Topics', '',
-                 'bold'),
-   
-     lecture_def('Apr 24 (Wed)', 'Wrap-up', lecture_url('wrapup'),
-                 'bold'),
+  lecture_def('Jan 16', 'No Class (CMU MLK holiday)', '', 'bold'),
 
-     lecture_def('Apr 26 (Fri)', '', '',
-                 'bold', array('Assignment 6 DUE')),
+  lecture_def('Jan 18', 'Why Parallelism? Why Efficiency?', lecture_url('whyparallelism'), '',
+                   array('Assignment 1 out')),
+
+  lecture_def('Jan 20', 'A Modern Multi-Core Processor: Forms of Parallelism + Understanding Latency and BW', lecture_url('basicarch'), ''),
+
+  lecture_def('Jan 23', 'Parallel Programming Models and their Corresponding HW/SW Implementations', lecture_url('progmodels'), ''),
+
+  lecture_def('Jan 25', 'Parallel Programming Basics (the parallelization thought process)', lecture_url('progbasics'), '',
+                        array('Exercise 1 due (on Fri Jan 27)')),
+ 
+  lecture_def('Jan 30', 'GPU Architecture and CUDA Programming', lecture_url('gpuarch'), '',
+                         array('Assignment 1 due', 'Assignment 2 out')),
+
+  lecture_def('Feb 1', 'Performance Optimization I: Work Distribution and Scheduling', lecture_url('progperf1'), ''),
+
+  lecture_def('Feb 6', 'Performance Optimization II: Locality, Communication, and Contention', lecture_url('progperf2'), ''),
+
+  lecture_def('Feb 8', 'Parallel Application Case Studies', lecture_url('casestudies'), '',
+                       array('Exercise 2 due (on Fri Feb 10)')),
+
+  lecture_def('Feb 13', 'Workload-Driven Performance Evaluation', lecture_url('perfeval'), ''),
+
+  lecture_def('Feb 15', 'Snooping-Based Cache Coherence', lecture_url('cachecoherence1'), '',
+                       array('Assignment 2 due', 'Assignment 3 out')),
+
+  lecture_def('Feb 20', 'Directory-Based Cache Coherence', lecture_url('directorycoherence'), ''),
+
+  lecture_def('Feb 22', 'Basic Snooping-Based Multiprocessor Implementation', lecture_url('snoopimpl'), '',
+                          array('Exercise 3 due (on Fri Feb 24)')),
+
+  lecture_def('Feb 27', 'Memory Consistency (+ Course-So-Far Review)', lecture_url('consistency'), ''),
+  
+  lecture_def('Mar 1', 'Exam I', '', 'bold'),
+
+  lecture_def('Mar 6', 'Scaling a Web Site: Scale-Out Parallelism, Elasticity, and Caching', lecture_url('websitescaling'), ''),
+
+  lecture_def('Mar 8', 'Interconnection Networks', lecture_url('interconnects'), '',
+                        array('Assignment 3 due')),
+   
+  lecture_def('Mar 13-17', 'Spring Break. Partaaay!', '', 'bold'),
+  
+  lecture_def('Mar 20', 'Implementing Synchronization', lecture_url('synchronization'), ''),
+  
+  lecture_def('Mar 22', 'Fine-Grained Synchronization and Lock-Free Programming', lecture_url('lockfree'), '',
+                        array('Exercise 4 due (on Fri Mar 24)')),
+
+  lecture_def('Mar 27', 'Transactional Memory', lecture_url('transactionalmem'), ''),
+
+  lecture_def('Mar 29', 'Heterogeneous Parallelism and Hardware Specialization', lecture_url('heterogeneity'), ''),
+
+  lecture_def('Apr 3', 'Domain-Specific Parallel Programming Systems', lecture_url('dsl'), '',
+                        array('Assignment 4 due (on Tues Apr 4)')),
+                        
+  lecture_def('Apr 5', 'Domain-Specific Programming Frameworks for Analyzing Graphs', lecture_url('graphdsl'), '',
+                        array('Exercise 5 due (on Fri Apr 7)')),
+
+  lecture_def('Apr 10', 'In-Memory Distributed Computing in Spark', lecture_url('spark'), '',
+                        array('Project Proposal due')),
+
+  lecture_def('Apr 12', 'Efficiently Evaluating Deep Neural Networks', lecture_url('dnn'), ''),
+
+  lecture_def('Apr 17', 'Parallel Deep Neural Network Training', lecture_url('dnntraining'), ''),
+              
+  lecture_def('Apr 19', 'Addressing the Memory Wall', lecture_url('memory'), ''),
+              
+  lecture_def('Apr 24', 'The Future of High Performance Computing', lecture_url('hpcfuture'), '',
+             array('Project checkpoint due (on Tues April 25)')),
+
+  lecture_def('Apr 26', 'Database Systems Do Not Scale to 1,000 CPU Cores (guest lecture by Andy Pavlo)', lecture_url('dbscaling'), '',
+            array('Exercise 6 due (on Fri April 28)')),
+
+  lecture_def('May 1', 'Exam 2 (evening exam)', '', 'bold'),
+  
+  lecture_def('May 3', 'Course Wrap Up and Project Presentation Tips (How to Give a Clear Talk)', lecture_url('finaltips'), ''),
+
+  lecture_def('May 12', '6th Annual Parallelism Competition', '', 'bold', array('text'=> 'Final Projects Due'))
+
   );
 
 
@@ -177,7 +194,7 @@ foreach ($lectures as $lecture)
 
 <td class="schedule_lecture">
      <div>
-     <?php if (strlen($lecture['link']) > 0) { ?>
+     <?php if (gettype($lecture['link']) == "string" && strlen($lecture['link']) > 0) { ?>
 
         <a href="<?php echo $lecture['link']; ?>"><?php echo $lecture['title']; ?></a>
 
@@ -209,146 +226,42 @@ foreach ($lectures as $lecture)
 
 </table>
 
-<div class="overview_main_item overview_ruled_element">Assignments</div>
-
-
-<table>
-<tr>
-<td class="schedule_date">(Due Feb 7th)</td><td class="schedule_lecture"><a href="<?php echo base_url('assets/assignments/assgn1.zip'); ?>">Programming Assignment 1: Image Filtering and Hough Transform</a></td>
-</tr>
-</table>
-
+<div class="overview_main_item overview_ruled_element">Assignments and Projects</div>
 
 <table>
 <tr>
-<td class="schedule_date">(Due Feb 21st)</td><td class="schedule_lecture"><a href="<?php echo base_url('assets/assignments/assgn2.zip'); ?>">Programming Assignment 2: Augmented Reality with Planar Homographies</a></td>
+    <td class="schedule_date">Jan 30</td><td class="schedule_lecture"><a href="<?php echo article_url('3'); ?>">Assignment 1: Analyzing Parallel Program Performance on an Eight-Core CPU</a></td>
 </tr>
+<tr>
+    <td class="schedule_date">Feb 15</td><td class="schedule_lecture"><a href="<?php echo article_url('4'); ?>">Assignment 2: A Simple Renderer in CUDA</a></td>
+</tr>
+<tr>
+    <td class="schedule_date">Mar 8</td><td class="schedule_lecture"><a href="<?php echo article_url('7'); ?>">Assignment 3: Processing Big Graphs on the Xeon Phi</a></td>
+</tr>
+<tr>
+    <td class="schedule_date">Apr 4</td><td class="schedule_lecture"><a href="<?php echo article_url('15'); ?>">Assignment 4: A Simple, Elastic Web Server<//a></td>
+</tr>
+<tr>
+    <td class="schedule_date">May 12</td><td class="schedule_lecture"><a href="<?php echo article_url('13'); ?>">Final Project / Parallelism Competition</a></td>
+</tr>
+<tr>
+    <td class="schedule_date">weekly</td><td class="schedule_lecture"><a href="<?php echo article_url('1'); ?>">Guidelines and Tips for Making Good Lecture Comments</a></td>
+</tr>
+
+
 </table>
-
-<table>
-<tr>
-<td class="schedule_date">(Due Mar 13th)</td><td class="schedule_lecture"><a href="<?php echo base_url('assets/assignments/assgn3.zip'); ?>">Programming Assignment 3: 3D Reconstruction</a></td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td class="schedule_date">(Due Mar 27th)</td><td class="schedule_lecture"><a href="<?php echo base_url('assets/assignments/assgn4.zip'); ?>">Programming Assignment 4: Scene Recognition with Bag of Words</a></td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td class="schedule_date">(Due Apr 10th)</td><td class="schedule_lecture"><a href="<?php echo base_url('assets/assignments/assgn5.zip'); ?>">Programming Assignment 5: Neural Networks for Recognition</a></td>
-</tr>
-</table>
-
-
-<table>
-<tr>
-<td class="schedule_date">(Due Apr 26th)</td><td class="schedule_lecture"><a href="<?php echo base_url('assets/assignments/assgn6.zip'); ?>">Programming Assignment 6: Video Tracking</a></td>
-</tr>
-</table>
-
-<!--
-
-<div class="overview_main_item overview_ruled_element">Quizzes</div>
-
-<table>
-
-<tr>
-<td class="schedule_date">(Due Sept 19th)</td><td class="schedule_lecture"><a href="https://www.overleaf.com/read/mpfjgxtgjgxg">Quiz 1: Convolutions and Fourier transforms</a></td>
-</tr>
-
-<tr>
-<td class="schedule_date">(Due Sept 26th)</td><td class="schedule_lecture"><a href="https://www.overleaf.com/read/gtxpzprkhbdr">Quiz 2: Corners and Covariance Matrices</a></td>
-</tr>
-
-<tr>
-<td class="schedule_date">(Due Oct 3rd)</td><td class="schedule_lecture"><a href="https://www.overleaf.com/read/bnmchgkdyrkp">Quiz 3: Transformations, Heterogeneous, and Homogeneous Coordinates</a></td>
-</tr>
-
-<tr>
-<td class="schedule_date">(Due Oct 10th)</td><td class="schedule_lecture"><a href="https://www.overleaf.com/read/swzngbnchgnx">Quiz 4: Camera Projection Matrices</a></td>
-</tr>
-
-<tr>
-<td class="schedule_date">(Due Oct 24th)</td><td class="schedule_lecture"><a href="https://www.overleaf.com/read/cfwdqrwgwdwk">Quiz 5: Essential and Fundamental Matrices</a></td>
-</tr>
-
-<tr>
-<td class="schedule_date">(Due Oct 31st)</td><td class="schedule_lecture"><a href="https://www.overleaf.com/read/pmmbytxdwrhw">Quiz 6: Fundamental Matrices (cont.) and Nearest Neighbors</a></td>
-</tr>
-
-
-<tr>
-<td class="schedule_date">(Due Nov 7th)</td><td class="schedule_lecture"><a href="https://www.overleaf.com/read/trpnkhjjvsmm">Quiz 7: Neural Networks</a></td>
-</tr>
-
-<tr>
-<td class="schedule_date">(Due Nov 14th)</td><td class="schedule_lecture"><a href="https://www.overleaf.com/read/ztkqgwxhrqnm">Quiz 8: Neural Networks (cont.) and Optical flow</a></td>
-</tr>
-
-<tr>
-<td class="schedule_date">(Due Nov 21st)</td><td class="schedule_lecture"><a href="https://www.overleaf.com/read/sggggkxtmpyk">Quiz 9: Image Alignment</a></td>
-</tr>
-
-<tr>
-<td class="schedule_date">(Due Nov 30th)</td><td class="schedule_lecture"><a href="https://www.overleaf.com/read/gdyskjyswfgn">Quiz 10: Radiometry and Reflectance</a></td>
-</tr>
-
-<tr>
-<td class="schedule_date">(Due Dec 7th)</td><td class="schedule_lecture"><a href="https://www.overleaf.com/read/qfdvxxygxqvf">Quiz 11: Photometric Stereo</a></td>
-</tr>
-
--->
-</table>
-
-
-<!--
-<tr>
-<td class="schedule_date">(Due Sep 28th)</td><td class="schedule_lecture"><a href="<?php echo base_url('assets/quizzes/quiz2.pdf'); ?>">Quiz 2: Corners and Covariance Matrices</a> (<a href="<?php echo base_url('assets/quizzes/quiz2.tex'); ?>">LaTeX source</a>)</td>
-</tr>
-<tr>
-<td class="schedule_date">(Due Oct 5th)</td><td class="schedule_lecture"><a href="<?php echo base_url('assets/quizzes/quiz3.pdf'); ?>">Quiz 3: Heterogeneous and Homogeneous Coordinates</a> (<a href="<?php echo base_url('assets/quizzes/quiz3.tex'); ?>">LaTeX source</a>)</td>
-</tr>
-<tr>
-<td class="schedule_date">(Due Oct 12th)</td><td class="schedule_lecture"><a href="<?php echo base_url('assets/quizzes/quiz4.pdf'); ?>">Quiz 4: Camera Projection Matrices</a> (<a href="<?php echo base_url('assets/quizzes/quiz4.tex'); ?>">LaTeX source</a>)</td>
-</tr>
-<tr>
-<td class="schedule_date">(Due Oct 19th)</td><td class="schedule_lecture"><a href="<?php echo base_url('assets/quizzes/quiz5.pdf'); ?>">Quiz 5: Essential and Fundamental Matrices</a> (<a href="<?php echo base_url('assets/quizzes/quiz5.tex'); ?>">LaTeX source</a>)</td>
-</tr>
-<tr>
-<td class="schedule_date">(Due Oct 27th)</td><td class="schedule_lecture"><a href="<?php echo base_url('assets/quizzes/quiz6.pdf'); ?>">Quiz 6: Reflectance and Photometric Stereo</a> (<a href="<?php echo base_url('assets/quizzes/quiz6.tex'); ?>">LaTeX source</a>)</td>
-</tr>
-<tr>
-<td class="schedule_date">(Due Nov 2nd)</td><td class="schedule_lecture"><a href="<?php echo base_url('assets/quizzes/quiz7.pdf'); ?>">Quiz 7: Minnaert BRDF Model</a> (<a href="<?php echo base_url('assets/quizzes/quiz7.tex'); ?>">LaTeX source</a>)</td>
-</tr>
-<tr>
-<td class="schedule_date">(Due Nov 10th)</td><td class="schedule_lecture"><a href="<?php echo base_url('assets/quizzes/quiz8.pdf'); ?>">Quiz 8: Nearest Neighbors</a> (<a href="<?php echo base_url('assets/quizzes/quiz8.tex'); ?>">LaTeX source</a>)</td>
-</tr>
-<tr>
-<td class="schedule_date">(Due Nov 16th)</td><td class="schedule_lecture"><a href="<?php echo base_url('assets/quizzes/quiz9.pdf'); ?>">Quiz 9: Neural Networks</a> (<a href="<?php echo base_url('assets/quizzes/quiz9.tex'); ?>">LaTeX source</a>)</td>
-</tr>
-<tr>
-<td class="schedule_date">(Due Nov 24th)</td><td class="schedule_lecture"><a href="<?php echo base_url('assets/quizzes/quiz10.pdf'); ?>">Quiz 10: Optical Flow</a> (<a href="<?php echo base_url('assets/quizzes/quiz10.tex'); ?>">LaTeX source</a>)</td>
-</tr>
-<tr>
-<td class="schedule_date">(Due Nov 30th)</td><td class="schedule_lecture"><a href="<?php echo base_url('assets/quizzes/quiz11.pdf'); ?>">Quiz 11: Image Alignment</a> (<a href="<?php echo base_url('assets/quizzes/quiz11.tex'); ?>">LaTeX source</a>)</td>
-</tr>
-</table>
--->
 
 <div class="overview_main_item overview_ruled_element">Acknowledgments</div>
 
-<p> The lecture notes have been pieced together from many different
-people and places. Special thanks to colleagues for sharing their
-slides: Kris Kitani, Bob Collins, Srinivasa Narashiman, Martial Hebert,
-Alyosha Efros, Ali Faharadi, Deva Ramanan, Yaser Sheikh, and Todd Zickler.
-Many thanks also to the following people for making their lecture notes and
-materials available online: Steve Seitz, Richard Selinsky, Larry Zitnick,
-Noah Snavely, Lana Lazebnik, Kristen Grauman, Yung-Yu Chuang, Tinne Tuytelaars,
-Fei-Fei Li, Antonio Torralba, Rob Fergus, David Claus, and Dan Jurafsky.  </p>
+<p> Special thanks to the <a href="http://www.intel.com">Intel
+Corporation</a>, the <a href="http://www.nvidia.com">NVIDIA
+Corporation</a>, and to <a href="http://www.dell.com">DELL</a> for
+equipment donations and/or financial support for course development.
+<a href="http://www.cs.cmu.edu/~tcm">Todd Mowry</a> created the
+original version of 15-418 and much of the structure of his innovative
+course persists today. Thanks to Matt Pharr for technical assistance
+with ISPC. Alex Reece, Manish Burman, and Cary Yang developed the
+course web site.  </p>
 
 <div>&nbsp;</div>
 <div>&nbsp;</div>

@@ -21,11 +21,11 @@ $config['content_base_path'] = 'MY_CONTENT_PATH';
 $config['content_base_url']  = 'MY_CONTENT_BASE_URL';
 
 // The email address with which the system will send emails
-// ex. 16385-noreply@cs.cmu.edu
+// ex. 15418-noreply@cs.cmu.edu
 $config['course_email'] = 'MY_COURSE_EMAIL';
 
 // The name that will show up in the from: field of emails
-// ex. 16385 Staff
+// ex. 15418 Staff
 $config['email_display_name'] = 'MY_EMAIL_DISPLAY_NAME';
 
 // id for google analytics integration
@@ -46,12 +46,12 @@ $config['article_images_rel_path'] = 'article_images';
 $config['profile_pictures_rel_path'] = 'profile_pictures';
 
 // TODO(mburman): Maybe expand to allowing other filetypes.
-$config['allowed_image_types'] = 'jpg';
+$config['allowed_image_types'] = 'jpg|jpeg';
 $config['max_image_size'] = '2048';
 $config['max_image_width']  = '2048';
 $config['max_image_height']  = '2048';
 
-$config['prompt_email_title'] = "You've been prompted by the 16-385 staff";
+$config['prompt_email_title'] = "You've been prompted by the 15-418 staff";
 $config['num_students_prompted'] = 2;
 $config['neutral_prefixes'] = array(
     "This is a discussion you can participate in.",
