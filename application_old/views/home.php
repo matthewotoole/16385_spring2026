@@ -4,7 +4,7 @@
 <div class="home_title">Computer Vision <span style="font-size: 12pt;">(CMU 16-385)</span> </div>
 
 <div>
-<img style="padding-bottom: 5px;" src="http://16385.courses.cs.cmu.edu/spring2024/assets/images/banner.png" width="800"></a>
+<img style="padding-bottom: 5px;" src="https://16385.courses.cs.cmu.edu/spring2026/assets/images/banner.png" width="800"></a>
 </div>
 
 <p style="padding-bottom: .15em"> This course provides a comprehensive
@@ -16,9 +16,9 @@ as well as hands on experience to solve real-life vision problems.  </p>
 <div class="overview_main_item overview_ruled_element">Basic Info</div>
 
 <div style="padding-bottom: 15px;">
-<div>Mon/Wed 11:00am-12:20pm</div>
+<div>Mon/Wed 12:30pm-1:50pm</div>
 <div>Tepper 1403</div>
-<div>Instructor: <a href="https://davheld.github.io/">David Held</a></div>
+<div>Instructor: <a href="https://www.cs.cmu.edu/~motoole2/">Matthew O'Toole</a></div>
 <div style="padding-top:1em;">See the <a href="<?php echo site_url('courseinfo'); ?>">Course Info</a> page for more info on policies and logistics.</div>
 </div>
 
@@ -26,12 +26,12 @@ as well as hands on experience to solve real-life vision problems.  </p>
 
 To get started with the class you need to do just three things:
 <ol>
-<li><a href="https://piazza.com/cmu/fall2024/16385">Sign up</a> for the course Piazza.</li>
-<li><a href="http://16385.courses.cs.cmu.edu/fall2024/users/create">Sign up</a> for an account on this webpage.  (The signup code is on Canvas.)</li>
+<li><a href="https://piazza.com/cmu/spring2026/16385">Sign up</a> for the course Piazza.</li>
+<li><a href="https://16385.courses.cs.cmu.edu/spring2026/users/create">Sign up</a> for an account on this webpage.  (The signup code is on Canvas.)</li>
                                                                                                                   <li>Carefully read through the <a href="<?php echo site_url('courseinfo'); ?>">Course Info</a>.</li>
                                                                                                                 </ol>
 
-<div class="overview_main_item overview_ruled_element">Fall 2024 Schedule</div>
+<div class="overview_main_item overview_ruled_element">Spring 2026 Schedule</div>
 
 <table>
 
@@ -78,86 +78,86 @@ function lecture_def($date, $title, $link, $fmt='', $extras=array()) {
 
 $lectures = array(
 
-     lecture_def('Aug 26 (Mon)', 'Course Introduction', lecture_url('intro'), 'bold'),
+     lecture_def('Jan 12 (Wed)', 'Course Introduction', lecture_url('intro'), 'bold'),
                   
-     lecture_def('Aug 28 (Wed)', 'Image Filtering', lecture_url('filtering'), 'bold'),
+     lecture_def('Jan 14 (Mon)', 'Image Filtering', lecture_url('filtering'), 'bold'),
 
-     lecture_def('Sep 2 (Mon)', 'NO CLASS (Labor Day)', lecture_url('pyramids'), 'bold', array('Assignment 1 out')),
-                  
-     lecture_def('Sep 4 (Wed)', 'Image Pyramids and Frequency Domain', lecture_url('pyramids'), 'bold'),
+     lecture_def('Jan 19 (Mon)', 'NO CLASS (MLK Jr Day)', '',
+                 'bold'),
+                     
+     lecture_def('Jan 21 (Wed)', 'Image Pyramids and Frequency Domain', lecture_url('pyramids'), 'bold', array('Assignment 1 out')),
      
-     lecture_def('Sep 9 (Mon)', 'Hough Transform', lecture_url('hough'), 'bold'),
+     lecture_def('Jan 26 (Mon)', 'Hough Transform', lecture_url('hough'), 'bold'),
      
-     lecture_def('Sep 11 (Wed)', 'Detecting Corners', lecture_url('corners'), 'bold'),
+     lecture_def('Jan 28 (Wed)', 'Detecting Corners', lecture_url('corners'), 'bold'),
                      
-     lecture_def('Sep 16 (Mon)', 'Feature Detectors and Descriptors', lecture_url('features'), 'bold'),
+     lecture_def('Feb 2 (Mon)', 'Feature Detectors and Descriptors', lecture_url('features'), 'bold'),
    
-     lecture_def('Sep 18 (Wed)', '2D Transformations', lecture_url('transformations'), 'bold', array('Assignment 1 DUE', 'Assignment 2 out')),
+     lecture_def('Feb 4 (Wed)', '2D Transformations', lecture_url('transformations'), 'bold', array('Assignment 1 DUE', 'Assignment 2 out')),
                      
-     lecture_def('Sep 23 (Mon)', 'Image Homographies', lecture_url('homographies'), 'bold'),
+     lecture_def('Feb 9 (Mon)', 'Image Homographies', lecture_url('homographies'), 'bold'),
                      
-     lecture_def('Sep 25 (Wed)', 'Geometric Camera Models', lecture_url('cameras'), 'bold'),
+     lecture_def('Feb 11 (Wed)', 'Geometric Camera Models', lecture_url('cameras'), 'bold'),
                      
-     lecture_def('Sep 30 (Mon)', 'Geometric Camera Models (cont.)', lecture_url('cameras2'), 'bold'),
+     lecture_def('Feb 16 (Mon)', 'Geometric Camera Models (cont.)', lecture_url('cameras2'), 'bold'),
                      
-     lecture_def('Oct 2 (Wed)', 'Two-View Geometry', lecture_url('stereogeometry'), 'bold', array('Assignment 2 DUE', 'Assignment 3 out')),
+     lecture_def('Feb 18 (Wed)', 'Two-View Geometry', lecture_url('stereogeometry'), 'bold', array('Assignment 2 DUE', 'Assignment 3 out')),
                      
-     lecture_def('Oct 7 (Mon)', 'Stereo', lecture_url('stereo'), 'bold'),
+     lecture_def('Feb 23 (Mon)', 'Stereo', lecture_url('stereo'), 'bold'),
                      
-     lecture_def('Oct 9 (Wed)', 'Image Classification', lecture_url('bow'),
+     lecture_def('Feb 25 (Wed)', 'Image Classification', lecture_url('bow'),
                  'bold'),
                      
-     lecture_def('Oct 14 (Mon)', 'NO CLASS (Spring Break)', '',
-                 'bold'),
-   
-     lecture_def('Oct 16 (Wed)', 'NO CLASS (Spring Break)', '',
+     lecture_def('Mar 2 (Mon)', 'NO CLASS (Spring Break)', '',
                  'bold'),
    
-     lecture_def('Oct 21 (Mon)', 'Image Classification (cont.)', lecture_url('bow'),
+     lecture_def('Mar 4 (Wed)', 'NO CLASS (Spring Break)', '',
+                 'bold'),
+   
+     lecture_def('Mar 9 (Mon)', 'Image Classification (cont.)', lecture_url('bow'),
                  'bold'),
                      
-     lecture_def('Oct 23 (Wed)', 'Neural Networks', lecture_url('nn'),
+     lecture_def('Mar 11 (Wed)', 'Neural Networks', lecture_url('nn'),
                  'bold', array('Assignment 3 DUE', 'Assignment 4 out')),
                      
-     lecture_def('Oct 28 (Mon)', 'Neural Networks (cont.)', lecture_url('nn'),
+     lecture_def('Mar 16 (Mon)', 'Neural Networks (cont.)', lecture_url('nn'),
                  'bold'),
                      
-     lecture_def('Oct 30 (Wed)', 'Convolutional Neural Networks', lecture_url('cnn'),
+     lecture_def('Mar 18 (Wed)', 'Convolutional Neural Networks', lecture_url('cnn'),
                  'bold'),
                      
-     lecture_def('Nov 4 (Mon)', 'Optical Flow', lecture_url('flow'),
+     lecture_def('Mar 23 (Mon)', 'Optical Flow', lecture_url('flow'),
                  'bold'),
                      
-     lecture_def('Nov 6 (Wed)', 'Alignment and Tracking', lecture_url('track'),
+     lecture_def('Mar 25 (Wed)', 'Alignment and Tracking', lecture_url('track'),
                  'bold', array('Assignment 4 DUE', 'Assignment 5 out')),
                      
-     lecture_def('Nov 11 (Mon)', 'Alignment and Tracking (cont.)', lecture_url('track'),
+     lecture_def('Mar 30 (Mon)', 'Alignment and Tracking (cont.)', lecture_url('track'),
                  'bold'),
                      
-     lecture_def('Nov 13 (Wed)', 'Deep Tracking', lecture_url('deeptrack'),
+     lecture_def('Apr 1 (Wed)', 'Radiometry and Reflectance', lecture_url('radiometry'),
                  'bold'),
                      
-     lecture_def('Nov 18 (Mon)', 'Deep Optical Flow / Deep Stereo; Generative Adversarial Networks (GANs)', lecture_url('deepflow'),
+     lecture_def('Apr 6 (Mon)', 'Radiometry and Reflectance (cont.)', lecture_url('radiometry'),
                  'bold'),
                      
-     lecture_def('Nov 20 (Wed)', 'Generative Adversarial Networks (GANs) - Part 2', lecture_url('gan'),
+     lecture_def('Apr 8 (Wed)', 'Photometric Stereo', lecture_url('photometricstereo'),
                  'bold', array('Assignment 5 DUE', 'Assignment 6 out')),
                      
-     lecture_def('Nov 25 (Mon)', 'Variational AutoEncoders (VAEs) / Diffusion / Societal Impacts', lecture_url('vae'),
+     lecture_def('Apr 13 (Mon)', 'Digital Photography', lecture_url('photography'),
                  'bold'),
                      
-     lecture_def('Nov 27 (Wed)', 'NO CLASS (Thanksgiving)', lecture_url(''),
+     lecture_def('Apr 15 (Wed)', 'Digital Photography (cont.)', lecture_url('photography'),
                  'bold'),
    
-     lecture_def('Dec 2 (Mon)', 'Advanced architectures: Batch Norm, ResNet, RNN, Transformer', 'architectures',
+     lecture_def('Apr 20 (Mon)', 'Special Topics', '',
                  'bold'),
    
-     lecture_def('Dec 4 (Wed)', 'Deep 3D Point Cloud Processing', lecture_url('pointcloud'),
+     lecture_def('Apr 22 (Wed)', 'Wrap-up', lecture_url('wrapup'),
                  'bold'),
 
-     lecture_def('Dec 6 (Fri)', '', '',
+     lecture_def('Apr 24 (Fri)', '', '',
                  'bold', array('Assignment 6 DUE')),
- 
   );
 
 
@@ -214,9 +214,9 @@ foreach ($lectures as $lecture)
 
 <div class="overview_main_item overview_ruled_element">Assignments</div>
 
-<p><b>Assignments will be released via Piazza.</b> A list of assignments is available below. Reference material is available on the <a href="<?php echo site_url('lectures'); ?>">Lectures</a> page.</p>
+Check here for assignments.
 
-
+<!--
 <table>
 <tr>
 <td class="schedule_date">(Due Sep 18)</td><td class="schedule_lecture">Programming Assignment 1: Image Filtering and Hough Transform</td>
@@ -254,6 +254,7 @@ foreach ($lectures as $lecture)
 <td class="schedule_date">(Due Dec 6)</td><td class="schedule_lecture">Programming Assignment 6: Video Tracking</td>
 </tr>
 </table>
+-->
 
 <!--
 
@@ -348,7 +349,7 @@ foreach ($lectures as $lecture)
 
 <p> The lecture notes have been pieced together from many different
 people and places. Special thanks to colleagues for sharing their
-slides: Matt O'Toole, Kris Kitani, Bob Collins, Srinivasa Narashiman, Martial Hebert,
+slides: David Held, Kris Kitani, Bob Collins, Srinivasa Narashiman, Martial Hebert,
 Alyosha Efros, Ali Faharadi, Deva Ramanan, Yaser Sheikh, and Todd Zickler.
 Many thanks also to the following people for making their lecture notes and
 materials available online: Steve Seitz, Richard Selinsky, Larry Zitnick,

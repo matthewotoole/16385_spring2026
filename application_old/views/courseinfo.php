@@ -142,7 +142,7 @@ following courses serve as prerequisite:</p>
 
 <p>Readings will be assigned from the following textbook (available online for free):</p>
 <ul>
-<li><a href="https://szeliski.org/Book/">Computer Vision: Algorithms and Applications</a>, by Richard Szeliski.
+<li><a href="http://szeliski.org/Book/">Computer Vision: Algorithms and Applications</a>, by Richard Szeliski.
 </li>
 </ul>
 <p>Additional readings will be assigned from relevant papers. Readings will be posted on the website.</p>
@@ -206,7 +206,7 @@ this course or make these items available (e.g., on the web) for use
 in future instances of this course (just as you may not use work
 completed by students who've taken the course previously).  We
 encourage you to use public source control hosts like <a
-href="https://www.github.com">Github</a> for your assignments, however
+href="http://www.github.com">Github</a> for your assignments, however
 please be sure to make your programming assignment repositories private.</p>
 
 <div class="overview_main_item overview_ruled_element">Diversity Statement</div>
