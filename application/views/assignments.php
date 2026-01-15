@@ -3,18 +3,15 @@
 
 <div class="home_title">Computer Vision <span style="font-size: 12pt;">(CMU 16-385)</span> </div>
 
-<p><b>Assignments will be released via Piazza.</b> A list of assignments is available below. Reference material is available on the <a href="<?php echo site_url('lectures'); ?>">Lectures</a> page.</p>
-
 <div class="overview_main_item overview_ruled_element">Assignments</div>
 
-<!--
 <table>
 <tr>
-<td class="schedule_date">(Due Sep 18)</td><td class="schedule_lecture">Programming Assignment 1: Image Filtering and Hough Transform</td>
+<td class="schedule_date">(Due Jan 21st)</td><td class="schedule_lecture"><a href="https://16385.courses.cs.cmu.edu/spring2026/assets/assignments/assgn0.pdf">Programming Assignment 0: Introduction to Python</a></td>
 </tr>
 </table>
 
-
+<!--
 <table>
 <tr>
 <td class="schedule_date">(Due Oct 2)</td><td class="schedule_lecture">Programming Assignment 2: Augmented Reality with Planar Homographies</td>
