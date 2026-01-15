@@ -85,7 +85,7 @@ $lectures = array(
      lecture_def('Jan 19 (Mon)', 'NO CLASS (MLK Jr Day)', '',
                  'bold'),
                      
-     lecture_def('Jan 21 (Wed)', 'Image Pyramids and Frequency Domain', lecture_url('pyramids'), 'bold', array(array('Assignment 0 DUE'), 'Assignment 1 out')),
+     lecture_def('Jan 21 (Wed)', 'Image Pyramids and Frequency Domain', lecture_url('pyramids'), 'bold', array('Assignment 0 DUE', 'Assignment 1 out')),
      
      lecture_def('Jan 26 (Mon)', 'Hough Transform', lecture_url('hough'), 'bold'),
      
