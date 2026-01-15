@@ -7,6 +7,12 @@
 
 <div class="overview_main_item overview_ruled_element">Notebooks and Interactive Demos</div>
 
+<p>
+<div><b>Lecture 1:</b> Introduction to Numpy</div>
+<ul>
+<li><a href="https://colab.research.google.com/github/matthewotoole/16385_fall2020_notebooks/blob/master/Numpy_Quick_Tour_Helper.ipynb">Notebook</a></li>
+</ul>
+</p>
 
 <p>
 <div><b>Lecture 2:</b> Image Filtering</div>
