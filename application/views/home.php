@@ -78,14 +78,14 @@ function lecture_def($date, $title, $link, $fmt='', $extras=array()) {
 
 $lectures = array(
 
-     lecture_def('Jan 12 (Wed)', 'Course Introduction', lecture_url('intro'), 'bold'),
+     lecture_def('Jan 12 (Mon)', 'Course Introduction', lecture_url('intro'), 'bold'),
                   
-     lecture_def('Jan 14 (Mon)', 'Image Filtering', lecture_url('filtering'), 'bold'),
+     lecture_def('Jan 14 (Wed)', 'Image Filtering', lecture_url('filtering'), 'bold', array('Assignment 0 out')),
 
      lecture_def('Jan 19 (Mon)', 'NO CLASS (MLK Jr Day)', '',
                  'bold'),
                      
-     lecture_def('Jan 21 (Wed)', 'Image Pyramids and Frequency Domain', lecture_url('pyramids'), 'bold', array('Assignment 1 out')),
+     lecture_def('Jan 21 (Wed)', 'Image Pyramids and Frequency Domain', lecture_url('pyramids'), 'bold', array(array('Assignment 0 DUE'), 'Assignment 1 out')),
      
      lecture_def('Jan 26 (Mon)', 'Hough Transform', lecture_url('hough'), 'bold'),
      
