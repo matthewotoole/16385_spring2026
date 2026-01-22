@@ -11,6 +11,12 @@
 </tr>
 </table>
 
+<table>
+<tr>
+<td class="schedule_date">(Due Feb 4th)</td><td class="schedule_lecture"><a href="https://16385.courses.cs.cmu.edu/spring2026/assets/assignments/assgn1.zip">Programming Assignment 1: Image Filtering and Hough Transform</a></td>
+</tr>
+</table>
+
 <!--
 <table>
 <tr>
