@@ -52,8 +52,7 @@ as well as hands on experience to solve real-life vision problems.
 
 <div style="width: 360px; float: left;">
 <img src="<?php echo base_url('assets/images/staff/andrew.jpg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div class="ta-name"><a href="">Andrew</a></div>
-<div>[ at andrew]</div>
+<div class="ta-name"><a href="">Andrew Wang</a></div>
 <div style="clear: both;">&nbsp;</div>
 </div>
 
@@ -61,8 +60,7 @@ as well as hands on experience to solve real-life vision problems.
 
 <div style="width: 360px; float: left;">
 <img src="<?php echo base_url('assets/images/staff/anirudh.jpg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div class="ta-name"><a href="">Anirudh</a></div>
-<div>[ at andrew]</div>
+<div class="ta-name"><a href="">Anirudh Mani</a></div>
 <div style="clear: both;">&nbsp;</div>
 </div>
 
@@ -70,8 +68,7 @@ as well as hands on experience to solve real-life vision problems.
 
 <div style="width: 360px; float: left;">
 <img src="<?php echo base_url('assets/images/staff/cindy.jpg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div class="ta-name"><a href="">Cindy</a></div>
-<div>[ at andrew]</div>
+<div class="ta-name"><a href="">Cindy Bin</a></div>
 <div style="clear: both;">&nbsp;</div>
 </div>
 
@@ -79,8 +76,7 @@ as well as hands on experience to solve real-life vision problems.
 
 <div style="width: 360px; float: left;">
 <img src="<?php echo base_url('assets/images/staff/liza.jpg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div class="ta-name"><a href="">Liza</a></div>
-<div>[ at andrew]</div>
+<div class="ta-name"><a href="">Liza Dahiya</a></div>
 <div style="clear: both;">&nbsp;</div>
 </div>
 
@@ -88,8 +84,7 @@ as well as hands on experience to solve real-life vision problems.
 
 <div style="width: 360px; float: left;">
 <img src="<?php echo base_url('assets/images/staff/qirui.jpg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div class="ta-name"><a href="">Ridge</a></div>
-<div>[ at andrew]</div>
+<div class="ta-name"><a href="">Ridge Da</a></div>
 <div style="clear: both;">&nbsp;</div>
 </div>
 
@@ -97,8 +92,15 @@ as well as hands on experience to solve real-life vision problems.
 
 <div style="width: 360px; float: left;">
 <img src="<?php echo base_url('assets/images/staff/sumukh.jpg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div class="ta-name"><a href="">Sumukh</a></div>
-<div>[ at andrew]</div>
+<div class="ta-name"><a href="">Sumukh Venkatesh</a></div>
+<div style="clear: both;">&nbsp;</div>
+</div>
+
+<div style="clear: both;">&nbsp;</div>
+
+<div style="width: 360px; float: left;">
+<img src="<?php echo base_url('assets/images/staff/tim.jpg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
+<div class="ta-name"><a href="">Tim Wang</a></div>
 <div style="clear: both;">&nbsp;</div>
 </div>
 
@@ -106,12 +108,10 @@ as well as hands on experience to solve real-life vision problems.
 
 <div style="width: 360px; float: left;">
 <img src="<?php echo base_url('assets/images/staff/vedanth.jpg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div class="ta-name"><a href="">Vedanth</a></div>
-<div>[ at andrew]</div>
+<div class="ta-name"><a href="">Vedanth Ramanathan</a></div>
 <div style="clear: both;">&nbsp;</div>
 </div>
 
-<div style="clear: both;">&nbsp;</div>
 
 <div style="clear: both;">&nbsp;</div>
 
