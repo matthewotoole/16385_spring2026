@@ -44,82 +44,74 @@ as well as hands on experience to solve real-life vision problems.
 <div style="clear: both;">&nbsp;</div>
 
 
-<!--
-<div class="overview_minor_item" style="clear: both; padding-top: 2em; padding-bottom: 2em;">Your fun and helpful TAs are shown below.  Office hours for all TAs can be found here:<br>
-<a href="https://docs.google.com/spreadsheets/d/1jnKmKbQ0AB5--pCLV5fUt9aQwDiEQoBNmFYaydTJw3s/edit?gid=0#gid=0">OFFICE HOURS SPREADSHEET</a></div>
 
+<div class="overview_minor_item" style="clear: both; padding-top: 2em; padding-bottom: 2em;">Office hours for all TAs can be found here:<br>
+<a href="https://docs.google.com/spreadsheets/d/1f2Rzvya6NFTxNtxNErSTGbbEY3wJ7o3ASRw9X8ZqJNc/edit?gid=0#gid=0">OH Spreadsheet</a></div>
+
+<div class="overview_minor_item" style="clear: both; padding-top: 2em; padding-bottom: 2em;">Your fun and helpful TAs are shown below (in alphabetical order).</div>
 
 <div style="width: 360px; float: left;">
-<img src="<?php echo base_url('assets/images/staff/felipe.jpg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div class="ta-name"><a href="">Felipe Zanforlin Mautner</a></div>
-<div>[fmautner at andrew]</div>
+<img src="<?php echo base_url('assets/images/staff/andrew.jpg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
+<div class="ta-name"><a href="">Andrew</a></div>
+<div>[ at andrew]</div>
 <div style="clear: both;">&nbsp;</div>
 </div>
 
 <div style="clear: both;">&nbsp;</div>
 
 <div style="width: 360px; float: left;">
-<img src="<?php echo base_url('assets/images/staff/zhinan.jpg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div class="ta-name"><a href="">Zhinan (Sam) Wang</a></div>
-<div>[zhinanw at andrew]</div>
+<img src="<?php echo base_url('assets/images/staff/anirudh.jpg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
+<div class="ta-name"><a href="">Anirudh</a></div>
+<div>[ at andrew]</div>
 <div style="clear: both;">&nbsp;</div>
 </div>
 
 <div style="clear: both;">&nbsp;</div>
 
 <div style="width: 360px; float: left;">
-<img src="<?php echo base_url('assets/images/staff/timwang.jpeg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div class="ta-name"><a href="">Tim Wang</a></div>
-<div>[twang3 at andrew]</div>
-<div style="clear: both;">&nbsp;</div>
-</div>
-
-<div style="clear: both;">&nbsp;</div>
-
-
-<div style="width: 360px; float: left;">
-<img src="<?php echo base_url('assets/images/staff/danielbrown.jpeg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div class="ta-name"><a href="">Daniel Brown</a></div>
-<div>[dibrown at andrew]</div>
+<img src="<?php echo base_url('assets/images/staff/cindy.jpg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
+<div class="ta-name"><a href="">Cindy</a></div>
+<div>[ at andrew]</div>
 <div style="clear: both;">&nbsp;</div>
 </div>
 
 <div style="clear: both;">&nbsp;</div>
 
 <div style="width: 360px; float: left;">
-<img src="<?php echo base_url('assets/images/staff/jackson.jpg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div class="ta-name"><a href="">Jackson Daggett</a></div>
-<div>[jdaggett at andrew]</div>
+<img src="<?php echo base_url('assets/images/staff/liza.jpg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
+<div class="ta-name"><a href="">Liza</a></div>
+<div>[ at andrew]</div>
 <div style="clear: both;">&nbsp;</div>
 </div>
 
 <div style="clear: both;">&nbsp;</div>
 
 <div style="width: 360px; float: left;">
-<img src="<?php echo base_url('assets/images/staff/maxim.jpeg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div class="ta-name"><a href="">Maxim Gluhovskoi</a></div>
-<div>[mgluhovs at andrew]</div>
+<img src="<?php echo base_url('assets/images/staff/qirui.jpg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
+<div class="ta-name"><a href="">Ridge</a></div>
+<div>[ at andrew]</div>
 <div style="clear: both;">&nbsp;</div>
 </div>
 
 <div style="clear: both;">&nbsp;</div>
 
 <div style="width: 360px; float: left;">
-<img src="<?php echo base_url('assets/images/staff/iqui.jpg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div class="ta-name"><a href="">Iqui Balam Heredia Marin</a></div>
-<div>[iquibalh at andrew]</div>
+<img src="<?php echo base_url('assets/images/staff/sumukh.jpg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
+<div class="ta-name"><a href="">Sumukh</a></div>
+<div>[ at andrew]</div>
 <div style="clear: both;">&nbsp;</div>
 </div>
 
 <div style="clear: both;">&nbsp;</div>
 
 <div style="width: 360px; float: left;">
-<img src="<?php echo base_url('assets/images/staff/harry.jpg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div class="ta-name"><a href="">Harry Freeman</a></div>
-<div>[hfreeman at andrew]</div>
+<img src="<?php echo base_url('assets/images/staff/vedanth.jpg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
+<div class="ta-name"><a href="">Vedanth</a></div>
+<div>[ at andrew]</div>
 <div style="clear: both;">&nbsp;</div>
 </div>
--->
+
+<div style="clear: both;">&nbsp;</div>
 
 <div style="clear: both;">&nbsp;</div>
 
