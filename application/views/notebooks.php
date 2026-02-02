@@ -38,6 +38,12 @@
 </ul>
 </p>
 
+<p>
+<div><b>Lecture 6:</b> Detectors and Descriptors</div>
+<ul>
+<li><a href="https://colab.research.google.com/github/matthewotoole/16385_fall2020_notebooks/blob/master/Lecture_6.ipynb">Notebook</a></li>
+</ul>
+</p>
 
 <p>
 <div><b>Lecture 7:</b> 2D Transformations</div>
