@@ -17,6 +17,12 @@
 </tr>
 </table>
 
+<table>
+<tr>
+<td class="schedule_date">(Due Feb 18th)</td><td class="schedule_lecture"><a href="https://16385.courses.cs.cmu.edu/spring2026/assets/assignments/assgn2.zip">Programming Assignment 2: Augmented Reality with Planar Homographies</a></td>
+</tr>
+</table>
+
 <!--
 <table>
 <tr>
