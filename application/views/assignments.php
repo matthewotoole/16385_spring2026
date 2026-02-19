@@ -23,6 +23,13 @@
 </tr>
 </table>
 
+
+<table>
+<tr>
+<td class="schedule_date">(Due Mar 11th)</td><td class="schedule_lecture"><a href="https://16385.courses.cs.cmu.edu/spring2026/assets/assignments/assgn3.zip">Programming Assignment 3: 3D Reconstruction</a></td>
+</tr>
+</table>
+
 <!--
 <table>
 <tr>
