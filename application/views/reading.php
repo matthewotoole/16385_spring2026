@@ -167,7 +167,7 @@ Chapter 6 of this book has a very thorough treatment of camera models.
 
 <div class="book_lecture">
 <div class="book_lecture_title">
-<a href="<?php echo lecture_url('nn'); ?>">Lecture 15 &amp; 16: Neural Networks</a></div>
+<a href="<?php echo lecture_url('nn'); ?>">Lecture 15: Neural Networks</a></div>
 <div class="colored_text book_lecture_subtitle">(Perceptron, neural networks, training perceptrons, gradient descent, backpropagation, stochastic gradient descent)</div>
 <div>Basic reading (No standard textbooks yet!):</div>
 <ul>
@@ -179,7 +179,7 @@ Chapter 6 of this book has a very thorough treatment of camera models.
 
 <div class="book_lecture">
 <div class="book_lecture_title">
-<a href="<?php echo lecture_url('cnn'); ?>">Lecture 17: Convolutional Neural Networks</a></div>
+<a href="<?php echo lecture_url('cnn'); ?>">Lecture 16 &amp; 17: Convolutional Neural Networks</a></div>
 <div class="colored_text book_lecture_subtitle">(Some notes on optimization, convolutional neural networks, training ConvNets)</div>
 <div>Basic reading (No standard textbooks yet!):</div>
 <ul>

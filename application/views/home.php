@@ -120,11 +120,9 @@ $lectures = array(
      lecture_def('Mar 11 (Wed)', 'Neural Networks', lecture_url('nn'),
                  'bold', array('Assignment 3 DUE', 'Assignment 4 out')),
                      
-     lecture_def('Mar 16 (Mon)', 'Neural Networks (cont.)', lecture_url('nn'),
-                 'bold'),
+     lecture_def('Mar 16 (Mon)', 'Convolutional Neural Networks', lecture_url('cnn'), 'bold'),
                      
-     lecture_def('Mar 18 (Wed)', 'Convolutional Neural Networks', lecture_url('cnn'),
-                 'bold'),
+     lecture_def('Mar 18 (Wed)', 'Convolutional Neural Networks (cont.)', lecture_url('cnn'), 'bold'),
                      
      lecture_def('Mar 23 (Mon)', 'Optical Flow', lecture_url('flow'),
                  'bold'),
