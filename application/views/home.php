@@ -236,6 +236,12 @@ foreach ($lectures as $lecture)
 </tr>
 </table>
 
+<table>
+<tr>
+<td class="schedule_date">(Due Mar 25th)</td><td class="schedule_lecture"><a href="https://16385.courses.cs.cmu.edu/spring2026/assets/assignments/assgn4.zip">Programming Assignment 4: Scene Recognition with Bag of Words</a></td>
+</tr>
+</table>
+
 
 <!--
 <table>
