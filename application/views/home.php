@@ -242,6 +242,12 @@ foreach ($lectures as $lecture)
 </tr>
 </table>
 
+<table>
+<tr>
+<td class="schedule_date">(Due Apr 8th)</td><td class="schedule_lecture"><td class="schedule_lecture"><a href="https://16385.courses.cs.cmu.edu/spring2026/assets/assignments/assgn5.zip">Programming Assignment 5: Neural Networks for Recognition</a></td>
+</tr>
+</table>
+
 
 <!--
 <table>
