@@ -43,6 +43,12 @@
 </tr>
 </table>
 
+<table>
+<tr>
+<td class="schedule_date">(Due Apr 24th)</td><td class="schedule_lecture"><td class="schedule_lecture"><a href="https://16385.courses.cs.cmu.edu/spring2026/assets/assignments/assgn6.zip">Programming Assignment 6: Video Tracking</a></td>
+</tr>
+</table>
+
 <!--
 <table>
 <tr>
