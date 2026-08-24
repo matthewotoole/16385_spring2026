@@ -30,7 +30,7 @@ mysql_command = "jexec http-16385 mysql";
 
 # Database authentication
 
-database_name = '16385_spring2026';
+database_name = '16385_fall2026';
 
 database_user = 'root';
 
@@ -48,7 +48,7 @@ webserver_group = 'www';
 # if your site is to be located at http://www.foo.com/mysite, then set
 # site_base_dir to '/mysite'
 
-site_code_base_url = '/spring2026';
+site_code_base_url = '/fall2026';
 
 # base directory for storing uploaded content.  It is recommended you
 # make this different from the base directory of the code itself to
@@ -66,7 +66,7 @@ site_code_base_url = '/spring2026';
 # http://www.foo.com/mysite/, then I place the uploaded content in
 # http://www.foo.com/mysitecontent/
 
-site_content_base_url = '/spring2026content';
+site_content_base_url = '/fall2026content';
 
 ##################################################
 # Local File System Paths
@@ -96,14 +96,14 @@ site_backup_dir = '';
 
 # Course web site name: string used in the title of generated pages
 
-site_name = 'Computer Vision : Spring 2026';
+site_name = 'Computer Vision : Fall 2026';
 
 # This is a 'secret code' required to create an account.  It's a small
 # amount of security to prevent anyone on the web from signing up.  I
 # typically tell my students the code on the first day of class.  If
 # the value is the empty string, then no code is required.
 
-site_signup_code = '!CV2026!';
+site_signup_code = '!CVFall2026!';
 
 # Course system email: used in anytime an email is sent by the site
 
