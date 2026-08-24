@@ -91,13 +91,6 @@ following courses serve as prerequisite:</p>
 
 <div class="overview_main_item overview_ruled_element">Evaluation</div>
 
-Your final grade will be made up from:
-
-Python/NumPy refresher: 1% (extra credit)
-Six programming assignments: 75%
-Six take-home quizzes on theory: 20%
-In-class participation via Slido polls (not graded): 5%
-
 <p>Your final grade will be made up from:</p>
 <ul>
 <li>Python/NumPy refresher: 1% (extra credit)</li>
@@ -105,8 +98,6 @@ In-class participation via Slido polls (not graded): 5%
 <li>Six take-home quizzes on theory: 20%</li>
 <li>In-class participation via Slido polls (not graded): 5%</li>
 </ul>
-
-<p><strong>Programming assignments:</strong> Programming assignments (PAs) will require implementing a significant computer vision algorithm. Some of them will also have a small theory component relevant to the implementation. Programming will be done in Python.</p>
 
 <p><strong>Leniency for programming assignments:</strong>
 
