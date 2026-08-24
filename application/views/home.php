@@ -4,7 +4,7 @@
 <div class="home_title">Computer Vision <span style="font-size: 12pt;">(CMU 16-385)</span> </div>
 
 <div>
-<img style="padding-bottom: 5px;" src="https://16385.courses.cs.cmu.edu/spring2026/assets/images/banner.png" width="800"></a>
+<img style="padding-bottom: 5px;" src="https://16385.courses.cs.cmu.edu/fall2026/assets/images/banner.png" width="800"></a>
 </div>
 
 <p style="padding-bottom: .15em"> This course provides a comprehensive
@@ -16,8 +16,8 @@ as well as hands on experience to solve real-life vision problems.  </p>
 <div class="overview_main_item overview_ruled_element">Basic Info</div>
 
 <div style="padding-bottom: 15px;">
-<div>Mon/Wed 12:30pm-1:50pm</div>
-<div>Tepper 1403</div>
+<div>Mon/Wed 11:00am-12:20pm</div>
+<div>DH 2302</div>
 <div>Instructor: <a href="https://www.cs.cmu.edu/~motoole2/">Matthew O'Toole</a></div>
 <div style="padding-top:1em;">See the <a href="<?php echo site_url('courseinfo'); ?>">Course Info</a> page for more info on policies and logistics.</div>
 </div>
@@ -26,12 +26,12 @@ as well as hands on experience to solve real-life vision problems.  </p>
 
 To get started with the class you need to do just three things:
 <ol>
-<li><a href="https://piazza.com/cmu/spring2026/16385">Sign up</a> for the course Piazza.</li>
-<li><a href="https://16385.courses.cs.cmu.edu/spring2026/users/create">Sign up</a> for an account on this webpage.  (The signup code is on Canvas.)</li>
+<li><a href="https://piazza.com/cmu/fall2026/16385">Sign up</a> for the course Piazza.</li>
+<li><a href="https://16385.courses.cs.cmu.edu/fall2026/users/create">Sign up</a> for an account on this webpage.  (The signup code is on Canvas.)</li>
                                                                                                                   <li>Carefully read through the <a href="<?php echo site_url('courseinfo'); ?>">Course Info</a>.</li>
                                                                                                                 </ol>
 
-<div class="overview_main_item overview_ruled_element">Spring 2026 Schedule</div>
+<div class="overview_main_item overview_ruled_element">Fall 2026 Schedule</div>
 
 <table>
 
@@ -78,8 +78,9 @@ function lecture_def($date, $title, $link, $fmt='', $extras=array()) {
 
 $lectures = array(
 
-     lecture_def('Jan 12 (Mon)', 'Course Introduction', lecture_url('intro'), 'bold'),
+     lecture_def('Aug 24 (Mon)', 'Course Introduction', lecture_url('intro'), 'bold'),
                   
+     /*
      lecture_def('Jan 14 (Wed)', 'Image Filtering', lecture_url('filtering'), 'bold', array('Assignment 0 out')),
 
      lecture_def('Jan 19 (Mon)', 'NO CLASS (MLK Jr Day)', '',
@@ -108,10 +109,10 @@ $lectures = array(
      lecture_def('Feb 25 (Wed)', 'Image Classification', lecture_url('bow'),
                  'bold'),
                      
-     lecture_def('Mar 2 (Mon)', 'NO CLASS (Spring Break)', '',
+     lecture_def('Mar 2 (Mon)', 'NO CLASS (Fall Break)', '',
                  'bold'),
    
-     lecture_def('Mar 4 (Wed)', 'NO CLASS (Spring Break)', '',
+     lecture_def('Mar 4 (Wed)', 'NO CLASS (Fall Break)', '',
                  'bold'),
    
      lecture_def('Mar 9 (Mon)', 'Image Classification (cont.)', lecture_url('bow'),
@@ -156,6 +157,7 @@ $lectures = array(
 
      lecture_def('Apr 24 (Fri)', '', '',
                  'bold', array('Assignment 6 DUE')),
+     */
   );
 
 
@@ -212,127 +214,48 @@ foreach ($lectures as $lecture)
 
 <div class="overview_main_item overview_ruled_element">Assignments</div>
 
-<table>
-<tr>
-<td class="schedule_date">(Due Jan 21st)</td><td class="schedule_lecture"><a href="https://16385.courses.cs.cmu.edu/spring2026/assets/assignments/assgn0.pdf">Programming Assignment 0: Introduction to Python</a></td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td class="schedule_date">(Due Feb 4th)</td><td class="schedule_lecture"><a href="https://16385.courses.cs.cmu.edu/spring2026/assets/assignments/assgn1.zip">Programming Assignment 1: Image Filtering and Hough Transform</a></td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td class="schedule_date">(Due Feb 18th)</td><td class="schedule_lecture"><a href="https://16385.courses.cs.cmu.edu/spring2026/assets/assignments/assgn2.zip">Programming Assignment 2: Augmented Reality with Planar Homographies</a></td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td class="schedule_date">(Due Mar 11th)</td><td class="schedule_lecture"><a href="https://16385.courses.cs.cmu.edu/spring2026/assets/assignments/assgn3.zip">Programming Assignment 3: 3D Reconstruction</a></td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td class="schedule_date">(Due Mar 25th)</td><td class="schedule_lecture"><a href="https://16385.courses.cs.cmu.edu/spring2026/assets/assignments/assgn4.zip">Programming Assignment 4: Scene Recognition with Bag of Words</a></td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td class="schedule_date">(Due Apr 8th)</td><td class="schedule_lecture"><td class="schedule_lecture"><a href="https://16385.courses.cs.cmu.edu/spring2026/assets/assignments/assgn5.zip">Programming Assignment 5: Neural Networks for Recognition</a></td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td class="schedule_date">(Due Apr 24th)</td><td class="schedule_lecture"><td class="schedule_lecture"><a href="https://16385.courses.cs.cmu.edu/spring2026/assets/assignments/assgn6.zip">Programming Assignment 6: Video Tracking</a></td>
-</tr>
-</table>
-
-
 <!--
 <table>
 <tr>
-<td class="schedule_date">(Due Oct 23)</td><td class="schedule_lecture">Programming Assignment 3: 3D Reconstruction</td>
+<td class="schedule_date">(Due Jan 21st)</td><td class="schedule_lecture"><a href="https://16385.courses.cs.cmu.edu/fall2026/assets/assignments/assgn0.pdf">Programming Assignment 0: Introduction to Python</a></td>
 </tr>
 </table>
 
 <table>
 <tr>
-<td class="schedule_date">(Due Nov 6)</td><td class="schedule_lecture">Programming Assignment 4: Scene Recognition with Bag of Words</td>
+<td class="schedule_date">(Due Feb 4th)</td><td class="schedule_lecture"><a href="https://16385.courses.cs.cmu.edu/fall2026/assets/assignments/assgn1.zip">Programming Assignment 1: Image Filtering and Hough Transform</a></td>
 </tr>
 </table>
 
 <table>
 <tr>
-<td class="schedule_date">(Due Nov 20)</td><td class="schedule_lecture">Programming Assignment 5: Neural Networks for Recognition</td>
+<td class="schedule_date">(Due Feb 18th)</td><td class="schedule_lecture"><a href="https://16385.courses.cs.cmu.edu/fall2026/assets/assignments/assgn2.zip">Programming Assignment 2: Augmented Reality with Planar Homographies</a></td>
 </tr>
 </table>
 
-
 <table>
 <tr>
-<td class="schedule_date">(Due Dec 6)</td><td class="schedule_lecture">Programming Assignment 6: Video Tracking</td>
+<td class="schedule_date">(Due Mar 11th)</td><td class="schedule_lecture"><a href="https://16385.courses.cs.cmu.edu/fall2026/assets/assignments/assgn3.zip">Programming Assignment 3: 3D Reconstruction</a></td>
 </tr>
 </table>
--->
-
-<!--
-
-<div class="overview_main_item overview_ruled_element">Quizzes</div>
 
 <table>
-
 <tr>
-<td class="schedule_date">(Due Sept 19th)</td><td class="schedule_lecture"><a href="https://www.overleaf.com/read/mpfjgxtgjgxg">Quiz 1: Convolutions and Fourier transforms</a></td>
+<td class="schedule_date">(Due Mar 25th)</td><td class="schedule_lecture"><a href="https://16385.courses.cs.cmu.edu/fall2026/assets/assignments/assgn4.zip">Programming Assignment 4: Scene Recognition with Bag of Words</a></td>
 </tr>
+</table>
 
+<table>
 <tr>
-<td class="schedule_date">(Due Sept 26th)</td><td class="schedule_lecture"><a href="https://www.overleaf.com/read/gtxpzprkhbdr">Quiz 2: Corners and Covariance Matrices</a></td>
+<td class="schedule_date">(Due Apr 8th)</td><td class="schedule_lecture"><td class="schedule_lecture"><a href="https://16385.courses.cs.cmu.edu/fall2026/assets/assignments/assgn5.zip">Programming Assignment 5: Neural Networks for Recognition</a></td>
 </tr>
+</table>
 
+<table>
 <tr>
-<td class="schedule_date">(Due Oct 3rd)</td><td class="schedule_lecture"><a href="https://www.overleaf.com/read/bnmchgkdyrkp">Quiz 3: Transformations, Heterogeneous, and Homogeneous Coordinates</a></td>
+<td class="schedule_date">(Due Apr 24th)</td><td class="schedule_lecture"><td class="schedule_lecture"><a href="https://16385.courses.cs.cmu.edu/fall2026/assets/assignments/assgn6.zip">Programming Assignment 6: Video Tracking</a></td>
 </tr>
-
-<tr>
-<td class="schedule_date">(Due Oct 10th)</td><td class="schedule_lecture"><a href="https://www.overleaf.com/read/swzngbnchgnx">Quiz 4: Camera Projection Matrices</a></td>
-</tr>
-
-<tr>
-<td class="schedule_date">(Due Oct 24th)</td><td class="schedule_lecture"><a href="https://www.overleaf.com/read/cfwdqrwgwdwk">Quiz 5: Essential and Fundamental Matrices</a></td>
-</tr>
-
-<tr>
-<td class="schedule_date">(Due Oct 31st)</td><td class="schedule_lecture"><a href="https://www.overleaf.com/read/pmmbytxdwrhw">Quiz 6: Fundamental Matrices (cont.) and Nearest Neighbors</a></td>
-</tr>
-
-
-<tr>
-<td class="schedule_date">(Due Nov 7th)</td><td class="schedule_lecture"><a href="https://www.overleaf.com/read/trpnkhjjvsmm">Quiz 7: Neural Networks</a></td>
-</tr>
-
-<tr>
-<td class="schedule_date">(Due Nov 14th)</td><td class="schedule_lecture"><a href="https://www.overleaf.com/read/ztkqgwxhrqnm">Quiz 8: Neural Networks (cont.) and Optical flow</a></td>
-</tr>
-
-<tr>
-<td class="schedule_date">(Due Nov 21st)</td><td class="schedule_lecture"><a href="https://www.overleaf.com/read/sggggkxtmpyk">Quiz 9: Image Alignment</a></td>
-</tr>
-
-<tr>
-<td class="schedule_date">(Due Nov 30th)</td><td class="schedule_lecture"><a href="https://www.overleaf.com/read/gdyskjyswfgn">Quiz 10: Radiometry and Reflectance</a></td>
-</tr>
-
-<tr>
-<td class="schedule_date">(Due Dec 7th)</td><td class="schedule_lecture"><a href="https://www.overleaf.com/read/qfdvxxygxqvf">Quiz 11: Photometric Stereo</a></td>
-</tr>
-
+</table>
 -->
 </table>
 
