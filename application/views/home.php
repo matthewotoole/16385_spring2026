@@ -26,10 +26,9 @@ as well as hands on experience to solve real-life vision problems.  </p>
 
 To get started with the class you need to do just three things:
 <ol>
-<li><a href="https://piazza.com/cmu/fall2026/16385">Sign up</a> for the course Piazza.</li>
 <li><a href="https://16385.courses.cs.cmu.edu/fall2026/users/create">Sign up</a> for an account on this webpage.  (The signup code is on Canvas.)</li>
-                                                                                                                  <li>Carefully read through the <a href="<?php echo site_url('courseinfo'); ?>">Course Info</a>.</li>
-                                                                                                                </ol>
+<li>Carefully read through the <a href="<?php echo site_url('courseinfo'); ?>">Course Info</a>.</li>
+</ol>
 
 <div class="overview_main_item overview_ruled_element">Fall 2026 Schedule</div>
 

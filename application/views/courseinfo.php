@@ -11,10 +11,10 @@ function make_url($first, $second) {
 
 <div class="home_title">Computer Vision <span style="font-size: 12pt;">(CMU 16-385)</span> </div>
 
-<div>CMU 16-385, Spring 2026</div>
-<div>Mon/Wed 12:30pm-1:50pm</div>
-<div>Tepper 1430</div>
-     <div style="padding-bottom: 20px;">Instructor: <a href="https://www.cs.cmu.edu/~motoole2/">Matthew O'Toole</a></div>
+<div>CMU 16-385, Fall 2026</div>
+<div>Mon/Wed 11:00am-12:20pm</div>
+<div>DH 2302</div>
+<div style="padding-bottom: 20px;">Instructor: <a href="https://www.cs.cmu.edu/~motoole2/">Matthew O'Toole</a></div>
 
 
 <div class="overview_main_item overview_ruled_element">Course Description</div>
@@ -37,70 +37,7 @@ as well as hands on experience to solve real-life vision problems.
 </div>
 <div>[motoole2 at andrew] </div>
 <div><b>Office:</b> Smith Hall 215</div>
-<div><b>Office hours:</b> Upon request</div>
-<div style="clear: both;">&nbsp;</div>
-</div>
-
-<div style="clear: both;">&nbsp;</div>
-
-
-
-<div class="overview_minor_item" style="clear: both; padding-top: 2em; padding-bottom: 2em;">Office hours for all TAs can be found here:<br>
-<a href="https://docs.google.com/spreadsheets/d/1f2Rzvya6NFTxNtxNErSTGbbEY3wJ7o3ASRw9X8ZqJNc/edit?gid=0#gid=0">OH Spreadsheet</a></div>
-
-<div class="overview_minor_item" style="clear: both; padding-top: 2em; padding-bottom: 2em;">Your fun and helpful TAs are shown below (in alphabetical order).</div>
-
-<div style="width: 360px; float: left;">
-<img src="<?php echo base_url('assets/images/staff/andrew.jpg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div class="ta-name"><a href="">Andrew Wang</a></div>
-<div style="clear: both;">&nbsp;</div>
-</div>
-
-<div style="clear: both;">&nbsp;</div>
-
-<div style="width: 360px; float: left;">
-<img src="<?php echo base_url('assets/images/staff/anirudh.jpg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div class="ta-name"><a href="">Anirudh Mani</a></div>
-<div style="clear: both;">&nbsp;</div>
-</div>
-
-<div style="clear: both;">&nbsp;</div>
-
-<div style="width: 360px; float: left;">
-<img src="<?php echo base_url('assets/images/staff/cindy.jpg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div class="ta-name"><a href="">Cindy Bin</a></div>
-<div style="clear: both;">&nbsp;</div>
-</div>
-
-<div style="clear: both;">&nbsp;</div>
-
-<div style="width: 360px; float: left;">
-<img src="<?php echo base_url('assets/images/staff/liza.jpg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div class="ta-name"><a href="">Liza Dahiya</a></div>
-<div style="clear: both;">&nbsp;</div>
-</div>
-
-<div style="clear: both;">&nbsp;</div>
-
-<div style="width: 360px; float: left;">
-<img src="<?php echo base_url('assets/images/staff/qirui.jpg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div class="ta-name"><a href="">Ridge Da</a></div>
-<div style="clear: both;">&nbsp;</div>
-</div>
-
-<div style="clear: both;">&nbsp;</div>
-
-<div style="width: 360px; float: left;">
-<img src="<?php echo base_url('assets/images/staff/sumukh.jpg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div class="ta-name"><a href="">Sumukh Venkatesh</a></div>
-<div style="clear: both;">&nbsp;</div>
-</div>
-
-<div style="clear: both;">&nbsp;</div>
-
-<div style="width: 360px; float: left;">
-<img src="<?php echo base_url('assets/images/staff/tim.jpg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
-<div class="ta-name"><a href="">Tim Wang</a></div>
+<div><b>Office hours:</b> TBD</div>
 <div style="clear: both;">&nbsp;</div>
 </div>
 
@@ -109,6 +46,12 @@ as well as hands on experience to solve real-life vision problems.
 <div style="width: 360px; float: left;">
 <img src="<?php echo base_url('assets/images/staff/vedanth.jpg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
 <div class="ta-name"><a href="">Vedanth Ramanathan</a></div>
+<div style="clear: both;">&nbsp;</div>
+</div>
+
+<div style="width: 360px; float: left;">
+<img src="<?php echo base_url('assets/images/staff/gavin.jpg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
+<div class="ta-name"><a href="">Gavin Zhu</a></div>
 <div style="clear: both;">&nbsp;</div>
 </div>
 
@@ -148,58 +91,62 @@ following courses serve as prerequisite:</p>
 
 <div class="overview_main_item overview_ruled_element">Evaluation</div>
 
+Your final grade will be made up from:
+
+Python/NumPy refresher: 1% (extra credit)
+Six programming assignments: 75%
+Six take-home quizzes on theory: 20%
+In-class participation via Slido polls (not graded): 5%
+
 <p>Your final grade will be made up from:</p>
 <ul>
-<li>Six programming assignments (95%).</li>
-<li>Participation (5%) - includes class or Piazza participation.</li>
+<li>Python/NumPy refresher: 1% (extra credit)</li>
+<li>Six programming assignments: 75%</li>
+<li>Six take-home quizzes on theory: 20%</li>
+<li>In-class participation via Slido polls (not graded): 5%</li>
 </ul>
+
 <p><strong>Programming assignments:</strong> Programming assignments (PAs) will require implementing a significant computer vision algorithm. Some of them will also have a small theory component relevant to the implementation. Programming will be done in Python.</p>
-<p><strong>Participation:</strong> The 5% class participation grade can be achieved by answering in-class polls, or by asking/answering questions on Piazza.</p>
 
-<p><strong>Late days:</strong>
+<p><strong>Leniency for programming assignments:</strong>
+
 <ul>
-<li>For the homework assignments, students will be allowed a total of <strong>six</strong> free late days to use throughout the semester.</li>
-<li>You can submit any assignment up to 4 days late.  You can do this either by:</li>
+<li>6 grace days total. Intended to cover sick days, interviews, family emergencies, and other unforeseen events. No additional grace days will be provided!</li>
+<li>If you run out of grace days, each additional late day will incur a 15% penalty for that assignment.</li>
+<li>Any assignment submitted more than 4 days late will receive a zero.</li>
+<li>Use grace days wisely… save for later (harder) assignments and for emergencies!</li>
+</ul>
+
+<p><strong>Leniency for take-home quizzes:</strong></pi>
+
 <ul>
-   <li>Using up to 4 late days (you can use up to 4 free late on any assignment)</li>
-   <li>If your late days are used up, you can submit it late (up to 4 days) for a 10% penalty per day.</li>
+<li>There are no grace days for take-home quizzes.</li>
+<li>The best 4 of 6 quizzes will be used to calculate your final grade.</li>
 </ul>
-    <li>Only 4 late days can be used for each assignment; if you submit the assignment 5 days late then you will get a 0.</li>
+
+<p><strong>Leniency for in-class polls:</strong></p>
+
+<ul>
+<li>Skip up to 10% of in-class polls without penalty.</li>
 </ul>
-If you have a medical situation, please make a private post on Piazza to ask for an extension. Please tell us that you have a medical situation and need an extension, but you do not need to explain the details of your medical situation.</p>
 
-<p><strong>Submitting homework:</strong> We use the Gradescope menu link in <a href="https://canvas.cmu.edu/courses/52718/">Canvas</a> for submitting and grading homeworks.</p>
-<p><strong>Accommodations for Students with Disabilities:</strong> If you have a disability and have an accommodations letter from the Disability Resources office, I encourage you to discuss your accommodations and needs with me as early in the semester as possible. I will work with you to ensure that accommodations are provided as appropriate. If you suspect that you may have a disability and would benefit from accommodations but are not yet registered with the Office of Disability Resources, I encourage you to contact them at <a href=mailto:access@andrew.cmu.edu>access@andrew.cmu.edu</a>.
+<p><strong>Submitting homework:</strong> We use the Gradescope menu link in Canvas for submitting and grading homeworks.</p>
 
+<p><strong>Accommodations for Students with Disabilities:</strong> If you have a disability and have an accommodations letter from the Disability Resources office, I encourage you to discuss your accommodations and needs with me as early in the semester as possible. I will work with you to ensure that accommodations are provided as appropriate. If you suspect that you may have a disability and would benefit from accommodations but are not yet registered with the Office of Disability Resources, I encourage you to contact them at access@andrew.cmu.edu.</p>
 
+<div class="overview_main_item overview_ruled_element">AI Policy</div>
 
-<div class="overview_main_item overview_ruled_element">Discussion</div>
+<p>AI can be a valuable tool for learning, but how you use it matters. This course encourages you to use AI in ways that support your own thinking and understanding of the material—for example, by getting clarification on a topic or receiving help with Python/NumPy syntax.</p>
 
-<p> We use <a href="https://piazza.com/cmu/fall2026/16385/home">Piazza</a> for class discussion and announcements.</p>
+<p>However, using AI to implement solutions to assignments or solve theoretical questions is prohibited and will be considered an Academic Integrity Violation. You are responsible for understanding and being able to explain all work that you submit.</p>
+
+<p>Use AI to help you think, not to avoid thinking.</p>
 
 <div class="overview_main_item overview_ruled_element">Collaboration Policy</div>
 
-<p> Students in 16-385 are absolutely encouraged to talk to each other,
-to the TAs, to the instructors, or to anyone else about course assignments.
-Any assistance, though, must be limited to discussion of the problems and
-sketching general approaches to a solution. Each student must write their
-own code and produce their own writeup.
+<p> Students in 16-385 are absolutely encouraged to talk to each other, to the TAs, to the instructors, or to anyone else about course assignments. Any assistance, though, must be limited to discussion of the problems and sketching general approaches to a solution. Each student must write their own code and produce their own writeup. Consulting another student's solution, a LLM-generated solution, or solutions from the internet, is prohibited on assignments. These and any other form of collaboration constitute cheating. If you have any question about whether some activity would constitute cheating, just be cautious and ask the instructors before proceeding!</p>
 
-<span class="bold_text">Consulting another student's
-solution, or solutions from the internet, is prohibited on assignments.
-These and any other form of collaboration constitute cheating.</span>
-If you have any question about whether some activity
-would constitute cheating, just be cautious and ask the instructor
-before proceeding!</p>
-
-<p> You may not supply code or assignment writeups you
-complete during 16-385 to other students in future instances of
-this course or make these items available (e.g., on the web) for use
-in future instances of this course (just as you may not use work
-completed by students who've taken the course previously).  We
-encourage you to use public source control hosts like <a
-href="http://www.github.com">Github</a> for your assignments, however
-please be sure to make your programming assignment repositories private.</p>
+<p>You may not supply code, assignment write-ups, or quizzes you complete during 16-385 to other students in future instances of this course or make these items available (e.g., on the web) for use in future instances of this course (just as you may not use work completed by students who've taken the course previously). We encourage you to use public source control hosts like Github for your assignments, however please be sure to make your programming assignment repositories private.</p>
 
 <div class="overview_main_item overview_ruled_element">Diversity Statement</div>
                        
