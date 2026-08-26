@@ -79,13 +79,13 @@ $lectures = array(
 
      lecture_def('Aug 24 (Mon)', 'Course Introduction', lecture_url('intro'), 'bold'),
 
-     /*
      lecture_def('Aug 26 (Wed)', 'Image Filtering', lecture_url('filtering'), 'bold', array('Assignment 0 out')),
                     
      lecture_def('Aug 31 (Mon)', 'Image Pyramids and Frequency Domain', lecture_url('pyramids'), 'bold'),
      
      lecture_def('Sept 2 (Wed)', 'Hough Transform', lecture_url('hough'), 'bold', array('Assignment 0 DUE', 'Quiz 1 \& Assignment 1 out')),
 
+     /*
      lecture_def('Sept 7 (Mon)', 'NO CLASS (Labor Day)', '', 'bold'),
      
      lecture_def('Sept 9 (Wed)', 'Detecting Corners', lecture_url('corners'), array('Quiz 1 DUE')),
