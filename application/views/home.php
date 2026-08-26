@@ -78,7 +78,72 @@ function lecture_def($date, $title, $link, $fmt='', $extras=array()) {
 $lectures = array(
 
      lecture_def('Aug 24 (Mon)', 'Course Introduction', lecture_url('intro'), 'bold'),
-                  
+
+     lecture_def('Aug 26 (Wed)', 'Image Filtering', lecture_url('filtering'), 'bold', array('Assignment 0 out')),
+                    
+     lecture_def('Aug 31 (Mon)', 'Image Pyramids and Frequency Domain', lecture_url('pyramids'), 'bold'),
+     
+     lecture_def('Sept 2 (Wed)', 'Hough Transform', lecture_url('hough'), 'bold', array('Assignment 0 DUE', 'Quiz 1 \& Assignment 1 out')),
+
+     lecture_def('Sept 7 (Mon)', 'NO CLASS (Labor Day)', '', 'bold'),
+     
+     lecture_def('Sept 9 (Wed)', 'Detecting Corners', lecture_url('corners'), array('Quiz 1 DUE')),
+                    
+     lecture_def('Sept 14 (Mon)', 'Feature Detectors and Descriptors', lecture_url('features'), 'bold'),
+
+     lecture_def('Sept 16 (Wed)', '2D Transformations', lecture_url('transformations'), 'bold', array('Assignment 1 DUE', Quiz 2 \& Assignment 2 out')),
+                    
+     lecture_def('Sept 21 (Mon)', 'Image Homographies', lecture_url('homographies'), 'bold'),
+                    
+     lecture_def('Sept 23 (Wed)', 'Geometric Camera Models', lecture_url('cameras'), array('Quiz 1 DUE')),
+                    
+     lecture_def('Sept 28 (Mon)', 'Geometric Camera Models (cont.)', lecture_url('cameras2'), 'bold'),
+                    
+     lecture_def('Sept 30 (Wed)', 'Two-View Geometry', lecture_url('stereogeometry'), 'bold', array('Assignment 2 DUE', 'Quiz 3 \& Assignment 3 out')),
+                    
+     lecture_def('Oct 5 (Mon)', 'Stereo', lecture_url('stereo'), 'bold'),
+                    
+     lecture_def('Oct 7 (Wed)', 'Image Classification', lecture_url('bow'), 'bold', array('Quiz 3 DUE')),
+
+     lecture_def('Oct 12 (Mon)', 'NO CLASS (Fall Break)', '', 'bold'),
+
+     lecture_def('Oct 14 (Wed)', 'NO CLASS (Fall Break)', '', 'bold'),
+
+     lecture_def('Oct 19 (Mon)', 'Image Classification (cont.)', lecture_url('bow'), 'bold'),
+                    
+     lecture_def('Oct 21 (Wed)', 'Neural Networks', lecture_url('nn'), 'bold', array('Assignment 3 DUE', 'Quiz 4 \& Assignment 4 out')),
+                    
+     lecture_def('Oct 26 (Mon)', 'Neural Networks (cont.)', lecture_url('nn'),
+               'bold'),
+                    
+     lecture_def('Oct 28 (Wed)', 'Convolutional Neural Networks', lecture_url('cnn'), 'bold', array('Quiz 4 DUE')),
+                    
+     lecture_def('Nov 2 (Mon)', 'Optical Flow', lecture_url('flow'),
+               'bold'),
+                    
+     lecture_def('Nov 4 (Wed)', 'Alignment and Tracking', lecture_url('track'), 'bold', array('Assignment 4 DUE', 'Quiz 5 \& Assignment 5 out')),
+                    
+     lecture_def('Nov 9 (Mon)', 'Alignment and Tracking (cont.)', lecture_url('track'), 'bold'),
+                    
+     lecture_def('Nov 11 (Wed)', 'Radiometry and Reflectance', lecture_url('radiometry'), 'bold', array('Quiz 5 DUE')),
+                    
+     lecture_def('Nov 16 (Mon)', 'Radiometry and Reflectance (cont.)', lecture_url('radiometry'), 'bold'),
+                    
+     lecture_def('Nov 18 (Wed)', 'Photometric Stereo', lecture_url('photometricstereo'), 'bold', array('Assignment 5 DUE', 'Quiz 6 \& Assignment 6 out')),
+                    
+     lecture_def('Nov 23 (Mon)', 'Digital Photography', lecture_url('photography'),
+               'bold'),
+
+     lecture_def('Nov 24 (Tue)', '', '', 'bold', array('Quiz 6 DUE')),
+
+     lecture_def('Nov 25 (Wed)', 'NO CLASS (Thanksgiving Holiday)', '', 'bold'),
+                    
+     lecture_def('Nov 30 (Mon)', 'Digital Photography (cont.)', lecture_url('photography'), 'bold'),
+
+     lecture_def('Dec 2 (Wed)', 'Wrap-up', lecture_url('wrapup'), 'bold'),
+
+     lecture_def('Nov 24 (Tue)', '', '', 'bold', array('Assignment 6 DUE')),
+
      /*
      lecture_def('Jan 14 (Wed)', 'Image Filtering', lecture_url('filtering'), 'bold', array('Assignment 0 out')),
 
