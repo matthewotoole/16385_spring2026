@@ -95,7 +95,7 @@ $lectures = array(
                     
      lecture_def('Sept 21 (Mon)', 'Image Homographies', lecture_url('homographies'), 'bold'),
                     
-     lecture_def('Sept 23 (Wed)', 'Geometric Camera Models', lecture_url('cameras'), 'bold', array('Quiz 1 DUE')),
+     lecture_def('Sept 23 (Wed)', 'Geometric Camera Models', lecture_url('cameras'), 'bold', array('Quiz 2 DUE')),
                     
      lecture_def('Sept 28 (Mon)', 'Geometric Camera Models (cont.)', lecture_url('cameras2'), 'bold'),
                     
