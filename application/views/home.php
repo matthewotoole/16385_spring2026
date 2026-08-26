@@ -121,7 +121,6 @@ $lectures = array(
      lecture_def('Nov 2 (Mon)', 'Optical Flow', lecture_url('flow'),
                'bold'),
                     
-     /*
      lecture_def('Nov 4 (Wed)', 'Alignment and Tracking', lecture_url('track'), 'bold', array('Assignment 4 DUE', 'Quiz 5 & Assignment 5 out')),
                     
      lecture_def('Nov 9 (Mon)', 'Alignment and Tracking (cont.)', lecture_url('track'), 'bold'),
@@ -144,7 +143,6 @@ $lectures = array(
      lecture_def('Dec 2 (Wed)', 'Wrap-up', lecture_url('wrapup'), 'bold'),
 
      lecture_def('Nov 24 (Tue)', '', '', 'bold', array('Assignment 6 DUE')),
-     */
 
      /*
      lecture_def('Jan 14 (Wed)', 'Image Filtering', lecture_url('filtering'), 'bold', array('Assignment 0 out')),
