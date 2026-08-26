@@ -87,7 +87,7 @@ $lectures = array(
 
      lecture_def('Sept 7 (Mon)', 'NO CLASS (Labor Day)', '', 'bold'),
      
-     lecture_def('Sept 9 (Wed)', 'Detecting Corners', lecture_url('corners'), array('Quiz 1 DUE')),
+     lecture_def('Sept 9 (Wed)', 'Detecting Corners', lecture_url('corners'), 'bold', array('Quiz 1 DUE')),
                     
      lecture_def('Sept 14 (Mon)', 'Feature Detectors and Descriptors', lecture_url('features'), 'bold'),
 
@@ -95,7 +95,7 @@ $lectures = array(
                     
      lecture_def('Sept 21 (Mon)', 'Image Homographies', lecture_url('homographies'), 'bold'),
                     
-     lecture_def('Sept 23 (Wed)', 'Geometric Camera Models', lecture_url('cameras'), array('Quiz 1 DUE')),
+     lecture_def('Sept 23 (Wed)', 'Geometric Camera Models', lecture_url('cameras'), 'bold', array('Quiz 1 DUE')),
                     
      lecture_def('Sept 28 (Mon)', 'Geometric Camera Models (cont.)', lecture_url('cameras2'), 'bold'),
                     
