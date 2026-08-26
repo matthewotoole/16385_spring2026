@@ -142,7 +142,7 @@ $lectures = array(
 
      lecture_def('Dec 2 (Wed)', 'Wrap-up', lecture_url('wrapup'), 'bold'),
 
-     lecture_def('Nov 24 (Tue)', '', '', 'bold', array('Assignment 6 DUE')),
+     lecture_def('Dec 4 (Fri)', '', '', 'bold', array('Assignment 6 DUE')),
 
      /*
      lecture_def('Jan 14 (Wed)', 'Image Filtering', lecture_url('filtering'), 'bold', array('Assignment 0 out')),
