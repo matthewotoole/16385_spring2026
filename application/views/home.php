@@ -79,6 +79,7 @@ $lectures = array(
 
      lecture_def('Aug 24 (Mon)', 'Course Introduction', lecture_url('intro'), 'bold'),
 
+     /*
      lecture_def('Aug 26 (Wed)', 'Image Filtering', lecture_url('filtering'), 'bold', array('Assignment 0 out')),
                     
      lecture_def('Aug 31 (Mon)', 'Image Pyramids and Frequency Domain', lecture_url('pyramids'), 'bold'),
@@ -142,7 +143,7 @@ $lectures = array(
 
      lecture_def('Dec 2 (Wed)', 'Wrap-up', lecture_url('wrapup'), 'bold'),
 
-     lecture_def('Nov 24 (Tue)', '', '', 'bold', array('Assignment 6 DUE')),
+     lecture_def('Nov 24 (Tue)', '', '', 'bold', array('Assignment 6 DUE')),*/
 
      /*
      lecture_def('Jan 14 (Wed)', 'Image Filtering', lecture_url('filtering'), 'bold', array('Assignment 0 out')),
