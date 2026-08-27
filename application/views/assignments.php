@@ -5,13 +5,13 @@
 
 <div class="overview_main_item overview_ruled_element">Assignments</div>
 
-<!--
 <table>
 <tr>
-<td class="schedule_date">(Due Jan 21st)</td><td class="schedule_lecture"><a href="https://16385.courses.cs.cmu.edu/spring2026/assets/assignments/assgn0.pdf">Programming Assignment 0: Introduction to Python</a></td>
+<td class="schedule_date">(Due Sept 2nd)</td><td class="schedule_lecture"><a href="https://16385.courses.cs.cmu.edu/fall2026/assets/assignments/assgn0.pdf">Programming Assignment 0: Introduction to Python</a></td>
 </tr>
 </table>
 
+<!--
 <table>
 <tr>
 <td class="schedule_date">(Due Feb 4th)</td><td class="schedule_lecture"><a href="https://16385.courses.cs.cmu.edu/spring2026/assets/assignments/assgn1.zip">Programming Assignment 1: Image Filtering and Hough Transform</a></td>
