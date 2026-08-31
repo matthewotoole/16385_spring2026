@@ -55,6 +55,12 @@ as well as hands on experience to solve real-life vision problems.
 <div style="clear: both;">&nbsp;</div>
 </div>
 
+<div style="width: 360px; float: left;">
+<img src="<?php echo base_url('assets/images/staff/jack.jpg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
+<div class="ta-name"><a href="">Jack Gerdsen</a></div>
+<div style="clear: both;">&nbsp;</div>
+</div>
+
 
 <div style="clear: both;">&nbsp;</div>
 
