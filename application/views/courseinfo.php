@@ -37,7 +37,7 @@ as well as hands on experience to solve real-life vision problems.
 </div>
 <div>[motoole2 at andrew] </div>
 <div><b>Office:</b> Smith Hall 215</div>
-<div><b>Office hours:</b> 2-4pm</div>
+<div><b>Office hours:</b> Fridays, 2-4pm</div>
 <div style="clear: both;">&nbsp;</div>
 </div>
 
