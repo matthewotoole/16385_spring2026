@@ -37,7 +37,7 @@ as well as hands on experience to solve real-life vision problems.
 </div>
 <div>[motoole2 at andrew] </div>
 <div><b>Office:</b> Smith Hall 215</div>
-<div><b>Office hours:</b> TBD</div>
+<div><b>Office hours:</b> 2-4pm</div>
 <div style="clear: both;">&nbsp;</div>
 </div>
 
@@ -58,6 +58,12 @@ as well as hands on experience to solve real-life vision problems.
 <div style="width: 360px; float: left;">
 <img src="<?php echo base_url('assets/images/staff/jack.jpg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
 <div class="ta-name"><a href="">Jack Gerdsen</a></div>
+<div style="clear: both;">&nbsp;</div>
+</div>
+
+<div style="width: 360px; float: left;">
+<img src="<?php echo base_url('assets/images/staff/unknown.png'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
+<div class="ta-name"><a href="">Akanksha Singal</a></div>
 <div style="clear: both;">&nbsp;</div>
 </div>
 
