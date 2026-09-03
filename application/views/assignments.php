@@ -3,6 +3,8 @@
 
 <div class="home_title">Computer Vision <span style="font-size: 12pt;">(CMU 16-385)</span> </div>
 
+<p>When accessing Assignments 1–6, please make sure you are signed in to your Google account so you can access Google Colab.</p>
+
 <div class="overview_main_item overview_ruled_element">Assignments</div>
 
 <table>
@@ -13,7 +15,7 @@
 
 <table>
 <tr>
-<td class="schedule_date">(Due Sept 16th)</td><td class="schedule_lecture"><a href="https://drive.google.com/open?id=1jJfom7Oe-r_EyqqkyrnsN9Gg3vfIN383&usp=drive_fs">Programming Assignment 1: Image Filtering and Hough Transform</a></td>
+<td class="schedule_date">(Due Sept 16th)</td><td class="schedule_lecture"><a href="https://colab.research.google.com/drive/1jJfom7Oe-r_EyqqkyrnsN9Gg3vfIN383">Programming Assignment 1: Image Filtering and Hough Transform</a></td>
 </tr>
 </table>
 
