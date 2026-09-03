@@ -76,6 +76,7 @@ var keep_alive_url = "<?php echo site_url("keep_alive"); ?>";
 <div class="topbar_left"><a href="<?php echo site_url('newsfeed'); ?>">[Feed]</a></div>
 <div class="topbar_left"><a href="<?php echo site_url('lectures'); ?>">[Lectures]</a></div>
 <div class="topbar_left"><a href="<?php echo site_url('assignments'); ?>">[Assignments]</a></div>
+<div class="topbar_left"><a href="<?php echo site_url('quizzes'); ?>">[Quizzes]</a></div>
 <div class="topbar_left"><a href="<?php echo site_url('notebooks'); ?>">[Notebooks]</a></div>
 
 <?php // TODO(mburman) use check_privileged

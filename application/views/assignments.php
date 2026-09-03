@@ -11,6 +11,12 @@
 </tr>
 </table>
 
+<table>
+<tr>
+<td class="schedule_date">(Due Sept 16th)</td><td class="schedule_lecture"><a href="https://drive.google.com/open?id=1jJfom7Oe-r_EyqqkyrnsN9Gg3vfIN383&usp=drive_fs">Programming Assignment 1: Image Filtering and Hough Transform</a></td>
+</tr>
+</table>
+
 <!--
 <table>
 <tr>

@@ -62,7 +62,7 @@ as well as hands on experience to solve real-life vision problems.
 </div>
 
 <div style="width: 360px; float: left;">
-<img src="<?php echo base_url('assets/images/staff/unknown.png'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
+<img src="<?php echo base_url('assets/images/staff/akanksha.jpg'); ?>" width="100"  style="float: left; margin-right: 20px; border: #808080 1px solid;" />
 <div class="ta-name"><a href="">Akanksha Singal</a></div>
 <div style="clear: both;">&nbsp;</div>
 </div>
