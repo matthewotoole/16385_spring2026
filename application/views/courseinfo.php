@@ -37,9 +37,17 @@ as well as hands on experience to solve real-life vision problems.
 </div>
 <div>[motoole2 at andrew] </div>
 <div><b>Office:</b> Smith Hall 215</div>
-<div><b>Office hours:</b> Fridays, 2-4pm</div>
+<div><b>Office hours:</b> Fridays, 1:30-3:00pm</div>
 <div style="clear: both;">&nbsp;</div>
 </div>
+
+<div style="clear: both;">&nbsp;</div>
+
+<div><b>TA Office Hours</b></div>
+<div><b>Time:</b> Mondays, 2:00-4:00pm. <b>Room:</b> NSH 1101</div>
+<div><b>Time:</b> Tuesdays, 4:00-6:00pm. <b>Room:</b> NSH 1101</div>
+<div><i>Note: TA office hours are subject to change. Please check the course website for the most up-to-date information.</i></div>
+<div><i>Office hours will be held in NSH 3001 the week of September 21st.</i></div>
 
 <div style="clear: both;">&nbsp;</div>
 
