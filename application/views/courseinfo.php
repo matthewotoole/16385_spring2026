@@ -44,7 +44,7 @@ as well as hands on experience to solve real-life vision problems.
 <div style="clear: both;">&nbsp;</div>
 
 <div><b>TA Office Hours</b></div>
-<div><b>Days/times:</b> Mondays, 2:00-4:00pm; Tuesdays, 4:00-6:00pm.
+<div><b>Times:</b> Mondays, 2:00-4:00pm; Tuesdays, 4:00-6:00pm.
 <div><b>Room:</b> NSH 1101. (Office hours will be held in NSH 3001 the week of September 21st.)</div>
 <div><i>Note: TA office hours are subject to change. Please check the course website for the most up-to-date information.</i></div>
 
