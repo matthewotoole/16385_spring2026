@@ -296,6 +296,18 @@ foreach ($lectures as $lecture)
 </tr>
 </table>
 
+<table>
+<tr>
+<td class="schedule_date">(Due Sep 23rd)</td><td class="schedule_lecture"><a href="https://www.overleaf.com/read/rnzqrmrbyxzb#656eed">Quiz 2</a></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td class="schedule_date">(Due Sept 30th)</td><td class="schedule_lecture"><a href="https://colab.research.google.com/drive/14bmg438WPwnCnNYtgT3EStrNhgVJuhXv">Programming Assignment 2: Augmented Reality with Planar Homographies</a></td>
+</tr>
+</table>
+
 <!--
 <table>
 <tr>
