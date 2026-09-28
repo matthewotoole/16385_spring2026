@@ -45,8 +45,7 @@ as well as hands on experience to solve real-life vision problems.
 
 <div><b>TA Office Hours</b></div>
 <div><b>Times:</b> Mondays, 2:00-4:00pm; Tuesdays, 4:00-6:00pm.
-<div><b>Room:</b> NSH 1101. (Office hours will be held in NSH 3001 the week of September 21st.)</div>
-<div><i>Note: TA office hours are subject to change. Please check the course website for the most up-to-date information.</i></div>
+<div><i>Note: TA office hours are held on Zoom. A link can be found <a href="https://piazza.com/class/mt7k5uct5nz5o4/post/30">on Piazza</a>.</i></div>
 
 <div style="clear: both;">&nbsp;</div>
 
