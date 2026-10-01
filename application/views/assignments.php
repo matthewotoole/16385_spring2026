@@ -25,6 +25,12 @@
 </tr>
 </table>
 
+<table>
+<tr>
+<td class="schedule_date">(Due Oct 21st)</td><td class="schedule_lecture"><a href="https://colab.research.google.com/drive/1EMe1jtuleDYXC2PxOl-CZs7ccuGr0kU_">Programming Assignment 3: 3D Reconstruction</a></td>
+</tr>
+</table>
+
 
 <!--
 <table>
