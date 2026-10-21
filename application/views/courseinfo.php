@@ -44,7 +44,7 @@ as well as hands on experience to solve real-life vision problems.
 <div style="clear: both;">&nbsp;</div>
 
 <div><b>TA Office Hours</b></div>
-<div><b>Times:</b> Mondays, 2:00-4:00pm; Tuesdays, 4:00-6:00pm.
+<div><b>Times:</b> Mondays, 2:00-4:00pm; Tuesdays, 5:00-7:00pm.
 <div><i>Note: TA office hours are held on Zoom. A link can be found <a href="https://piazza.com/class/mt7k5uct5nz5o4/post/30">on Piazza</a>.</i></div>
 
 <div style="clear: both;">&nbsp;</div>
