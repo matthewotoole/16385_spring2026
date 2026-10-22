@@ -21,6 +21,13 @@
 <td class="schedule_date">(Due Oct 7th)</td><td class="schedule_lecture"><a href="https://www.overleaf.com/project/6abdcf3e291f193bd2da42e9/share#d2141bbf03c7393863be4ae1edf200bf26fa19e2f580dee8">Quiz 3</a></td>
 </tr>
 
+
+<table>
+<tr>
+<td class="schedule_date">(Due Oct 28th)</td><td class="schedule_lecture"><a href="https://www.overleaf.com/project/6ada5a27d3d30846d878a95b">Quiz 4</a></td>
+</tr>
+</table>
+
 <!--
 <tr>
 <td class="schedule_date">(Due Sept 19th)</td><td class="schedule_lecture"><a href="https://www.overleaf.com/read/mpfjgxtgjgxg">Quiz 1: Convolutions and Fourier transforms</a></td>

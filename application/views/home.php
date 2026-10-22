@@ -320,6 +320,12 @@ foreach ($lectures as $lecture)
 </tr>
 </table>
 
+<table>
+<tr>
+<td class="schedule_date">(Due Oct 28th)</td><td class="schedule_lecture"><a href="https://www.overleaf.com/project/6ada5a27d3d30846d878a95b">Quiz 4</a></td>
+</tr>
+</table>
+
 <!--
 <table>
 <tr>
