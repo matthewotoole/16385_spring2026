@@ -326,6 +326,12 @@ foreach ($lectures as $lecture)
 </tr>
 </table>
 
+<table>
+<tr>
+<td class="schedule_date">(Due Nov 4th)</td><td class="schedule_lecture"><a href="https://colab.research.google.com/drive/1NuY5FZhX1H7mhTJXget0nBrhJ4EhhBZB">Programming Assignment 4: Scene Recognition with Bag of Words</a></td>
+</tr>
+</table>
+
 <!--
 <table>
 <tr>
