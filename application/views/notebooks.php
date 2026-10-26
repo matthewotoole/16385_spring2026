@@ -74,7 +74,7 @@
 <div><b>Lecture 15 &amp; 16:</b> Neural Networks</div>
 <ul>
 <li><a href="https://playground.tensorflow.org/">Neural Network Playground</a></li>
-<li><a href="https://cs.stanford.edu/people/karpathy/convnetjs/demo/classify2d.html">ConvnetJS demo</a></li>
+<li><a href="https://web.archive.org/web/20260929124025/https://cs.stanford.edu/people/karpathy/convnetjs/demo/classify2d.html">ConvnetJS demo</a></li>
 </ul>
 </p>
 
@@ -82,7 +82,7 @@
 <p>
 <div><b>Lecture 17:</b> Convolutional Neural Networks</div>
 <ul>
-<li><a href="https://cs.stanford.edu/people/karpathy/convnetjs/demo/mnist.html">MNIST demo</a></li>
+<li><a href="https://web.archive.org/web/20261005031840/https://cs.stanford.edu/people/karpathy/convnetjs/demo/mnist.html">MNIST demo</a></li>
 </ul>
 </p>
 
