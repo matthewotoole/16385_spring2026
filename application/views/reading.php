@@ -179,8 +179,20 @@ Chapter 6 of this book has a very thorough treatment of camera models.
 
 <div class="book_lecture">
 <div class="book_lecture_title">
-<a href="<?php echo lecture_url('cnn'); ?>">Lecture 16 &amp; 17: Convolutional Neural Networks</a></div>
+<a href="<?php echo lecture_url('cnn'); ?>">Lecture 16: Convolutional Neural Networks</a></div>
 <div class="colored_text book_lecture_subtitle">(Some notes on optimization, convolutional neural networks, training ConvNets)</div>
+<div>Basic reading (No standard textbooks yet!):</div>
+<ul>
+<li><a href="https://sites.google.com/site/deeplearningsummerschool/">Lectures: Deep Learning Summer School</a></li>
+<li><a href="http://www.deeplearningbook.org/">Book: Deep Learning, by Goodfellow, Bengio, and Courville</a></li>
+<li><a href="http://www.cs.toronto.edu/~hinton/absps/NatureDeepReview.pdf">Article: Deep Learning, by LeCun, Bengio, and Hinton</a></li>
+</ul>
+</div>
+
+<div class="book_lecture">
+<div class="book_lecture_title">
+<a href="<?php echo lecture_url('cnn2'); ?>">Lecture 17: Convolutional Neural Networks (cont.)</a></div>
+<div class="colored_text book_lecture_subtitle">(Semantic segmentation, object detection, instance segmentation</div>
 <div>Basic reading (No standard textbooks yet!):</div>
 <ul>
 <li><a href="https://sites.google.com/site/deeplearningsummerschool/">Lectures: Deep Learning Summer School</a></li>
