@@ -37,7 +37,11 @@
 </tr>
 </table>
 
-
+<table>
+<tr>
+<td class="schedule_date">(Due Nov 18th)</td><td class="schedule_lecture"><a href="https://colab.research.google.com/drive/1vQ2t7td0BRfnq6YIcwnSPUzJp4ogvTuh">Programming Assignment 5: Neural Networks for Recognition</a></td>
+</tr>
+</table>
 
 <!--
 <table>
