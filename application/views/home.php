@@ -127,18 +127,18 @@ $lectures = array(
                     
      lecture_def('Nov 11 (Wed)', 'Radiometry and Reflectance', lecture_url('radiometry'), 'bold', array('Quiz 5 DUE')),
                     
-     lecture_def('Nov 16 (Mon)', 'Radiometry and Reflectance (cont.)', lecture_url('radiometry'), 'bold'),
+     lecture_def('Nov 16 (Mon)', 'Photometric Stereo', lecture_url('photometricstereo'), 'bold'),
                     
-     lecture_def('Nov 18 (Wed)', 'Photometric Stereo', lecture_url('photometricstereo'), 'bold', array('Assignment 5 DUE', 'Quiz 6 & Assignment 6 out')),
+     lecture_def('Nov 18 (Wed)', 'Digital Photography', lecture_url('photography'), 'bold', array('Assignment 5 DUE', 'Quiz 6 & Assignment 6 out')),
                     
-     lecture_def('Nov 23 (Mon)', 'Digital Photography', lecture_url('photography'),
+     lecture_def('Nov 23 (Mon)', 'Digital Photography (cont.)', lecture_url('photography'),
                'bold'),
 
      lecture_def('Nov 24 (Tue)', '', '', 'bold', array('Quiz 6 DUE')),
 
      lecture_def('Nov 25 (Wed)', 'NO CLASS (Thanksgiving Holiday)', '', 'bold'),
                     
-     lecture_def('Nov 30 (Mon)', 'Digital Photography (cont.)', lecture_url('photography'), 'bold'),
+     lecture_def('Nov 30 (Mon)', 'TBD', '', 'bold'),
 
      lecture_def('Dec 2 (Wed)', 'Wrap-up', lecture_url('wrapup'), 'bold'),
 
